@@ -1,54 +1,356 @@
+/* --- BODY LEVEL --- */
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+	margin: 0;
+}
+
+/* --- GENERAL --- */
 
 article {
-	width: 90%;
 }
-
 h1 {
-	font-size: 1em;
-	font-family: 'Ek Mukta', sans-serif;
-	font-weight: 800;
-	color: #FF5722;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	position: relative;
+	z-index: 2;
+	margin-top: 40px;
+	line-height: 1;
 }
-
-p {
-	font-family: 'Arapey', serif;
-	font-size: 2.8em;
-	margin-top: 0;
-	line-height: 1.1;
+header h1 {
+	margin: 0 40px 40px;
+	padding-top: 40px;
+	font-size: 4em;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	text-transform: none;
 }
-
-p .small {
-    text-transform: uppercase;
-    font-size: .8em;
-    letter-spacing: 1px;
+p, ul {
+	margin: 0;
+	font-size: 1.25em;
+	font-family: 'Volkhov', serif;
+	font-weight: 400;
+	line-height: 1.5;
 }
-
 a {
-	color: #53E0BB;
-	text-decoration: none;
-	border-bottom: 2px solid #000000;
-	padding-bottom: 0;
+	color: purple;
+}
+.led {
+	color: #CECECE;
+	font-size: 2.25em;
+	line-height: 1.1;
+	padding-right: 60px;
+	font-weight: 700;
+	margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
-	body {
-		margin: 0 auto;
-	}
-	article {
-		width: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	p {
+/* column layouts */
+.grp-parent {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 0 40px;
+}
+.grp-child-50 {
+	width: 50%;
+}
+.grp-parent:last-of-type {
+	padding-bottom: 80px;
+}
+.grp-child-50 p {
+	padding-right: 100px;
+}
+
+/* --- SPECIFIC --- */
+
+/*page title area*/
+.page-title {
+	background: #E0E0E0;
+}
+.page-title header h1 {
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+.page-title .led {
+	color: #ffffff;
+}
+.page-title .grp-parent {
+	min-height: 70vh;
+}
+.page-title .grp-child-50:last-of-type {
+	align-self: flex-end;
+}
+.page-title ul {
+	margin: 0;
+	padding: 0;
+}
+.page-title li {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	list-style: none;
+	font-size: 2.25em;
+	color: purple;
+}
+.page-title li::before {
+	margin-top: 16px;
+	content: "";
+	display: block;
+	float: right;
+	width: 18px;
+	height: 18px;
+	border-left: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	border-radius: 2px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.page-title a {
+	text-decoration: none;
+	border-bottom: 2px solid purple;
+	display: block;
+}
+
+/* schedule */
+.sched {
+	background: #FFEE75;
+	padding-bottom: 80px;
+}
+.sch-tab {
+	margin: 0 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 16px;
+	background: white;
+}
+.sch-tab p {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 1.25em;
+	display: inline-block;
+}
+.desk-cat {
+	background: none;
+	margin-bottom: 0;
+}
+.desk-cat p {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+.sch-col {
+	width: 40%;
+	padding: 20px;
+}
+.sch-col:first-of-type {
+	width: 20%;
+}
+.noclass {
+	opacity: .45;
+}
+
+/* course description */
+.crs-desc .grp-parent {
+	align-items: center;
+}
+.crs-desc .grp-child-50 {
+	margin-bottom: 40px;
+}
+.crs-desc p {
+	z-index: 100;
+}
+.crs-desc strong {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	position: relative;
+	z-index: 2;
+}
+.crs-desc .diamond {
+	z-index: 1;
+	content: "";
+	width: 60px;
+	height: 60px;
+	border: 4px solid #FFEE75;
+	display: block;
+	margin-bottom: -30px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.crs-desc img {
+	width: 100%;
+	padding: 20px;
+}
+
+/* readings */
+.readings {
+	background: #E0E0E0;
+}
+.readings h1 {
+	margin: 60px 40px 20px;
+}
+.readings .led {
+	color: #ffffff;
+}
+.readings ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.readings li {
+	margin: 14px 40px;
+	display: inline-block;
+	line-height: 1.3;
+}
+.readings ul:last-of-type {
+	padding-bottom: 200px;
+}
+
+/* policies */
+.grading, .policies {
+}
+.grading .grp-child-50, .policies .grp-child-50 {
+	margin-bottom: 40px;
+}
+
+/* footer */
+footer {
+	background: #2d2d2d;
+	color: #ffffff;
+	padding: 20px;
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+footer li {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+footer li:last-of-type {
+	float: right;
+}
+
+/* --- MOBILE --- */
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+	.led {
 		font-size: 1.75em;
 	}
-	a {
-		border-bottom: 1px solid #000000;
+	.grp-parent {
+		flex-wrap: wrap;
+	}
+	.grp-parent.rev {
+		flex-direction: column-reverse;
+	}
+	.grp-child-50 {
+		width: 100%;
+	}
+	.grp-child-50 p {
+		padding-right: 10px;
+	}
+	.policies .grp-child-50 {
+		margin-bottom: 20px;
+	}
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+	header h1,
+	.grp-parent,
+	.sch-tab,
+	.readings h1, 
+	.readings li {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	.page-title li {
+		line-height: 1;
+	}
+	.page-title li::before {
+		margin-top: 8px;
+	}
+	.sch-col, .sch-col:first-of-type {
+		width: 100%;
+		padding: 5px;
+	}	
+	.desk-cat {
+		display: none;
+	}
+	.sch-col p {
+		display: block;
+		margin-left: 30%;
+	}
+	.sch-col.week::before, .sch-col.agenda::before, .sch-col.assign::before {
+		display: inline-block;
+		font-family: 'Dosis', sans-serif;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		letter-spacing: 1px;
+		float: left;
+		margin-top: 6px;
+	} 
+	.sch-col.week::before {
+		content: "Week";
+	}
+	.sch-col.agenda::before {
+		content: "Agenda";
+	}
+	.sch-col.assign::before {
+		content: "HW";
+	}
+	footer li {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 6px;
+	}
+	footer li:last-of-type {
+		float: none;
+	}
+}
+
+/* --- PRINT --- */
+
+@media print {
+	.sched, .crs-desc, .readings, .policies {
+	    page-break-before: always;
+	}
+	.page-title {
+		height: 100vh;
+	}
+	.sch-col {
+		padding: 10px;
+	}
+	.sch-tab p {
+		font-size: 1em;
+	}
+	.crs-desc img {
+		width: 50%;
+		display: block;
+    	margin: 0 auto;
+	}
+	.readings p {
+		font-size: 1.5em;
 	}
 }

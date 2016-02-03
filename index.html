@@ -6,70 +6,401 @@
 <meta name="description" content="Dylan Greif is a graphic designer, product designer, and design strategist.">
 <meta name="keywords" content="design, graphic design, product design, editorial design, experience design, freelance, teacher, speaker, reading, pie">
 <meta name="author" content="Dylan Greif">
-<title>Dylan Greif - Designer</title>
+<title>Page title</title>
 <link rel="stylesheet" href="styles.css">
-<link href='https://fonts.googleapis.com/css?family=Arapey:400,400italic|Montserrat:400,700|Chivo:900,400,400italic,900italic|Ek+Mukta:700,800,300,400,500,600|Khula:700,400,600,800' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Kreon:400,300,700|Dosis:400,200,300,500,600,700,800|Volkhov:400,400italic,700,700italic' rel='stylesheet' type='text/css'><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery-2.2.0.js"></script>
 </head>
 
 <body>
 
+<!-- Article Begins. (The contents herein should be an article if it is "self-contained" and should be syndicated all together) -->
 <article>
-	<header>
+	<header class="page-title">
+		<!-- <nav>
+			<ul class="navigation">
+				<li>Page Logo</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		<nav> -->
 		<h1>Design for Journalists</h1>
-		<p>Spring, 2016</p>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<p class="led">Journalism + Design program / The New School / Spring 2016 / Thurs 12.10pm – 2.50pm / Professor Dylan Greif</p>
+			</div>
+			<div class="grp-child-50">
+				<ul>
+					<li><a href="#schedule">Schedule & Assignments</a></li>
+					<li><a href="#description">Course Description</a></li>
+					<li><a href="#readings">Readings</a></li>
+					<li><a href="#grading">Outcomes & Grading</a></li>
+					<li><a href="#grading">School Policies</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
-	<section>
+
+	<!-- Begin Sections. (The contents herein should be wrapped in section tags if a) there are multiple sections or if b) there is another header within the contents.) -->
+
+
+	<section class="sched" id="schedule">
 		<header>
-			<h1></h1>
+			<h1>Schedule & Assignments</h1>
 		</header>
-		<p>In class assignment: this isn't a traditional class. The existence of this class makes assumptions about the challenges the professional world today faces. It also makes assumptions about what students today want to learn. As a group, write a sentence or two that describes one big challenge the industry today faces that this class may try to tackle. As individuals, write a sentence or two that describes something you want to learn today this class may try to offer. Put it all on one document and email it to me at greifd@newschool.edu.</p> 
+	<!-- categories -->
+		<div class="sch-tab desk-cat">
+			<div class="sch-col">
+				<p>Week</p>
+			</div>
+			<div class="sch-col">
+				<p>Agenda</p>
+			</div>
+			<div class="sch-col">
+				<p>Assignment</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Jan 28</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Introductions</p>
+				<p>Class discussion</p>
+			</div>
+			<div class="sch-col assign">
+				<p><a href="#">What is Design for Journalists?</a></p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Feb 4</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Review Syllabus</p>
+				<p>Typographic Composition</p>
+				<p>Workshop: Illustrator, Typekit</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Feb 11</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>A Historical Overview of Writing Systems</p>
+				<p>Typographic Layouts</p>
+				<p>Workshop: InDesign</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Feb 18</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Grid Systems for Print</p>
+				<p>Layout w/ Images</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Feb 25</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Typographic Layout on the Web</p>
+				<p>Workshop: HTML & CSS – Basics</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Mar 3</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Structural Layouts on the Web</p>
+				<p>Workshop: HTML & CSS – Positioning Elements</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Mar 10</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Multimedia Layouts</p>
+				<p>Workshop: HTML & CSS – Multi-Media</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Mar 17</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Publication Ecosystems</p>
+				<p>Workshop: Wireframes</p>
+				<p>Introducing Final Project</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd noclass">
+			<div class="sch-col week">
+				<p>Mar 24</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Spring Break</p>
+			</div>
+			<div class="sch-col assign">
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Mar 31</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Brand & Personality</p>
+				<p>Workshop: Logo and Visual Identity Design</p>
+				<p>Final Project Proposals</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Apr 7</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Prototyping Process and Tools</p>
+				<p>Workshop: Prototyping</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Apr 14</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Designing for Video Journalism</p>
+				<p>Workshop: Video Project</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>Apr 21</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Designing for Distribution</p>
+				<p>Work on Final Projects</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>Apr 28</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Overview of Web Publishning Tools</p>
+				<p>Work on Final Projects</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab odd">
+			<div class="sch-col week">
+				<p>May 5</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>Review Final Projects</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
+	<!-- row -->
+		<div class="sch-tab even">
+			<div class="sch-col week">
+				<p>May 12</p>
+			</div>
+			<div class="sch-col agenda">
+				<p>In-Class Discussion: Reflecting on Class</p>
+			</div>
+			<div class="sch-col assign">
+				<p>Will be assigned on day</p>
+			</div>
+		</div>
 	</section>
-	<section>
+	<section class="crs-desc" id="description">
 		<header>
-			<h1>Gabriella, Keilly, Odalis</h1>
+			<h1>Course Description</h1>
 		</header>
-		<p>The challenge the industry faces is that journalists need more skills than just writing. This class tackles that by being the bridge between journalism writing and interactive design.</p>
-		<p>Gabriella: wants to learn about coding</p>
-		<p>Keilly: typography, cool stuff, making stuff pretty</p>
-		<p>Odalis: how to make a site / how to integrate my writing in a way that is suitable for the web.</p>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<p class="led">This course aims to prepare journalists and writers with the basics of visual and interaction design for modern-day journalism. It is part studio, part seminar, including light reading, many little assignments, and one large final project.</p> 
+			</div>
+			<div class="grp-child-50">
+			</div>
+		</div>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<p><span class="diamond"></span><strong>Part 1 – Foundation.</strong> We will begin by experimenting with form through typography, dynamic composition, and basic paragraph layout. We will learn how to find and choose fonts, and use core tools including Illustrator and InDesign.</p> 
+			</div>
+			<div class="grp-child-50">
+				<img src="images/yalepidi.jpg">
+			</div>
+		</div>
+		<div class="grp-parent rev">
+			<div class="grp-child-50">
+				<img src="images/edex_05.jpg">
+			</div>
+			<div class="grp-child-50">
+				<p><span class="diamond"></span><strong>Part 2 – Article Layout.</strong> We will learn to design more complicated editorial layouts – this time, for web. We will explore articles of different shapes and natures; we will learn the value of different web article components; and we will practice making meaningful stories using multiple and interactive kinds of media. To do this, we will learn to write write basic HTML and CSS code.</p> 
+			</div>
+		</div>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<p><span class="diamond"></span><strong>Part 3 – Ecosystem.</strong> We will learn how a web article fits into a larger product ecosystem, including its parent website and/or whatever access channels on which it relies. We will blur the boundaries between reader experience and user experience, and learn how to design a publication with brand identity and distribution models in mind. To do this, will learn how to create wireframes, mockups, and prototypes, and how to share and discuss our big ideas with others.</p>
+			</div>
+			<div class="grp-child-50">
+				<img src="images/atavist-wireframe.png">
+			</div>
+		</div>
 	</section>
-	<section>
+	<section class="readings" id="readings">
 		<header>
-			<h1>Joseph Reilly, Marija Mayer, Patricia Rashidi</h1>
+			<h1>Readings</h1>
 		</header>
-		<p><b>Challenges</b></p>
-		<p>Transparency that journalism faces today, the accessibility to each writers number of page views or ‘hits’, and the amount of time each person spends looking at a piece — news is becoming faster, people want to digest smaller amounts at a faster speed, so because of that...</p>
-		<p>There’s less focus on a wider lens of news stories, news is more targeted and biased, with a certain agenda... It’s becoming more political and commercialized, pandering to lobbyists</p>
-		<p><b>Interests</b></p>
-		<p>The structure of a journalism piece rather than a fiction piece, to learn how to make a non-fiction story more appealing and intriguing, to keep the reader hooked, as well as how to make a journalism piece more aesthetically pleasing to the audience, to hook a reader with the appearance of the title, a photograph, etc.</p>
+		<ul class="led">
+			<li><a href="">Designing the Editorial Experience</a> by Sue Apfelbaum & Juliette Cezzar</li>
+		</ul>
+		<h1>Recommended</h1>
+		<ul class="led">
+			<li><a href="">Designing News</a> by Francesco Franchi</li>
+			<li><a href="">The Anatomy of Type</a> by Stephen Coles</li>
+			<li><a href="">Grid Systems</a> by Kimberly Elam</li>
+			<li><a href="">The Elements of Typographic Style</a> by Robert Bringhurst</li>
+			<li><a href="">A Type Primer</a> by John Kane</li>
+			<li><a href="">How to Design a Typeface</a> by The Design Museum</li>
+			<li><a href="">HTML5 for Web Designers</a> by Jeremy Keith</li>
+			<li><a href="">CSS3 for Web Designers</a> by Dan Cederholm</li>
+			<li><a href="">Forty Posters for the Yale School of Architecture</a> by Michael Bietut</li>
+		</ul>
 	</section>
-	<section>
+	<section class="grading" id="grading">
 		<header>
-			<h1>Claire, Doris, Cassidy</h1>
+			<h1>Outcomes & Grading</h1>
 		</header>
-		<p>The digitalization of information from paper to multi media in a way to is stimulating to the millennial generation.</p>
-		<p>Claire: I would like to learn more about web design as well as creating a good online presence through design.</p>
-		<p>Doris: I've never lean red about typography, nor do I know how typography effects a story, so I'm interested in that aspect of this class.</p>
-		<p>Cassidy: I'm interested in learning how to utilize elements of visual design to make complex global affairs issues more accessible to a larger audience. </p>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<h1>Learning Outcomes.</h1>
+				<p>Foundational type and design skills. A knowledge of the discipline and its history. Proficiency with professional design tools and resources, from Creative Suite to HTML/CSS. The ability to design a successful layout for different reading contexts. An understanding how these foundational design skills apply to today’s journalism landscape. A process that allows you to make with form and content side-by-side. An ability to think critically about all things design (and all things not design :) An understanding of the different designer skill sets and roles at play in the industry. Strong communication skills when presenting work, and the ability to collaborate creatively with others.</p> 
+				<h1>Final Grade Calculation.</h1>
+				<p>Your grade will be based on: your participation in class and completion of assignments; your overall level of engagement; the quality of your work – both the successes and failures; your communication/presentation skills; your attention to detail.</p></br>
+				<ul>
+					<li>Participation: 25%</li>
+					<li>Assignments: 45%</li>
+					<li>Final: 30%</li>
+				</ul>
+				<h1>Grading Standards.</h1>
+				<ul>
+					<li>A [4.0; 96–100%]: Work of exceptional quality, which often goes beyond the stated goals of the course </li>
+					<li>A- [3.7; 91 –95%]: Work of very high quality</li><li>B+ [3.3; 86–90%]: Work of high quality that indicates substantially higher than average abilities</li>
+					<li>B [3.0; 81–85%]: Very good work that satisfies the goals of the course</li>
+					<li>B- [2.7; 76–80%]: Good work</li>
+					<li>C+ [2.3; 71–75%]: Above-average work</li>
+					<li>C [2.0; 66–70%]: Average work that indicates an understanding of the course material; passable </li>
+					<li>Satisfactory completion of a course is considered to be a grade of C or higher.</li>
+					<li>C- [1.7; 61–65%]: Passing work but below good academic standing</li>
+					<li>D [1.0; 46–60%]: Below-average work that indicates a student does not fully understand the assignments; </li>
+					<li>Probation level though passing for credit</li>
+					<li>F [0.0; 0–45%]: Failure, no credit</li>
+					<li>Grade of W: The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete.</li>
+					<li>Grade of WF: The grade of WF is issued by an instructor to a student (all undergraduates and all graduate students) who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. The WF is equivalent to an F in calculating the grade point average (zero grade points), and no credit is awarded.</li>
+					<li>Grade of Incomplete: The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations</li>
+					<li>Undergraduate students: Work must be completed no later than the seventh week of the following fall semester for spring or summer term incompletes and no later than the seventh week of the following spring semester for fall term incompletes. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “WF” by the Office of the Registrar.</li>
+				</ul> 
+			</div>
+			<div class="grp-child-50">
+			</div>
+		</div>
 	</section>
-	<section>
+	<section class="policies" id="policies">
 		<header>
-			<h1>Kathryn, Penelope, Arielle</h1>
+			<h1>School Policies</h1>
 		</header>
-		<p>Journalism is struggling because of the way that we access information. The language and tone of how we present information is changing to be more conversational. Everything needs to be designed in creative and appealing ways so people will pay attention. Information is more concise, and is paired with visuals. Everyone has the ability to put out content without a formal platform or editor or fact checker. People don't need to follow the traditional rules of journalism.</p>
-		<p><b>Want to learn</b></p>
-		<p>What are the most effective ways to put out content and connect to people?</p>
-		<p>What are the ways that we can keep up as the industry changes?</p>
-		<p>How do people perceive different visuals? Which work and which don’t?</p>
-		<p>How can you change a “corporate” or “professional” voice into a more conversational voice while maintaining authority?</p>
+		<div class="grp-parent">
+			<div class="grp-child-50">
+				<h1>Responsibility.</h1>
+				<p>Students are responsible for all assignments, even if they are absent. Late assignments, failure to complete the assignments for class discussion and/or critique, and lack of preparedness for in-class discussions, presentations and/or critiques will jeopardize your successful completion of this course. </p>
+				<h1>Participation.</h1>
+				<p>Class participation is an essential part of class and includes: keeping up with reading, assignments, projects, contributing meaningfully to class discussions, active participation in group work, and coming to class regularly and on time. </p>
+				<h1>Attendance.</h1>
+				<p>Parsons’ attendance guidelines were developed to encourage students’ success in all aspects of their academic programs. Full participation is essential to the successful completion of coursework and enhances the quality of the educational experience for all, particularly in courses where group work is integral; thus, Parsons promotes high levels of attendance. Students are expected to attend classes regularly and promptly and in compliance with the standards stated in this course syllabus. <br></p><p>While attendance is just one aspect of active participation, absence from a significant portion of class time may prevent the successful attainment of course objectives. A significant portion of class time is generally defined as the equivalent of three weeks, or 20%, of class time. Lateness or early departure from class may be recorded as one full absence. Students may be asked to withdraw from a course if habitual absenteeism or tardiness has a negative impact on the class environment.</p>
+				<p>Whether the course is a lecture, seminar or studio, faculty will assess each student’s performance against all of the assessment criteria in determining the student’s final grade.</p>
+				<h1>Blackboard or Canvas.</h1>
+				<p>Use of Blackboard may be an important resource for this class. Students should check it for announcements before coming to class each week.</p>
+				<h1>Delays.</h1>
+				<p>In rare instances, I may be delayed arriving to class. If I have not arrived by the time class is scheduled to start, you must wait a minimum of thirty minutes for my arrival. In the event that I will miss class entirely, a sign will be posted at the classroom indicating your assignment for the next class meeting.</p>
+				<h1>Electronic Devices.</h1>
+				<p>The use of electronic devices (phones, tablets, laptops, cameras, etc.) is permitted when the device is being used in relation to the course’s work. All other uses are prohibited in the classroom and devices should be turned off before class starts.</p>
+				<h1>Student Disability Services (SDS).</h1>
+				<p>In keeping with the University’s policy of providing equal access for students with disabilities, any student with a disability who needs academic accommodations is welcome to meet with me privately. All conversations will be kept confidential. Students requesting any accommodations will also need to meet with Jason Luchs in the Office of Student Disability Services, who will conduct an intake, and if appropriate, provide an academic accommodation notification letter to you to bring to me. SDS assists students with disabilities in need of academic and programmatic accommodations as required by the Americans with Disabilities Act of 1990 (ADA) and Section 504 of the Federal Rehabilitation Act of 1973.</p>
+				<p>For more: <a href="http://www.newschool.edu/student-disability-services/" target="_blank" class="regular-link">http://www.newschool.edu/student-disability-services/</a></p>
+				<h1>Adacemic Honesty and Integrity.</h1>
+				<p>The New School views “academic honesty and integrity” as the duty of every member of an academic community to claim authorship for his or her own work and only for that work, and to recognize the contributions of others accurately and completely. This obligation is fundamental to the integrity of intellectual debate, and creative and academic pursuits. Academic honesty and integrity includes accurate use of quotations, as well as appropriate and explicit citation of sources in instances of paraphrasing and describing ideas, or reporting on research findings or any aspect of the work of others (including that of faculty members and other students). Academic dishonesty results from infractions of this “accurate use”. The standards of academic honesty and integrity, and citation of sources, apply to all forms of academic work, including submissions of drafts of final papers or projects. All members of the University community are expected to conduct themselves in accord with the standards of academic honesty and integrity. Please see the complete policy in the ParsonsCatalog.</p><p>It is the responsibility of students to learn the procedures specific to their discipline for correctly and appropriately differentiating their own work from that of others. Compromising your academic integrity may lead to serious consequences, including (but not limited to) one or more of the following: failure of the assignment, failure of the course, academic warning, disciplinary probation, suspension from the university, or dismissal from the university. For more: <a href="http://www.newschool.edu/provost/academic-honesty-and-integrity-policy.pdf" target="_blank" class="regular-link">http://www.newschool.edu/provost/academic-honesty-and-integrity-policy.pdf</a></p>
+			</div>
+			<div class="grp-child-50">
+			</div>
+		</div>
 	</section>
-	<section>
-		<header>
-			<h1>Yasmin, Don, Truman</h1>
-		</header>
-		<p>As a group, we believe that some of the challenges faced in journalism today have to do with directing traffic, marketing and having one's work actually be seen in conjunction with the integration between news and social media. Additionally, finding a way to convince people to read the entire article as it has been found that most people spend less than a minute on news articles. Journalists need to recognize new technology as a new medium to share stories and must be able to keep up with these new mediums. </p>
-	</section>
+	<!-- End Sections. -->
+
+	<footer>
+		<ul>
+			<li>Dylan Greif | greifd@newschool.edu</li>
+			<li>Journalism + Design | The New School</li>
+		</ul>
+	</footer>
 </article>
+<!-- Article Ends -->
 
 </body>

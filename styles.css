@@ -136,7 +136,7 @@ a {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 500;
 	font-size: 1.25em;
-	display: inline-block;
+	display: block;
 }
 .desk-cat {
 	background: none;
@@ -190,10 +190,15 @@ a {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-
 .crs-desc img {
 	width: 100%;
 	padding: 20px;
+}
+.crs-desc .caption {
+	font-family: 'Dosis', sans-serif;
+	font-size: .85em;
+	text-align: center;
+	padding-right: 0;
 }
 
 /* readings */
@@ -254,6 +259,9 @@ footer li:last-of-type {
 
 /* Medium screens */
 @media all and (max-width: 800px) {
+	header h1 {
+		margin-bottom: 16px;
+	}
 	.led {
 		font-size: 1.75em;
 	}

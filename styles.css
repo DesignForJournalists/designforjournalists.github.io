@@ -280,6 +280,14 @@ footer li:last-of-type {
 	.policies .grp-child-50 {
 		margin-bottom: 20px;
 	}
+	footer li {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 6px;
+	}
+	footer li:last-of-type {
+		float: none;
+	}
 }
 
 /* Small screens */
@@ -327,14 +335,6 @@ footer li:last-of-type {
 	}
 	.sch-col.assign::before {
 		content: "HW";
-	}
-	footer li {
-		text-align: center;
-		width: 100%;
-		margin-bottom: 6px;
-	}
-	footer li:last-of-type {
-		float: none;
 	}
 }
 

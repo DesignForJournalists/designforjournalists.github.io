@@ -26,7 +26,7 @@ h1 {
 
 p, ul {
 	font-family: 'Arapey', serif;
-	font-size: 2.8em;
+	font-size: 2.8rem;
 	margin-top: 0;
 	line-height: 1.1;
 }
@@ -67,15 +67,17 @@ header.page-header {
 	body {
 		margin: 0 auto;
 	}
-	p {
-		font-size: 1.75em;
+	p, ul {
+		font-size: 1.75rem;
 	}
 	a {
 		border-bottom: 1px solid #000000;
 	}
 	h1, p, ul {
 		width: 100%;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 30px;
+		padding-right: 20px;
 	}
 }

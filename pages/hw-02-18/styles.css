@@ -68,16 +68,23 @@ header.page-header {
 		margin: 0 auto;
 	}
 	p, ul {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 	a {
 		border-bottom: 1px solid #000000;
 	}
-	h1, p, ul {
+	h1, p {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
 		padding-left: 30px;
+		padding-right: 20px;
+	}
+	ul {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 40px;
 		padding-right: 20px;
 	}
 }

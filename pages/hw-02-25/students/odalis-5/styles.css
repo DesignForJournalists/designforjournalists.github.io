@@ -1,0 +1,17 @@
+body{
+  background-color: #FFCC06;
+}
+h1{
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+text-align: right;
+font-size:80px;
+}
+p{
+  width: 500px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  margin-left: 300px;
+  margin-right:500px;
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: justify;
+}

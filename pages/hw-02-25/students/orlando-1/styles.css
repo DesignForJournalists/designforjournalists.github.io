@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font size: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, p{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  }
+.blue {
+    background-color: blue;
+  }

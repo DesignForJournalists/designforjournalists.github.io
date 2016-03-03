@@ -1,0 +1,28 @@
+h1 {
+    color: pink;
+    font-family: Arial;
+    font-size: 36px;
+    text-align: center;
+    padding-left: 430px;
+}
+h2{
+	margin-left: 200px;
+}
+body{
+	background-image: url("http://neurohealthchiro.com.au/wp-content/uploads/2015/07/Balance-Image-One.jpg");
+	background-size: 900px;
+	margin-left: 108px;
+	margin-right: 108px;
+	width: 500px;
+	color: #a281e4
+	font-size: 20px;
+
+}
+p{
+	margin-left: 200px;
+	margin-bottom: 120px;
+
+}
+footer{
+	padding-left: 800px;
+}

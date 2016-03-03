@@ -1,0 +1,25 @@
+body{
+  background-color: #F5DEB3;
+  border: 3px solid black;
+  position: static;
+  overflow: hidden;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+p{
+
+  font-family: 'Special Elite';
+  text-align: center justify;
+  padding-top: 0px;
+  padding-right: 30px;
+  margin-right: 30px;
+  padding-left: 80px;
+}
+.ending{
+  text-align: right;
+}

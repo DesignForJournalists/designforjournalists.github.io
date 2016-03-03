@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+h1 {
+    font-size: 70px;
+    margin: 20px;
+}
+h2{
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	margin right: 400px;
+}
+body{
+	background-color: white;
+	display: block;
+	margin: 8px;
+	background-color: #80aaff;
+}
+
+.container{
+	margin-right: 200px;
+	margin-left: 200px;
+}

@@ -1,0 +1,13 @@
+body{
+  background-color: white;
+}
+p{
+  color:black;
+  width:500px;
+}
+.quote{
+  color:black;
+  width:300px;
+  margin-right: auto;
+  margin-left: auto;
+}

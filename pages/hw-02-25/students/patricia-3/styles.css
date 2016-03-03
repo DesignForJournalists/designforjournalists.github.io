@@ -1,0 +1,30 @@
+body{background-color:#808000;}
+
+h1 {
+  color:black;
+  font-family: arial;
+  font-size: 70px;
+  text-align:center;
+  width:500px
+  margin-left:auto;
+  margin-right: auto;
+
+}
+p {
+  color:black;
+  font-family: times serif;;
+  font-size: 24px;
+  width:700px;
+  line-height:65px;
+  margin-left: auto;;
+  margin-right:auto;
+
+ {div
+   width: 600px;
+   height:900px;
+   border:5px solid black;
+   box-sizing: border-box;
+ }
+.pink {
+    background-color: pink;
+}

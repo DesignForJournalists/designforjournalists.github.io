@@ -1,0 +1,32 @@
+h1{
+  font-size: 60px;
+  color: black;
+  font-family: impact;
+}
+
+.MLK{
+  font-size: 60px;
+  text-align: right;
+  margin-right: 500px;
+  font-family: impact;
+}
+
+.red{
+  color: red;
+  font-family: impact;
+}
+
+.red2{
+  color: red;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+p{
+  text-align: right;
+  margin-left: 180px;
+  margin-right:450px;
+  margin-top: -40px;
+  font-size: 22px;
+  font-family: monospace;
+}

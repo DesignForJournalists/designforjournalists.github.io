@@ -1,0 +1,20 @@
+body {
+  background-color: #F7819F;
+}
+h1, p, div {
+  margin-left: auto;
+  margin-right: ;
+}
+h1{
+color: white;
+font-family: cursive;;
+font-size: 100px;
+text-align: left;
+width: 500px;
+}
+p {
+  font-size: 30px;
+  width: 700px;
+  font-family: inherit;
+  text-align: justify;;
+}

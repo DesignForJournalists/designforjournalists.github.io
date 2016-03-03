@@ -1,0 +1,26 @@
+body {
+  background-color: #f8ecec;
+}
+
+h1 {
+    color: #B94141;
+    font-family: "Arial Black", cursive;
+    font-size: 45px;
+    margin-left: 280px;
+
+}
+
+p {
+  color: #250d0d;
+  font-family: "Lucida", sans-serif;
+  font-size: 30px;
+  margin-left: 500px;
+
+  }
+
+p1 {
+    color: #250d0d;
+    font-family: "Lucida", sans-serif;
+    font-size: 20px;
+
+    }

@@ -1,0 +1,29 @@
+h1, p, div, ul, footer{
+  margin-left:100px;
+  font-family: Georgia;
+  width:530px;
+}
+
+h1{
+color:white;
+font-size: 45px;
+text-align: center;
+text-shadow: 8px 8px 8px #2E2EFE;
+}
+
+body{
+  border-top-style: dotted; white;
+  background-color: #8181F7;
+  line-height: 170%;
+  text-align: center;
+}
+
+p{
+font-size:22px;
+}
+
+footer{
+font-size: 30px;
+color: white;
+text-align: right;
+}

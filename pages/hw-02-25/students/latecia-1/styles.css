@@ -1,0 +1,41 @@
+body {
+  background-color: yellow
+}
+
+h1, p, div {
+color: pink;
+font-family: Arial;
+font-size:36px;
+text-align: center;
+}
+p{
+  color: orange;
+  font-family: Arial;
+  font-size:23px;
+  width:500px
+  margin-left:auto;
+  margin-right:auto;
+}
+h1, p {
+  margin-left: 100px;
+p{
+  color: orange;
+  font-family: Arial;
+  font-size: 23px;
+  width:500px
+  margin-left:auto;
+  margin-right:auto;
+}
+div {
+  width:100px;
+  height:200px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  margin-left:auto;
+  margin-right:auto;
+}
+.blue {
+   background-color:pink;
+}

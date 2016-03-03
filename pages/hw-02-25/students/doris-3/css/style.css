@@ -1,0 +1,38 @@
+
+body{
+	background-color: white;
+}
+h1{
+	padding-left: 550px;
+}
+h2{
+	padding-left: 525px;
+	padding-bottom: 100px;
+	font-family: 'Quicksand', sans-serif;
+}
+div{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+}
+.one {
+	color: red;
+	padding-left: 300px;
+}
+p{
+	display: block;
+}
+.two{
+	color: black;
+	margin-right: 2800px;
+	padding-right: 200px;
+	padding-left: 400px;
+
+
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+.pic{
+	margin-bottom: 600px;
+}

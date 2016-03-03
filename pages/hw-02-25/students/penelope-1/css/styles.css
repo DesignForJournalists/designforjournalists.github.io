@@ -1,0 +1,18 @@
+
+h1{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive, bold;
+  margin: 0;
+}
+p{
+  color: black;
+  text-align: center;
+  font-family: 'Gloria Hallelujah';
+  font-size: 20px;
+  margin: 0;
+}
+.footer{
+  text-align: right;
+}

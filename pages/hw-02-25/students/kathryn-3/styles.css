@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+}
+h1, p, div {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color: #004d00;
+  font-family: arial;
+  font-size: 36px;
+  text-align: center;
+  width: 600px;
+}
+p {
+  color:#004d00;
+  font-family: arial;
+  font-size: 20px;
+  width: 600px
+}
+
+.green-box {
+  background: #e6ffe6;
+  height: 300px;
+  width: 800px;
+  padding: 10px;
+  font-family: 'arial', sans-serif;
+  width: 800px

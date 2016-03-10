@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+}
+h1, p, div {
+  margin-right: auto;
+}
+h1 {
+  color: #000099;
+  font-family: arial;
+  font-size: 36px;
+  text-align: left;
+  width: 600px;
+}
+p {
+  color:#000066;
+  font-family: arial;
+  font-size: 20px;
+  width: 600px
+}
+body {
+  background-color: #e6f2ff;

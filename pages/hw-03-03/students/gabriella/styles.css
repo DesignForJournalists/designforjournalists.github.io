@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+  background-color: pink;
+  font-family: 'Geneva'
+}
+
+h1, p {
+ width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Geneva';
+}
+
+aside{width: 500px;
+  font-family:'Geneva';
+margin-left: auto;
+margin-right: auto;}
+<p>
+div {
+  width:300px;
+  height:200px;
+  text-align: center;
+  font-family: 'Geneva'
+  padding:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</p>
+
+
+h2, p {
+ width: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Geneva';
+}
+
+h3, p {
+ width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Geneva';
+}
+
+h4, p {
+ width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Geneva';
+}
+<p>
+h5, p {
+ width: 300px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Geneva';
+ }
+.pull-quote {
+ font-size: 20px;
+ width: 200px;
+ text-align: center;
+ float: center;
+ background: white;
+ font-family: 'Geneva';
+}
+</p>
+ }
+ .pull-quote {
+   float: center;
+   width: 100%;
+   font-family: 'Geneva';
+ }
+}

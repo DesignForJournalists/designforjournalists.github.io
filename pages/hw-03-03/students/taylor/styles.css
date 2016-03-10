@@ -1,0 +1,76 @@
+h1.page-header {
+  font-family: 'Lobster', cursive;
+  font-size: 200px;
+  color: pink;
+  text-align: right;
+  width: 500px;
+  display: inline-block;
+}
+.title-photo {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  display: inline-block;
+}
+/*Question and Answer Styling*/
+  div{
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 20px;
+  }
+
+/*Description of Seth*/
+  h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+
+
+/*First Question and Answer*/
+.question {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+  }
+.answer{
+  display: inline-block;
+  vertical-align: top;
+}
+
+  .set-width-20{
+    width:20%;
+  }
+  .set-width-60 {
+    width: 60%;
+  }
+/*Second Question and Answer*/
+  /*paragraph styling for answer in QUESTION AND ANSWER STYLING ABOVE*/
+
+  .answer-2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+  }
+  .question-2{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width:15%;
+  }
+  .set-width-60{
+    width: 60%
+  }
+  .set-width-15{
+    width: 15%;
+  }
+
+/*Mobile Styling*/
+  }
+  @media (max-width: 768px) {
+    p {
+      width: 100%;
+  }

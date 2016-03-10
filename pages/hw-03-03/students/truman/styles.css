@@ -1,0 +1,72 @@
+/*GENERAL */
+
+
+h1 {
+  font-family: "Lucida", sans-serif;
+  font-size: 80px;
+
+
+}
+
+h2{
+  font-family: "Lucida", sans-serif;
+  font-size: 20px;
+}
+
+img{
+  padding: center;
+
+}
+
+.border{
+  border: 2px solid black;
+
+}
+
+h3{
+  font-family: "Lucida", sans-serif;
+  font-size: 25px;
+  margin-left: 330px;
+
+
+
+}
+
+
+div{
+  font-family: "Arial"
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+
+table{
+  margin-top: 40px;
+  height: 30px;
+  font-family: "Arial"
+  font-size: 20px;
+
+}
+
+p{
+  font-family: "Arial", sans-serif;
+  font-size: 23px;
+  align-content: center;
+  margin-top: 60px;
+}
+
+
+}
+
+
+
+
+
+
+
+/*MOBILE */
+
+@media (max-width: 768px) {
+
+}

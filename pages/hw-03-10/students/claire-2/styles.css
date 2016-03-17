@@ -1,0 +1,98 @@
+body{
+  background-color: white;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  font-size: 100px;
+  position: fixed;
+  margin-top: -750px;
+  margin-left: 20px;
+  font-style: italic;
+  position: absolute;
+}
+p{
+  background-color: white;
+  width: 600px;
+  font-size: 15px;
+  font-family: Times;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+.bio{
+  margin-top: -130px;
+  background-color: white;
+  color: #e591bc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 27px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+.image{
+  background-color: white;
+  background-image: url("http://i65.tinypic.com/2jz676.jpg");
+  z-index:-1;
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  margin-top: -20px;
+  padding-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline-block-element {
+
+  display: inline-block;
+  vertical-align: top;
+}
+.set-width-40 {
+  background-image: url("http://i68.tinypic.com/24cil8k.jpg");
+  width: 60%;
+  height: 70%
+}
+.set-width-20 {
+  background-image: url("http://i68.tinypic.com/24cil8k.jpg");
+  width: 40%;
+  height: 70%
+}
+.center-elements{
+  text-align: center;
+}
+.pull-quote{
+  padding: 50px;
+  float: left;
+  z-index:-1;
+  line-height: 40px;
+  font-weight: 300;
+  font-size: 35px;
+  width: 20%;
+  text-align:center;
+  color: #e591bc;
+  font-family: 'Open Sans', sans-serif;
+
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+ p {
+   width: 100%;
+ }
+ .bio {
+   width: 100%;
+ }
+ .pull-quote {
+   float: none;
+   width: 100%;
+ }
+ .image{
+   width:100%;
+ }
+ .set-width-20, .set-width-40, .set-width-60 {
+   width: 100%;
+ }
+}

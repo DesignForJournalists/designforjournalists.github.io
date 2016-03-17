@@ -1,0 +1,64 @@
+
+body {
+  background-color:
+}
+
+.parent {
+  background: yellow;
+  margin-left: 20px;
+}
+
+.span {
+border-color: green;
+}
+
+.bg {
+  background: pink;
+  margin: 2px;
+}
+.display-block {
+  background: red;
+  display: block;
+}
+
+.display-inline {
+  display:inline;
+}
+
+.display-inlineblock {
+
+}
+
+div {
+    display: block;
+  background: green;
+    margin: 2px;
+}
+
+.hd {
+  background: green;
+  margin: 2px;
+  text-align: center;
+}
+
+.element{
+background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.td{
+text-align: center;
+background-color: pink;
+}
+
+.kg{
+  background-color: red;
+  float: left;
+}
+
+.mt {
+  background-color: blue;
+width: 100%;
+float:right;
+}

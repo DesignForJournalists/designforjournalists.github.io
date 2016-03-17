@@ -1,0 +1,115 @@
+.header{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subtitle{
+    font-size: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.block-element{
+    background: #efefef;
+    height: 100px;
+}
+
+.red-border{
+    border: 2px solid red;
+}
+
+a{
+    border: 2px solid blue;
+    color: black;
+    text-decoration: none;
+    
+}
+
+strong{
+    border: 5px dashed yellow;
+}
+
+.black-border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.set-width-60{
+    width: 60px;
+}
+
+.set-height-40{
+    height: 40px;
+}
+
+.inline{
+    display: inline;
+    border: 2px solid red;
+}
+
+.block{
+    display: block;
+    border: 2px solid green;
+    margin: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.center-elements{
+    border: 2px solid red;
+    height: 20px;
+    text-align: center;
+}
+
+.inline-center{
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.magenta{
+    border: 2px solid magenta;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.task-eight{
+    border: 1px solid purple;
+    
+}
+
+.green-float{
+    background-color: purple;
+    float: right;
+}
+
+.purple-float{
+    background-color: green;
+    float: left;
+}
+
+.task-nine{
+    border: 2px solid pink;
+    margin-bottom: 4px;
+}
+
+.task-nine-two{
+    border: 2px solid pink;
+    margin-bottom: 4px;
+    background: pink;
+    float: right;
+    height: 100px;
+}
+
+
+
+

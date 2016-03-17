@@ -1,0 +1,131 @@
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.parent {
+  color: pink;
+}
+
+.baby {
+  text-size: 20px;
+  font-style: italic;
+}
+
+h{
+  font-size: 40px;
+}
+
+.purple {
+  color:purple;
+  border: solid green;
+}
+
+.pink {
+  border-style: dotted;
+  border-color: pink;
+}
+
+a {
+  color: orange;
+}
+
+.blocka{
+  display: block;
+}
+
+.block{
+  border: solid blue;
+}
+
+.block2{
+  border: dotted pink;
+  height: 200px;
+}
+
+.inline{
+  margin-top: 20px;
+  border: solid black;
+  display: inline;
+  width: 400px;
+  text-align: center;
+}
+
+.inline2{
+  margin-top: 20px;
+  border: solid red;
+  display: inline;
+}
+.inlineblock{
+  outline: dashed black;
+  width: 240px;
+  height: 120px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.inlineblock2{
+  background-color: orange;
+  width: 175px;
+  height: 230px;
+  display: inline-block;
+}
+
+.parent{
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 500px;
+  outline: dotted grey;
+  text-align: center;
+  background-color: white;
+}
+
+.inline-block1{
+  background-color: purple;
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+}
+
+.inline-block2{
+  background-color: #efefef;
+  width: 100px;
+  height: 250px;
+  display: inline-block;
+}
+
+.center {
+  border: solid orange;
+  width: 350px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.floater {
+  outline: dashed blue;
+  float: right;
+}
+
+.amongst {
+  outline: solid black;
+}
+
+.inlineword {
+  background-color: orange;
+}
+
+.element {
+  outline: solid yellow;
+}
+
+.amid, .blocktext, .blockelement {
+  outline: solid purple;
+}
+
+.float {
+  float: right;
+  background-color: orange;
+  height: 50px;
+}

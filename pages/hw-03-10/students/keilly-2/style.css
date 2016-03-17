@@ -1,0 +1,38 @@
+
+
+p {
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    
+    width: 40%;
+    text-align: center;
+}
+.title1{
+    font-size: 30px;    
+}
+
+.question {
+    font-style: ; 
+    background-color: yellow;
+    
+}
+
+.pullquote{
+    font-size: 30px;
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+    float: right;
+    width: 40%
+    
+}
+
+.intro{
+    
+    width: 60%;   
+    
+}
+

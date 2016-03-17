@@ -1,0 +1,75 @@
+h2{
+  font-size: 60px;
+  font-family: fantasy;
+  margin-left;
+  margin-right;
+
+}
+
+
+
+span {
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+  border: 1px solid black;
+  padding:30px;
+  box-sizing;
+
+}
+
+
+.ex-block {
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+  border: 1px solid green;
+  padding:30px;
+}
+
+em {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+  border: 1px solid green;
+  padding:30px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.regular{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color{
+  background-color: green;
+  float: right;
+  float: left;
+  border: 1px solid green;
+}
+
+.div-color{
+  background-color: green;
+  float: right;
+  height: 200px
+}
+
+div{
+  border: 1px solid black;
+}
+
+.float{
+  float: left;
+  float: right;
+}

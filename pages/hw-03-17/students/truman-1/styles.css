@@ -1,0 +1,163 @@
+ /*GENERAL */
+
+body{
+ background-color: #FFFFFF;
+
+}
+
+
+.home{
+  font-family: Georgia;
+  font-size: 30px;
+  bottom: 550px;
+  position: static;
+  color: white;
+
+}
+
+
+.image1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%; /* for IE 6 */
+    z-index: -1
+
+
+
+ }
+
+
+img{
+  height: 80%;
+
+}
+
+ h1 {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    width: 100%;
+
+ }
+
+.header{
+  font-size: 48px;
+
+}
+
+.subhead{
+  font-size: 24px;
+  margin-left: 40px;
+
+}
+
+.byline{
+  font-size: 12px;
+  margin-left: 640px;
+
+
+}
+
+.photocredit{
+  color: black;
+  font-size: 12px;
+  font-family: Georgia, sans-serif;
+  margin-top: 500px;
+  margin-left: 1010px;
+
+}
+
+h1 span{
+  color: white;
+   font: bold 24px/45px Georgia, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+
+
+
+
+}
+
+.column1{
+  margin-bottom: 900px;
+  font-family: Georgia;
+  line-height: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 550px;
+  margin-left: 20px;
+  position: relative;
+
+}
+
+.column1 span{
+  width: 5px;
+  font-size: 40px;
+
+
+}
+
+
+.column2{
+  margin-top: 600px;
+  font-family: Georgia;
+  line-height: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 550px;
+  position: relative;
+  bottom: 1823px;
+  margin-left: 700px;
+
+}
+
+.column2 span{
+  width: 5px;
+  font-size: 40px;
+
+}
+
+p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+
+
+}
+
+.pullquote{
+  float: left;
+  font-family: Georgia;
+  font-size: 30px;
+  position: relative;
+  bottom: 1720px;
+  height: 30px;
+  margin-left: 720px;
+
+}
+
+.graphicattribution{
+  color: black;
+  font-size: 12px;
+  font-family: Georgia, sans-serif;
+  position: relative;
+  bottom: 1560px;
+  margin-left: 1005px;
+}
+
+.image2{
+  position: relative;
+  bottom: 1545px;
+  width: 100%;
+  height: 800px;
+}
+
+
+
+ /*MOBILE */
+
+@media (max-width: 768px) {
+
+}

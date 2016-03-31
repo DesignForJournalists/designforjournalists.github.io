@@ -1,0 +1,77 @@
+/* GENERAL */
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* SPECIFIC */
+
+nav {
+    background: #000000;
+    height: 50px;
+}
+nav h1 {
+    color: #ffffff;
+    margin: 0;
+}
+.featured {
+    height: 400px;
+}
+.spotlight {
+    width: 60%;
+    height: 400px;
+    float: left;
+    background: gray;
+}
+.recent {
+    width: 40%;
+    height: 400px;
+    float: right;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.recent .item {
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+    background :#efefef;
+    box-sizing: border-box;
+}
+.students {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.student {
+    width: 140px;
+    margin: 10px;
+    display: inline-block;
+}
+.stud-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.stud-name {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    background: black;
+    color: white;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+}

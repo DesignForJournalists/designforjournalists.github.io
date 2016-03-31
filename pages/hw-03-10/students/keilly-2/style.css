@@ -1,28 +1,41 @@
+  
 
+.container{
+    align-self: center;
+    width: 600px;
+     margin: auto;
+   
+    
+}
 
 p {
-    width: 50%;
+    font-family: 'Open Sans', serif;
+    
 }
 
 h1 {
     font-size: 50px;
-    font-family: cursive;
-    
-    width: 40%;
+    font-family: 'Open Sans', serif;
+    margin: auto;
+    width: 60%;
     text-align: center;
+    
 }
 .title1{
-    font-size: 30px;    
+     font-family: 'Open Sans', serif;
+    font-size: 30px;  
+
+    text-align: center;
 }
 
 .question {
-    font-style: ; 
+    text-align: center;
     background-color: yellow;
     
 }
 
 .pullquote{
-    font-size: 30px;
+    font-size: 20px;
     border: 2px solid aquamarine;
     background-color: aquamarine;
     float: right;
@@ -31,8 +44,20 @@ h1 {
 }
 
 .intro{
-    
-    width: 60%;   
-    
+   margin: auto;
+    text-align: center;
+    width: 90%;     
 }
 
+.image1{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    
+}
+.image2{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    
+}

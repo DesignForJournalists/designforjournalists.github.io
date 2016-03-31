@@ -1,0 +1,52 @@
+body {
+}
+
+.azure-box{
+  width: 600px;
+  height: 75px;
+  background:azure;
+}
+span{
+    border: solid azure 
+}
+strong{
+    border: solid azure 
+}
+.pink-box{
+    width: 300px;
+    border: solid pink
+}
+.red-block{
+    background:red;
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.inline-block:last-of-type {
+    margin-left: 100px;
+}
+.center{
+    text-align: center;
+}
+.center span {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+}
+.green-box{
+    width: 300px;
+    border: solid green;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.float{
+    float: right;
+    background: green;
+}
+.orange-box{
+     background: orange;
+    float: right;
+}

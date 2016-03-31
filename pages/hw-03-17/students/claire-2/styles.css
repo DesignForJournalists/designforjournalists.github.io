@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    font-size: 1.125rem;
+    font-family: Palatino Linotype;
+    line-height: 150%;
+}
+a:link    {
+    font-size: 1.465rem;
+    font-family: Palatino Linotype;
+    font-style:italic;
+    color:black; 
+    background-color:transparent; 
+    text-decoration:none;
+    margin-right: auto;
+    margin-left: auto;
+}
+a:visited {
+    font-size: 1.465rem;
+    font-family: Palatino Linotype;
+    font-style:italic;
+    color:Black; 
+    background-color:transparent; 
+    text-decoration:none;
+    margin-right: auto;
+    margin-left: auto;   
+}
+.tigerlily{
+    border-bottom:3px solid #F0F0F0;
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 90px;
+    width:600px;
+    line-height: 115%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.kangaroo{
+    margin-top: 20px;
+    font-size: 1.125rem;
+    font-family: Palatino Linotype;
+    line-height: 150%;
+    width:600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.koala{
+    float:left;
+    font-size: 1.865rem;
+    font-family: Palatino Linotype;
+    line-height: 150%;
+    width: 300px;
+    margin: 30px;
+}
+.panda{
+    margin-top: 15px;
+    font-size: 1.125rem;
+    font-family: Palatino Linotype; 
+    width:600px;
+    margin-right: auto;
+    margin-left: auto;
+
+}

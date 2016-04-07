@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+  background-color: yellow;
+  font-family: cursive;
+}
+
+.p{
+  font-family: cursive;
+  width: 800px;
+  font-color: white;
+}
+
+.bill{
+
+}
+
+h1{
+    font-size: 100px;
+    font-family: cursive;
+      font-weight: 100px;
+}
+h2{
+    font-size: 70px;
+    font-family: cursive;
+    font-weight: 40px;
+}
+.element{
+background-color: red;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.h4{
+  font-family: cursive;
+  font-size: 10px;
+}
+.h5{
+  font-family: cursive;
+  font-size: 10px;
+  font-style: bold;
+}
+
+.h6{
+  font-family: cursive;
+  font-size: 10px;
+  font-style: bold;
+}
+
+
+
+.h1 {
+font-size: 5;
+font-family: cursive;
+}
+/* -----MOBILE ---- */
+@media (max-width: 768px) {
+    /*mobile-specific styles go here* /
+}

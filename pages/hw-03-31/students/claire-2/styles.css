@@ -1,0 +1,79 @@
+
+@font-face {
+font-family:Didot; src: url(http://static.tumblr.com/mg35j71/bXyo1u25c/didot-italic.ttf) format(“truetype”);
+}
+
+body{
+}
+
+#logo{
+  margin-top: -750px;
+  margin-left: 175px;
+  background-image:url("");
+  width: 600px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#main{
+  margin-top: 200px;
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  font-family: Didot;
+  font-style: italic;
+  border: 1px solid black;
+
+}
+#stories{
+  width:450px;
+  height:300px;
+  background-color: red;
+  background-image:url("http://i64.tinypic.com/ypdo9.jpg");
+  margin-top: 300px;
+  padding: 20px;
+  margin-left: 210px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: Didot;
+  font-style: italic;
+}
+#stories2{
+
+  width:450px;
+  height:300px;
+  background-color: red;
+  background-image:url("http://i66.tinypic.com/a2uszm.jpg");
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 740px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-family: Didot;
+  font-style: italic;
+}
+#quickbit1{
+  width:315px;
+  height:315px;
+  margin-left: 210px;
+  margin-top: 30px;
+  background-image:url("http://i66.tinypic.com/alhj49.jpg");
+}
+#quickbit2{
+  width:315px;
+  height:315px;
+  margin-left: 565px;
+  margin-top: -315px;
+  background-image:url("http://i66.tinypic.com/alhj49.jpg");
+}
+#quickbit3{
+  width:315px;
+  height:315px;
+  margin-left: 915px;
+  margin-top: -315px;
+  background-image:url("http://i66.tinypic.com/alhj49.jpg");
+}

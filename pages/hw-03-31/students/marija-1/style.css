@@ -1,0 +1,149 @@
+div{
+
+	margin-top: 50px;
+	margin-bottom: 50px;}
+
+
+.style-element{
+    color: pink;
+    font-size: 42px;
+    display: inline;
+    padding-right: 50%;
+	padding-left: 50%;
+}
+
+span{
+
+	border-style: solid;
+	border-color: blue;
+	font-size: 36px;
+	margin: 8px;
+    padding: 5px;
+}
+
+
+
+.alrightalright{
+
+	display: inline;
+	border-color: green;
+	border-style: solid;
+	border-color: orange;
+	font-size: 32px;
+	margin: 3px;
+	padding: 8px;
+
+}
+
+.block{
+	display: block;
+}
+
+.in-line{
+display: inline-block;
+border-color: blue;
+border-style: solid;
+padding: 10px;
+text-align: center;
+align-items: center;
+}
+
+.dog{
+    float: center;
+    width:40%;
+    height:30%;
+    border:1px solid pink;
+    display: inline-block;
+    margin: 20px;
+}
+.dog1{
+    float: center;
+    width:40%;
+    height:30%;
+    border:1px solid pink;
+    display: inline-block;
+    margin: 20px;
+
+}
+.banana{
+    text-align: center;
+    border:2px solid green;
+    padding: 10px;
+
+}
+
+
+}
+.melon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:50%;
+    height:10%;
+    border:2px solid blue;
+    margin-bottom: 10px;
+
+
+}
+.watermelon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width:50%;
+    height:10%;
+    border:2px solid blue;
+}
+
+
+.meow {
+    background-color: aqua;
+    float: left;
+}
+
+.bark {
+    background-color: aqua;
+    float: right;
+
+}
+
+.moo{
+    background-color: aqua
+}
+
+.what{
+  border-color: black;
+border-style: solid;
+padding: 10px;
+text-align: left;
+align-items: center;
+
+}
+
+.whatthe{
+  border-color: black;
+border-style: solid;
+padding: 10px;
+text-align: left;
+align-items: center;
+background-color: beige
+}
+
+.whatthehell{
+  border-color: black;
+border-style: solid;
+padding: 10px;
+text-align: left;
+align-items: center;
+background-color: beige;
+float: right;
+}
+
+.yay{
+	border-color: black;
+	border-style: solid;
+	border-color: green;
+	font-size: 45px;
+	margin: 3px;
+	padding: 8px;
+}

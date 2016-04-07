@@ -1,0 +1,26 @@
+h{
+  font-family: Lobster;
+  font-size: 500px;
+  margin-left: 10%;
+
+}
+.Question{
+  font-family: Covered By Your Grace;
+  font-size: 36px;
+  margin-left: .5%;
+  text-align: center;
+}
+
+.Answer{
+  font-family: Shadows Into Light Two;
+  font-size: 18px;
+  margin-left: 30%;
+  text-align: center;
+  width: 40%;
+}
+
+.Inspiration{
+  font-family: Covered By Your Grace;
+  font-size: 18px;
+  text-align: center;
+}

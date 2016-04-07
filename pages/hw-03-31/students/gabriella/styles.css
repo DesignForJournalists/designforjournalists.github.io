@@ -1,0 +1,35 @@
+body{
+ background-color: pink;
+ font-family: Helvetica;
+ text-align: justify;
+}
+
+
+ h1 {
+   font-family: Moon Flower;
+   font-size: 50px;
+    position: left;
+    top: 200px;
+    left: 80px;
+    width: 100%;
+ }
+ h2 {
+   font-size: 16;
+ }
+
+
+p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+img {
+  position: center;
+  width: 80%;
+}
+
+ /*for iphone/mobile compatibility */
+
+@media (max-width: 768px) {
+
+}

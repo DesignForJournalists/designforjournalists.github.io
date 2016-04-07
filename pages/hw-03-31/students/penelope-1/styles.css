@@ -1,0 +1,85 @@
+
+h1, p {
+ width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 10px;
+ text-align: left;
+
+}
+.paragraph{
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+}
+h1{
+font-family: 'Noto Sans', sans-serif;  
+text-align: center;
+  background-color: black;
+  color: orange;
+  font-size: 40px;
+
+}
+iframe{
+  text-align: center;
+width: 500px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+-webkit-transform: rotate(0.000001deg);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.anchor{
+ color: black;
+font-family: 'Exo 2', sans-serif;
+font-size: 10px;
+background-color: white;
+padding: 3px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+-webkit-transform: rotate(0.000001deg);
+-webkit-border-radius: 10px;
+
+
+
+}
+
+div{
+  text-align: center;
+  background-color: black;
+  padding-bottom: 20px;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-transform: rotate(0.000001deg);
+  -webkit-border-radius: 10px;
+
+
+}
+
+a:link, a:visited, a:active{
+
+  text-decoration: none;
+
+}
+a:hover{
+  color: orange;
+}
+.url{
+  color: orange;
+}
+.paragraph2{
+  background-color: black;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+p{
+  padding: 10px;
+  border-radius: 20px;
+  font-family: 'Handlee', cursive;
+}
+footer{
+  color: white;
+  background-color: black;
+
+}

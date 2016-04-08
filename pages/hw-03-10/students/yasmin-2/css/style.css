@@ -1,0 +1,82 @@
+body {
+  font-family: Lora, serif;
+}
+
+ @media screen and (max-width:768px) {
+    .header { display: none;
+      width: 100%;}
+        }
+
+.header {
+  /*width: 720px;*/
+  /*border-bottom: 1px solid #ccc;*/
+  margin-bottom: 2px;
+  padding-bottom: 20px;
+  background-color: #ff3300;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.main-img img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.container, .headline-wrap {
+  width: 560px;
+  margin: 0 auto 50px auto;
+}
+
+.container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 170px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: Helvetica, sans-serif;
+  color: #661400;
+}
+
+h3 {
+  font-style: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  line-height: 1.3;
+  color: #FE9A2E;
+  font-family: 'Fauna One', serif;
+}
+
+.byline {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.article img {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.caption {
+  font-style: italic;
+  opacity: .6;
+}
+
+footer {
+  background-color:#ffd6cc;
+  padding: 25px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

@@ -1,0 +1,37 @@
+body{
+  background-color: white;
+  margin-top: 5px;
+  font-family: 'Fauna One', serif;
+}
+
+h1{
+  font-family:Didot;
+  font-size: 300px;
+  font-style: bold;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-top: 5px;
+  color: #FF0000;
+  text-align: center;
+}
+
+p{
+  font-size: 40px;
+  line-height: 40px;
+  font-family: Fauna One;
+  background-color: white;
+  color:#8A0808;
+  margin-top: 55px;
+  text-align: right;
+  line-height: 10px;
+  margin-right: 330px;
+}
+
+.author{
+  font-family:Didot;
+  background-color: white;
+  font-size: 100px;
+  text-align: right;
+  margin-right: 330px;
+  color: #DF3A01;
+}

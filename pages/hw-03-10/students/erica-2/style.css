@@ -1,0 +1,77 @@
+
+
+
+
+.marykate{
+  font-size: 90px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: -70px;
+  float: left;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
+  letter-spacing: 25px;
+}
+
+.imagebox{
+  background-size: contain;
+}
+
+img.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 65%;
+  width: 75%;
+  align-content: center;
+}
+
+
+
+.second-body{
+font-family: 'Source Code Pro', ;
+  font-size: 18px;
+  width: 75%;
+  height:auto;
+  margin-top: 10px;
+  padding: 1px;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+img.displayed {
+  width: 75%;
+  margin-left: 140px;
+  margin-right: auto;
+
+}
+
+.third-body{
+  font-family: 'Source Code Pro', ;
+  font-size: 18px;
+  width: 75%;
+  height:auto;
+  margin-top: 10px;
+  padding: 1px;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.black{
+  border: 10px solid black;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}

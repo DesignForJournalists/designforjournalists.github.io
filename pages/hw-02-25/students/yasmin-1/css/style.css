@@ -1,0 +1,36 @@
+body{
+  background-color: white;
+  margin-top: 200px;
+  font-family: 'Fauna One', serif;
+}
+
+h1{
+  font-family:Didot;
+  font-size: 200px;
+  font-style: italic;
+  color:black;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  color: #0B3B0B;
+}
+
+p{
+  font-size: 24px;
+  line-height: 40px;
+  font-family: Georgia;
+  width:auto;
+  background-color: white;
+  color:black;
+  margin-left: 50px;
+}
+
+.author{
+  width:300px;
+  font-family:Didot;
+  background-color: white;
+  font-size: 22px;
+  line-height: 17px;
+  font-style: italic;
+  margin-left: 50px;
+  margin-top: 30px;
+}

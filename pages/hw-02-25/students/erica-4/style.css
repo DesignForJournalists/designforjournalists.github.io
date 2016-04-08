@@ -1,0 +1,34 @@
+
+.heading{
+font-size: 80px;
+font-family: 'Amatic SC';
+height: 300px;
+width:500px;
+text-align: center;
+float: left;
+margin-top: 45px;
+font-weight: bolder;
+display: inline-block;
+margin-left: -30px;
+}
+
+.quote{
+  font-family: 'Inconsolata', ;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  width: 30%;
+  padding: 10px;
+  margin-left: 400px;
+  margin-top: 300px;
+  font-weight: lighter;
+}
+
+.black{
+  height: 500px;
+  width: 400px;
+  border-style: solid;
+  margin-left:20px;
+  margin-top: -580px;
+  border-width: thick;
+}

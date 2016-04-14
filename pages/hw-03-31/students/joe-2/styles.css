@@ -3,6 +3,7 @@ header{
   margin-right: auto;
   font-size: 50px;
   font-style: normal;
+    width: 800px;
 }
 
 .box{
@@ -14,6 +15,9 @@ header{
 
 p{
   font-size: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .green{

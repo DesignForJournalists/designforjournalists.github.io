@@ -1,0 +1,33 @@
+.Title{
+  font-family: Lobster;
+  font-size: 100px;
+  text-align: center;
+}
+
+.Image{
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.Image-2{
+  margin-left: 15%;
+  display:inline-block;
+}
+
+.Text{
+  font-family: Covered By Your Grace;
+  font-size: 50px;
+  transform: rotate(-25deg);
+  color: red;
+  text-transform: uppercase;
+}
+
+.Text-2{
+  font-family: Covered By Your Grace;
+  font-size: 50px;
+  display: inline-block;
+  width:45%;
+  text-transform: uppercase;
+  float: right;
+  transform: rotate(20deg);
+}

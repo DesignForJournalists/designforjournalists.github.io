@@ -66,6 +66,7 @@ header p {
 .instagram-media {
 	margin-left: 20px !important;
 	margin-right: 20px !important;
+    margin-bottom: 60px !important;
 }
 
 /* MOBILE */
@@ -80,7 +81,7 @@ header p {
 	}
     .instagram-media {
         margin-left: 0 !important;
-	   margin-right: 0 !important;
+	    margin-right: 0 !important;
         width: 100% !important;
         box-sizing: border-box;
     }

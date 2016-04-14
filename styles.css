@@ -161,6 +161,9 @@ a {
 .noclass {
 	opacity: .45;
 }
+.thiswk {
+	border-left: 6px solid #FF5722;
+}
 
 /* course description */
 .crs-desc .grp-parent {

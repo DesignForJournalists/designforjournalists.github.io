@@ -1,0 +1,39 @@
+body{
+  background-color: white;
+  margin-right: auto;
+  width: 900px;
+}
+
+h1{
+font-style:normal;
+font-size: 50;
+
+em{
+background-image: url(http://ecx.images-amazon.com/images/I/51hDJFHapzL._SX258_BO1,204,203,200_.jpg);
+
+}
+
+}
+
+div{
+  background-image: url(http://discount-stores.net/img/products/bloomberg-businessweek-magazine.jpeg);width:650px; height:650px;
+}
+
+
+aside{
+  font-size: 40px
+}
+
+.image{
+  background-image: url(https://nelioabtesting.com/wp-content/uploads/2015/01/BuzzFeed-1.jpg);width:750px; height:300px;
+
+}
+
+p{
+  display: block;
+  font-style:normal;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px
+}

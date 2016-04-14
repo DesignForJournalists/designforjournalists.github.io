@@ -1,0 +1,81 @@
+header{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.box{
+  box-sizing: border-box; width: 1000px; height: 500px;
+  background-color: white;
+
+
+}
+
+p{
+  font-size: 30px;
+}
+
+.green{
+  color: green;
+  font-size: 100px;
+}
+.first{
+  color: black;
+  font-size: 50px;
+}
+.firstt{
+  color: black;
+  font-size: 30px;
+}
+.inline-element{
+  display: inline;
+  border: 1px solid black;
+  font-size: 20px;
+}
+em{
+  display: block;
+  border: 50px solid black;
+  font-size: 20px;
+}
+
+.firstp{
+  font-size: 50px;
+}
+.blue{
+  color: green;
+  font-size: 100px;
+}
+
+.red{
+  color: green;
+  font-size: 100px;
+}
+
+h1{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.image1{
+  background-image: url(http://read-magazines.com/images/source_forbes_october_2015_usa.jpg);
+  width: auto;
+  height: 1000px;
+}
+
+.image2{
+  background-image: url(http://static.vibe.com/files/photo_gallery_images/outtakes-drake-vibe-cover-story.jpg);
+  width: auto;
+  height: 1000px;
+}
+
+.image3{
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/2/20/Totallymad.jpg);
+  width: auto;
+  height: 1000px;
+}
+ .template{
+   box-sizing: border-box; width:1000px; height: 500px;
+   background-color: green;
+   float: inherit;
+ }

@@ -1,0 +1,65 @@
+.first {
+	font-size: 20px;
+	color: pink;
+}
+span{
+	border: 1px solid red;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.inline-element{
+	border: 3px solid green;
+	display: inline;
+}
+.one{
+	border: 3px solid green;
+	display: inline;
+
+}
+.two{
+	border: 3px solid red;
+	display: inline;
+}
+.second{
+	border: solid red;
+}
+.inline-block > div {
+	border: 1px solid red;
+    display: inline-block;
+    padding: 20px;
+    margin: 4px;
+    max-width: 30%;
+    text-align: center;
+
+}
+.span-box{
+	   border: 1px solid green;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.align-block {
+	border: 1px solid green;
+    line-height: 4.5;
+    margin-bottom: 4px;
+    text-align: center;
+    line-width: 9px;
+}
+.float{
+	float: right;
+	margin-right: 900px;
+
+}
+.Rfloat{
+	border: 1px solid green;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    float: right;
+    background: green;
+    height: 100px;
+}
+.diff{
+	display: block
+    line-height: 1.5;
+    margin-bottom: 4px;
+    border: 1px solid green;
+}

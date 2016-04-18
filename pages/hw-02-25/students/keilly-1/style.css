@@ -1,0 +1,16 @@
+.container{
+padding-top: 100px;
+width: 600px;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+}
+
+.signature{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    margin: auto;
+    padding-left: 500px
+}

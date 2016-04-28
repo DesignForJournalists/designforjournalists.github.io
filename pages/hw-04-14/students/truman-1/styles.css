@@ -1,0 +1,128 @@
+ /*GENERAL */
+
+body{
+  background-color: #ffcccc;
+
+}
+
+h1{
+  font-family: Georgia, sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+
+}
+
+h2{
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  left: 120px;
+
+}
+
+h3{
+  font-family: Georgia, sans-serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: 140px;
+  left: 450px;
+
+
+}
+
+img {
+    image-orientation: from-image;
+}
+
+
+.firstlogo{
+  position: absolute;
+  top: 500px;
+
+}
+
+.secondlogo{
+  position: absolute;
+  top: 500px;
+  left: 700px;
+
+}
+
+.thirdlogo{
+  position: absolute;
+  top: 1200px;
+  left: 380px;
+
+}
+
+h4{
+  font-family: Georgia, sans-serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: -1400px;
+  left: 300px;
+
+}
+
+.phone1{
+  position: absolute;
+  top: 2040px;
+
+}
+
+.phone2{
+  position: absolute;
+  top: 2040px;
+  left: 800px;
+
+}
+
+.phone3{
+  position: absolute;
+  top: 2700px;
+
+}
+
+.phone4{
+  position: absolute;
+  top: 2700px;
+  left: 780px;
+
+}
+
+h5{
+  font-family: Georgia, sans-serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: -3000px;
+  left: 380px;
+
+}
+
+.web1{
+  position: absolute;
+  top: 3580px;
+
+}
+
+.web2{
+  position: absolute;
+  top: 3580px;
+  left: 750px;
+
+}
+
+.web3{
+  position: absolute;
+  top: 4270px;
+  left: 370px;
+
+}
+
+
+ /*MOBILE */
+
+@media (max-width: 768px) {
+
+}

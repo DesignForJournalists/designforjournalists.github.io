@@ -1,0 +1,59 @@
+body{
+    background: #F388A1;
+}
+
+.block-element{
+    background: #F388A1;
+    height: 120px;
+    text-decoration: underline;
+    font-family: 'Slabo 27px', serif;
+    display: inline-block;
+    text-align: right;
+    padding: 20px;
+   
+}
+
+.title{
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 90px;
+    margin-top: -10px;
+    text-align: right;
+    display: inline;
+   
+}
+
+h2{
+    font-family: 'Slabo 27px', serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Slabo 27px', serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img{
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  p {
+    width: 100%;
+  }
+img{
+    width: 100%;
+    }
+}
+

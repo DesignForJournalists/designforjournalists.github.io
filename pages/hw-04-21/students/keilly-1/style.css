@@ -1,0 +1,30 @@
+.container{
+    width: 780px;
+    margin: auto;
+   
+    text-align: center;
+     
+}
+
+h1 {
+font-family: 'Neuton', serif;
+font-size: 40px;
+}
+
+h2{
+font-family: 'Neuton', serif;
+font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Neuton', serif;
+}
+
+.image{
+    margin: auto;
+    text-align: center;
+    
+    
+}
+

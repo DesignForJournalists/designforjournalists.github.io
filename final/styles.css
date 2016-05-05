@@ -246,6 +246,50 @@ p.example-item {
     width: 100%;
 }
 
+/* article content */
+.student-work {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background: #efefef;
+}
+.student-work::after {
+    content:"◊";
+    width: 100%;
+    color: #681CFF;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin: 60px 0 0;
+}
+.student {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.student-item {
+    background: #ffffff;
+    margin-right: 6px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+    opacity: .25;
+    transition: .3s ease;
+    position: relative;
+    border: 1px solid #681CFF;
+    width: 18%;
+}
+.student-item:hover {
+    opacity: 1;
+    -ms-transform: translate(0, -2px); /* IE 9 */
+   	-webkit-transform: translate(0, -2px); /* Safari */
+    transform: translate(0, -2px);
+}
+.student-item img {
+    width: 100%;
+}
+
 /* footer */
 footer {
 	background: #efefef;

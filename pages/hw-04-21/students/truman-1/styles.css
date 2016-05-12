@@ -6,10 +6,9 @@ body{
 
 }
 
-.logo{
-  position: absolute;
-  left: 730px;
-
+.logo {
+  float: right;
+    width: 400px;
 }
 
 .headline{
@@ -127,9 +126,21 @@ header p {
  100% {
    margin-left: -2125px;
  }
+}
 
  /*MOBILE */
 
 @media (max-width: 768px) {
-
+    p, h1, .logo, img, header, #container, .photobanner {
+        width: 100%;
+    }
+    .headline {
+        font-size: 50px;
+    }
+    h1 {
+        margin-top: 70px;
+    }
+    .logo {
+        display: block;
+    }
 }

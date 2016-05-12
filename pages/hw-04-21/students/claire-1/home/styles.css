@@ -6,7 +6,7 @@ body{
     background-color: white;
 }
 .title{
-    width:1024;
+    width:1024px;
     font-family: Didot;
     font-style: italic;
     text-transform: uppercase;
@@ -37,13 +37,18 @@ img{
     bottom: -10px;
     padding-right: 40px;
 }
+
 /* Mobile Styles */
 @media (max-width: 768px) {
      .pull-quote {
-       float: none;
-       width: 100%;
+           float: none;
+           width: 100%;
      }
     .image{
-         width:100%;
+            width:100%;
+    }
+    .title {
+        width: 100%;
+        font-size: 50px;
     }
 }

@@ -1,0 +1,10 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Verlag', sans-serif;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}

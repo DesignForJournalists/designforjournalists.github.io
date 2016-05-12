@@ -1,0 +1,41 @@
+.title{
+    font-family: 'Unica One', cursive;
+    font-size: 80px;
+    font-weight:800;
+    letter-spacing: 30px;
+    margin-top: 200px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    background:rgba(255,255,255, 0.9);
+    padding: 10px;
+}
+
+.text{
+    font-size: 10px;
+    width: 350px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    background:rgba(255,255,255, 0.9);
+    height: 60px;
+    background:rgba(255,255,255, 0.9);
+    padding: 10px;
+}
+
+.parent{
+    text-align: justify;
+}
+
+
+body{
+    background-image: url(comingsoon.gif);
+    background-repeat: no-repeat 50% 50% fixed;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+}

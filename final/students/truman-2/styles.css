@@ -1,0 +1,98 @@
+ /*GENERAL */
+
+
+
+.lightning{
+  width: 90px;
+  top: 100px;
+  position: absolute;
+  left: 390px;
+
+}
+
+.lightning2{
+  width: 90px;
+  top: 20px;
+  position: absolute;
+  left: 580px;
+
+}
+
+.lightning3{
+  width: 90px;
+  top: 270px;
+  position: absolute;
+  left: 600px;
+
+}
+
+.banner{
+  font-family: "Rock Salt", cursive;
+  font-size: 90px;
+  position: absolute;
+  top: 10px;
+  left: 480px;
+
+}
+
+
+.sections{
+  font-family: "Special Elite", cursive;
+  font-size: 40px;
+  position: absolute;
+  top: 140px;
+  left: 900px;
+
+}
+
+.uppersection{
+  font-family: "Special Elite", cursive;
+
+}
+
+.emilyandwill{
+  position: absolute;
+  bottom: 10px;
+}
+
+
+.photocredit{
+  font-family: "Special Elite", cursive;
+  font-size: 10px;
+  position: absolute;
+  top: 620px;
+
+
+}
+
+.letter{
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 700px;
+  left: 410px;
+
+
+}
+
+p span{
+  font-family: "Special Elite", cursive;
+  color: white;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  top: 800px;
+  position: absolute;
+  font-size: 25px;
+  left: 150px;
+  line-height: 40px;
+  width: 900px;
+
+}
+
+ /*MOBILE */
+
+@media (max-width: 768px) {
+
+}

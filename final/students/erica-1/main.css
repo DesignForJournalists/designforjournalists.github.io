@@ -1,0 +1,90 @@
+body{
+    background-image: url(background.gif);
+    background-repeat: no-repeat 50% 50% fixed;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+}
+
+.title{
+    font-family: 'Sansita One', cursive;
+    font-size: 100px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.color{
+    color:#ffb300;
+    text-shadow: black .1em .1em .2em;
+}
+
+.now{
+    font-family: 'Sansita One', cursive;
+    font-size: 80px;
+    font-kerning: auto;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-bottom: -90px;
+    margin-top: 100px;
+    border-width: thick;
+    width: 650px;
+    background-color: #cc7a00;
+    opacity: .80;
+    box-shadow: black .1em .1em .2em;
+
+}
+
+
+.video{
+    height: 60%;
+    width: 75%;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: 13%;
+    
+}
+
+
+
+.smorgasburg{
+    font-family: 'Sansita One', cursive;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+
+    
+}
+
+.dog img{
+   height: 60%;
+    width: 75%;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: 13%;
+    opacity: .80;
+}
+
+.tomorrow{
+     
+    font-family: 'Sansita One', cursive;
+    font-size: 80px;
+    font-kerning: auto;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-bottom: -90px;
+    margin-top: 50px;
+    border-width: thick;
+    width: 650px;
+    background-color: #cc7a00;
+    opacity: 0.80;
+    box-shadow: black .1em .1em .2em;
+}
+

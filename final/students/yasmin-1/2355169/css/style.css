@@ -1,0 +1,159 @@
+body {
+  font-family: Helvetica, serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.main-img img {
+  width: 50%;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.inspo-img img{
+  width: 40%;
+  margin-left: 325px;
+  margin-right: 340px;
+}
+
+.kiss-img img{
+  width: 8%;
+  display: center; 
+  padding: 20px;
+}
+
+.container, .headline-wrap {
+  width: 1060px;
+  margin: 0 auto 20px auto;
+  line-height: 135px;
+}
+
+.container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 138px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: Didot;
+  color: #FF0000;
+  text-align: center;
+}
+
+h5 {
+  font-size: 190px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: Didot;
+  color: #FF0000;
+  text-align: center;
+  line-height: 175px;
+}
+
+h3 {
+  font-style: solid;
+  font-size: 35px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  color: #003399;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  line-height: 1.3;
+  color: #19334d;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.ender {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #8A0808;
+  height: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav span{
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: Helvetica;
+}
+
+.nav span a{
+  text-decoration: none;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color:#8A0808;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.caption {
+  font-style: italic;
+  opacity: .7;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* ----- MOBILE ----- */
+
+@media (max-width: 960px) {
+
+    body {
+        font-size: 16px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+  nav, span, footer, header, label, {
+        display: block;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 0;
+  }
+
+  img {
+        display: block;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 0;
+  } 

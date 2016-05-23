@@ -1,0 +1,99 @@
+
+.site-width {
+    *
+    zoom: 1;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    clear: left;
+}
+
+.site-width:before, .site-width:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.site-width:after {
+    clear: both
+}
+h1{
+   font-family: 'Cabin Sketch';
+   font-size: 55px;
+   text-align: center;
+   padding-bottom: 400px;
+   margin-top: 350px;
+
+}
+h2{
+  font-family: 'Cabin Sketch';
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+p{
+   font-family: 'Nunito';
+   font-size: 17px;
+
+}
+.footer{
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Nunito';
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+}
+.intro{
+  padding-left: 150px;
+  padding-right: 150px;
+
+
+}
+.how{
+  padding-top: 300px;
+  padding-bottom: 350px;
+}
+.images{
+  width: 550px;
+  height: 450px;
+  padding: 10px;
+  padding-left: 200px;
+
+}
+.mockups{
+  background: #D3D3D3;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+
+}
+.introback{
+  background: #999;
+  height: 100%;
+  width: 100%;
+padding: 30px;
+}
+body{
+  background: #C0C0C0;
+}
+.connect{
+  margin-left: 350px;
+
+  background:#D3D3D3;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+ p {
+   width: 100%;
+ }
+ .set-width-20, .set-width-40, .set-width-60 {
+   width: 100%;
+ }
+ .pull-quote {
+   float: none;
+   width: 100%;
+ }

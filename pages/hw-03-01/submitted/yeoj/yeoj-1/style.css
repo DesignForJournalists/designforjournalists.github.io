@@ -1,0 +1,128 @@
+h1 {
+    color:azure;
+   font-size: 100px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   font-weight: bold;
+
+/*   display: inline-block;*/
+   margin-top: 100px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: 0px;
+   font-family: "bold";
+
+}
+
+p {
+    font-size: 12px;
+    color: #101859;
+  line-height: 3;
+  width: 500px;
+    text-align: center;
+  position: float;
+  margin-left: auto;
+  margin-right: 10px;
+    margin-top: -800px;
+  font-family: "lucida";
+   
+}
+
+/*
+p:first-of-type {
+  font-style: italic;
+}
+
+*/
+
+@font-face {
+  font-family: "lucida";
+  src: url("LucidaGrande.ttc");
+}
+@font-face {
+  font-family: "bold";
+  src: url("LucidaSansStd-Bold.otf");
+}
+
+
+
+.quote {
+    background-color: #97BDDA;
+    font-family: didot;
+    width:700px;
+    font-size: 100px;
+    color:#3341A9; 
+  font-style: italic;
+    margin-top: -200px;
+    letter-spacing: 3px;
+    opacity: .8;
+}
+
+
+.sub {
+    color:black;
+  font-style: italic;
+    margin-top: -2000px;
+    letter-spacing: 3px;
+    font-size: 8px;
+    margin-left: -100px;
+    font-family: "didotbold"
+}
+
+.two {
+    color:#DF4C32;
+    width:300px;
+  font-style: italic;
+    margin-top: -1000px;
+    margin-left: 0px;
+    letter-spacing: 3px;
+    font-family: "didot"
+}
+
+.three {
+    color:#8B5046;
+  font-style: italic;
+    margin-top: -800px;
+    margin-left: 200px;
+    letter-spacing: 100px;
+    font-size:10px;
+    width:1000px;
+    font-family: "didotbold";
+    z-index: 0;
+}
+
+.four {
+    color:#5EA577;
+  font-style: italic;
+    margin-top: -1000px;
+    letter-spacing: -10px;
+    leading: 10px;
+    margin-left: 400px;
+    font-size:30px;
+    font-family: "didotbold";
+}
+
+.five {
+    color:#89223A;
+    background-color: aqua;
+    text-align: left;
+  font-style: italic;
+    margin-top: -2000px;
+    margin-left: 0px;
+    letter-spacing: 50px;
+    font-size:50px;
+    font-family: "didot"
+}
+
+.six {
+    color:#16552C;
+  font-style: italic;
+    margin-top: -2000px;
+    margin-left: 0px;
+    letter-spacing: 100px;
+    font-size:12px;
+    font-family: "didot"
+}
+
+

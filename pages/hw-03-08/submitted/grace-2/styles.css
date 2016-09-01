@@ -1,0 +1,47 @@
+body {
+    padding:2px 50px;
+    background: linear-gradient(#fff2e6,#e83030);
+    font-family: 'Crimson Text', serif;
+    line-height: 1.2;
+}
+
+.caption {
+    display: block;
+    float: left;
+    padding: 50px;
+    width: 350px;
+    font-size: 28px;
+    color: #b0c0a0;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.quote {
+    display:block;
+    float: right;
+    width: 950px;
+    font-size: 150px;
+    margin: 90px;
+    color: #ffff00;
+    padding: 50px;
+    padding-right:0px;
+    margin-right: -100px;
+    font-style: italic;
+    font-weight: 600;
+    line-height:.6;
+}
+
+span {
+    padding: 100px;
+}
+
+span h2 {
+    color:#e2e9e3;
+}
+span p {
+    float: left;
+    width: 500px;
+    font-size: 17px;
+    padding: 350px 60px 100px 55px;
+    color:#493b36;
+}

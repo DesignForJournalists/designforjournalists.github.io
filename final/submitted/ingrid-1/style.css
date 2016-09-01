@@ -1,0 +1,784 @@
+    /*scrollbar*/
+    
+    body::-webkit-scrollbar,
+    .horiz-panel::-webkit-scrollbar,
+    .horiz-panel1::-webkit-scrollbar {
+        width: 1em;
+    }
+    
+    body::-webkit-scrollbar-thumb,
+    .horiz-panel::-webkit-scrollbar-thumb,
+    .horiz-panel1::-webkit-scrollbar-thumb {
+        background-color: #00BBFF;
+        outline: 1px solid slategrey;
+    }
+    
+    .horiz-panel::-webkit-scrollbar-track,
+    .horiz-panel1::-webkit-scrollbar-track {
+        background-color: BLACK;
+    }
+    /*general*/
+    
+    body {
+        background: #F5F3E1;
+        margin: 0px;
+    }
+    
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        line-height: 1.6;
+        background: #00BBFF;
+        color: #F5F3E1;
+        width: 550px;
+        padding: 10px;
+    }
+    
+    article {}
+    /*header*/
+    
+    .header {
+        background-color: black;
+        position: relative;
+    }
+    
+    .headerimage {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        display: block;
+        height: 100vh;
+    }
+    
+    h1 {
+        width: 300px;
+        position: absolute;
+        font-size: 175px;
+        line-height: 1;
+        font-family: 'Fugaz One', cursive;
+        font-weight: 300;
+        color: #F5F3E1;
+        transition: 1s ease;
+    }
+    
+    h1:hover {
+        transform: rotate(-30deg);
+    }
+    
+    .intro {
+        width: 450px;
+        float: left;
+        margin-left: 500px;
+        margin-top: 350px;
+        transition: 1s ease;
+        position: absolute;
+        background: #e8305e;
+    }
+    
+    .intro:hover {
+        width: 600px;
+        margin-left: 500px;
+        margin-top: 350px;
+        position: absolute;
+        background: black;
+        z-index: 2000;
+        transform: scale(1.5);
+    }
+    
+    .image1 {
+        margin-left: 650px;
+        margin-top: 250px;
+        position: absolute;
+        transition: all .5s ease-out;
+        transition-delay: 0.5s;
+        width: 504px;
+        height: 428px;
+    }
+    
+    .image1:hover {
+        transition: all .5s ease-out;
+        webkit-transform: translate(250px, 70px);
+        -moz-transform: translate(250px, 70px);
+        -o-transform: translate(250px, 70px);
+        -ms-transform: translate(250px, 70px);
+        transform: translate(-1350px, 70px);
+    }
+    /*description*/
+    
+    .concept {
+        margin-top: 25vh;
+        padding: 0px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    h2 {
+        font-size: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Fugaz One', cursive;
+        font-weight: 300;
+        color: #00BBFF;
+        width: 700px
+    }
+    
+    .paragraph {
+        position: relative;
+        width: 1400px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .titles {
+        position: absolute;
+        margin-left: 650px;
+        z-index: 100;
+        color: black;
+    }
+    
+    #boil,
+    #vroom,
+    #honk,
+    #skid {
+        margin-bottom: -90px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 500px;
+        z-index: 100;
+        width: 800px;
+        height: 360px
+    }
+    
+    ;
+    audio {
+        height: 140px;
+        overflow: hidden;
+        opacity: 0;
+        background: blue;
+    }
+    
+    .audio {
+        height: 140px;
+        overflow: hidden;
+        opacity: 0;
+        background: blue;
+    }
+    
+    .description {
+        position: absolute;
+        margin-left: 200px;
+        transition: 1s ease;
+    }
+    
+    .description:hover {
+        background: black;
+        transform: scale(1.5);
+        z-index: 200;
+        margin-left: 200px;
+    }
+    /*panels*/
+    
+    #panelmobile {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .horiz-panel {
+        height: 100vh;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap;
+        background: white;
+        overflow-y: hidden;
+    }
+    
+    .horiz-item {
+        margin-left: 60px;
+        margin-right: 0px;
+        width: 1004px;
+        height: 628px;
+        position: absol;
+    }
+    
+    img {
+        position: absolute;
+    }
+    
+    .captions {
+        width: 400px;
+        height: 30px;
+        margin-left: 644px;
+        margin-top: 594px;
+        position: absolute;
+        z-index: 200;
+    }
+    
+    .conthoriz-item {
+        position: relative;
+    }
+    
+    #colophon {
+        position: relative;
+        width: 1400px;
+        height: 100vh;
+        margin-top: 20vh;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .colophon {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .colophon:hover {}
+    /*SPECIFIC*/
+    /*IMAGES*/
+    
+    h3 {
+        width: 100px;
+        font-size: 15px;
+        font-family: 'Fugaz One', cursive;
+        font-weight: 300;
+        position: absolute;
+        z-index: 20;
+        color: #e8305e;
+    }
+    
+    .text {
+        margin-left: 30px;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    
+    .text2 {
+        margin-top: 125px;
+        margin-left: 1475px;
+        transform: rotate(20.5deg)
+    }
+    
+    .text3 {
+        margin-top: 30px;
+        margin-left: 395px;
+    }
+    
+    .text4 {
+        margin-top: 40px;
+        margin-left: 520px;
+    }
+    
+    .text5 {
+        transform: rotate(10deg);
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .interface {
+        position: relative;
+        width: 10%;
+        margin-left: -300px;
+    }
+    
+    .fullscreen2 {
+        width: 3800px;
+        height: 528px;
+        padding-right: 100px;
+        margin-left: 0px;
+        position: absolute;
+    }
+    
+    .carresize {
+        width: 170px;
+        height: 135px;
+        margin-top: 56px;
+        margin-left: 395px;
+        position: absolute;
+        transition: 0.3s;
+    }
+    
+    .carresize:hover {
+        transform: scale(1.2);
+        margin-left: 386px;
+        margin-top: 76px;
+    }
+    
+    .carslide {
+        width: 200px;
+        height: 200px;
+        margin-top: 70px;
+        margin-left: 1395px;
+        position: absolute;
+        transition: all .5s ease-out;
+        transition-delay: 0.5s;
+    }
+    
+    .carslide:hover {
+        transition: all .5s ease-out;
+        webkit-transform: translate(250px, 70px);
+        -moz-transform: translate(250px, 70px);
+        -o-transform: translate(250px, 70px);
+        -ms-transform: translate(250px, 70px);
+        transform: translate(250px, 70px);
+    }
+    
+    .contcontainer {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+    
+    #container {
+        width: 550px;
+        height: 150px;
+        position: relative;
+        transform: rotate(18deg);
+    }
+    
+    #cardrag {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        transform: rotate(-20deg);
+    }
+    /*.cardrag:hover {
+        transition: all .5s ease-out;
+        webkit-transform: translate(250px, 70px);
+        -moz-transform: translate(250px, 70px);
+        -o-transform: translate(250px, 70px);
+        -ms-transform: translate(250px, 70px);
+        transform: translate(250px, 70px);
+    }*/
+    
+    .title {
+        margin-left: 10px;
+        margin-top: 30px;
+        position: absolute;
+    }
+    
+    .title:hover {
+        background: #e8305e;
+    }
+    
+    .title .title.is-pointer-down {
+        background: ;
+    }
+    
+    .title.is-dragging {
+        opacity: 0.7;
+    }
+    
+    div#interior {
+        position: relative
+    }
+    
+    .carinterior {
+        position: absolute;
+    }
+    
+    .carinterior {
+        margin-top: 50px;
+        margin-left: 520px;
+        width: 370px;
+        height: 355px;
+        transition: all .5s ease-out;
+        transition-delay: 0.5s;
+    }
+    
+    .carinterior:hover {
+        webkit-transform: translate(550px, 0);
+        -moz-transform: translate(550px, 0);
+        -o-transform: translate(550px, 0);
+        -ms-transform: translate(550px, 0);
+        transform: translate(550px, 0);
+    }
+    /*MOBILE*/
+    
+    @media screen and (max-width: 768px) {
+        /*general*/
+        body,
+        p {
+            width: 100%;
+            margin: 0px;
+            overflow-x: hidden;
+        }
+        .header {
+            background-color: black;
+            position: relative;
+        }
+        .headerimage {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            display: block;
+            height: 100vh;
+        }
+        h1 {
+            width: 10%;
+            position: absolute;
+            font-size: 90px;
+            line-height: 1;
+            font-family: 'Fugaz One', cursive;
+            font-weight: 300;
+            color: #F5F3E1;
+            transition: 1s ease;
+        }
+        h1:hover {
+            transform: rotate(-30deg);
+        }
+        .intro {
+            width: 100%;
+            height: ;
+            float: left;
+            margin-left: 0px;
+            margin-top: 120%;
+            transition: 1s ease;
+            position: absolute;
+            background: #e8305e;
+            font-size: 20px;
+        }
+        .intro:hover {
+            width: 600px;
+            background: ;
+            z-index: 2000;
+            transform: scale();
+        }
+        .image1 {
+            margin-left: 55%;
+            margin-top: 50%;
+            position: absolute;
+            width: 40%;
+            height: 20%;
+        }
+        .image1:hover {
+            transform: translate();
+        }
+        /*description*/
+        .concept {
+            margin-top: 25vh;
+            padding: 0px;
+            position: relative;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 250%;
+            margin-left: 0px;
+            margin-right: auto;
+            font-family: 'Fugaz One', cursive;
+            font-weight: 300;
+            color: #00BBFF;
+            width: 700px
+        }
+        .paragraph {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            margin-left: 0px;
+            margin-right: auto;
+            display: flex;
+            flex-flow: column nowrap;
+        }
+        .titles {
+            position: absolute;
+            margin-left: 0px;
+            z-index: 100;
+            color: black;
+        }
+        .audio {
+            display: none;
+        }
+        .description {
+            background: black;
+            position: absolute;
+            margin-left: 0px;
+            margin-top: 45%;
+            width: 100%;
+            transition: 1s ease;
+            font-size: 15px;
+        }
+        .description:hover {
+            transform: scale();
+            z-index: 200;
+            margin-left: 0px;
+        }
+        /*panels*/
+        #panelmobile {
+            position: static;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .horiz-panel {
+            height: 50vh;
+            margin-top: 20%;
+            margin-bottom: 0px;
+            overflow: scroll;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column wrap;
+            background: white;
+            overflow-y: hidden;
+        }
+        .horiz-item {
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+            height: 60%;
+            position: static;
+        }
+        img {
+            position: static;
+            margin-left: 0px;
+        }
+        .captions {
+            display: none;
+            paddin: 0px;
+            width: 200px;
+            height: 20px;
+            font-size: 8px;
+            height: 100%;
+            margin-left: 0;
+            margin-top: 0;
+            position: absolute;
+            z-index: 200;
+        }
+        .conthoriz-item {
+            position: relative;
+        }
+        #colophon {
+            position: static;
+            margin-bottom: 0px;
+        }
+        .colophon {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0px;
+        }
+        .colophon:hover {}
+        /*general*/
+        .fullscreen2 {
+            width: 1450px;
+            height: 238px;
+            padding-right: 100px;
+            margin-left: 350px;
+            position: absolute;
+        }
+        .carresize {
+            display: none;
+            width: 170px;
+            height: 135px;
+            margin-top: 56px;
+            margin-left: 395px;
+            position: absolute;
+            transition: 0.3s;
+        }
+        .carresize:hover {
+            display: none;
+            transform: scale(1.2);
+            margin-left: 386px;
+            margin-top: 76px;
+        }
+        .carslide {
+            display: none;
+            width: 200px;
+            height: 200px;
+            margin-top: 70px;
+            margin-left: 1395px;
+            position: absolute;
+            transition: all .5s ease-out;
+            transition-delay: 0.5s;
+        }
+        .carslide:hover {
+            display: none;
+            transition: all .5s ease-out;
+            webkit-transform: translate(250px, 70px);
+            -moz-transform: translate(250px, 70px);
+            -o-transform: translate(250px, 70px);
+            -ms-transform: translate(250px, 70px);
+            transform: translate(250px, 70px);
+        }
+        .contcontainer {
+            display: none;
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 100px;
+        }
+        #container {
+            display: none;
+            width: 550px;
+            height: 150px;
+            position: relative;
+            transform: rotate(18deg);
+        }
+        #cardrag {
+            display: none;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            transform: rotate(-20deg);
+        }
+        /*.cardrag:hover {
+        transition: all .5s ease-out;
+        webkit-transform: translate(250px, 70px);
+        -moz-transform: translate(250px, 70px);
+        -o-transform: translate(250px, 70px);
+        -ms-transform: translate(250px, 70px);
+        transform: translate(250px, 70px);
+    }*/
+        .title {
+            display: none;
+            margin-left: 10px;
+            margin-top: 20%;
+            position: absolute;
+        }
+        .title:hover {
+            display: none;
+            background: #e8305e;
+        }
+        .title .title.is-pointer-down {
+            background: ;
+        }
+        .title.is-dragging {
+            opacity: 0.7;
+        }
+        div#interior {
+            position: relative
+        }
+        .carinterior {
+            display: none;
+            position: absolute;
+        }
+        .carinterior {
+            display: none;
+            margin-top: 50px;
+            margin-left: 520px;
+            width: 370px;
+            height: 355px;
+            transition: all .5s ease-out;
+            transition-delay: 0.5s;
+        }
+        .carinterior:hover {
+            display: none;
+            webkit-transform: translate(550px, 0);
+            -moz-transform: translate(550px, 0);
+            -o-transform: translate(550px, 0);
+            -ms-transform: translate(550px, 0);
+            transform: translate(550px, 0);
+        }
+    }
+    /* body,
+        p {
+            width: 100%;
+            margin-left: 40px;
+            margin-right: auto;
+            overflow-x: hidden;
+        }
+        /*header*/
+    /* .header {
+            margin: 0;
+            position: relative;
+        }
+        .headerimage {
+            width: 400px;
+            position: absolute;
+        }
+        h1 {
+            font-size: 60px;
+            transform: scale(0.9);
+        }
+        .image1 {
+            margin-right: auto;
+            margin-top: 10%;
+            transform: scale(0.5);
+            display: inline-block;
+            z-index: -10;
+        }
+        .intro {
+            width: 60vw;
+            background-color: black;
+        }
+        .intro:hover {
+            visibility: hidden;
+        }
+        /*description*/
+    /*.paragraph {
+            position: relative;
+            width: 60vw;
+            margin-left: auto;
+            margin-right: auto;
+            float: left;
+            position: static;
+            color: #00BBFF;
+        }
+        .titles {
+            margin-top: 150px;
+            margin-left: 0px;
+            padding: 0px;
+        }
+        h2 {
+            font-size: 200%;
+            line-height: 1;
+            margin-left: 0;
+            color: #00BBFF;
+        }
+        .description {
+            margin-left: auto;
+            margin-right: auto;
+            float: left;
+            position: static;
+            background-color: black;
+        }
+        .description:hover {
+            display: none;
+        }
+        /*panels*/
+    /* #panelmobile {
+            width: 68%;
+            height: ;
+            padding: 0px;
+            overflow: scroll;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column wrap;
+            background: white;
+            overflow-y: hidden;
+        }
+        .horiz-panel1 {
+            margin: 0px;
+            height: 50vh;
+        }
+        .horiz-panel {
+            margin: 0px;
+            height: 50vh;
+        }
+        .horiz-item {
+            width: 50%;
+            height: 60%;
+            margin-left: 20%;
+            padding-bottom: 80px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        /*end*/
+    /* .colophon {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80vw;
+            padding: 10px;
+            margin: 0px;
+            position: static;
+            float: left;
+            background-color: black;
+        }
+    }

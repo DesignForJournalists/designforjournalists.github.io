@@ -1,0 +1,119 @@
+h1 {font-size: 20px;
+font-family: 'Homemade Apple', cursive;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.title span {
+  font-family: 'Slabo 27px', serif;
+  font-size: 70px;
+  letter-spacing: 3px;}
+
+.doll div {
+  width: 300px;
+	height: 300px;
+	background: red;
+  opacity: 0.7;
+	border-radius: 20px;
+  transform: scale(0.9,0.9) translate(50px);
+  padding-left: 100px;
+}
+
+.s2 {
+  font-size: 40px;
+}
+
+strong {
+  color:red;
+}
+
+
+.b1 {border: 1px solid blue;
+  padding:2px;
+margin:10px;}
+
+.b2 {
+  border: 1px solid blue;
+  padding:2px;
+  margin:10px;
+  width: 50%;}
+
+.b3 {
+  border: 1px solid blue;
+  padding:2px;
+  margin:10px;
+  width: 100px;}
+
+.b4 {
+    border: 1px dashed blue;
+    padding:2px;
+    margin:10px;
+    width: 100px;
+  height:50px;}
+
+.inline div {
+  border-radius: 50px;
+  display: inline;
+  padding: 30px;
+  margin:50px;
+  background-color: yellow;
+  }
+
+.block div {
+  width:50px;
+  height:50px;
+  display: block;
+  border-radius: 50px;
+  background-color: yellow;
+  margin: 50px;
+  padding:10px;
+  text-align: center;
+}
+
+.inline-block div {
+  width:50px;
+  height:50px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: yellow;
+  margin: 10px;
+  padding:10px;
+}
+.inline-center div {
+  background-color: pink;
+  margin-left: auto;
+  width: 100px;
+  margin-right: auto;
+  padding:10px;
+  text-align: center;
+}
+.inline-center span {
+  border:white solid 2px;
+padding:5px;}
+
+.block-center div {
+  display: block;
+  background-color: pink;
+  margin-left: auto;
+  width: 100px;
+  margin-right: auto;
+  padding:10px;
+  text-align: center;
+}
+
+.float div {
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  color:  #66ccff;}
+.float span {
+  float: right;
+  color: #e6f7ff;}
+
+.float-block div {
+  border: solid grey 2px;
+  margin:10px;
+  }
+.block-float {
+  background-color: grey;
+  height: 100px;
+  float: right;}

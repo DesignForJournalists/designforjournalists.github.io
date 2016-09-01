@@ -1,0 +1,212 @@
+h1 {
+  color: black;
+  border: 5px;
+  font-size: 57px;
+  letter-spacing: 0.75px;
+  margin-top: 80px;
+  margin-bottom: 190px;
+  margin-left: 40px;
+  font-family: "Alice", serif;
+}
+h2 {
+  color: #e7e7e7;
+  opacity: 0.6;
+  font-size: 115px;
+  font-family: 'Alice', serif;
+  margin-left: 40px;
+  margin-top: -208px;
+  letter-spacing: 7px;
+  width: 600px;
+  line-height: 95px;
+}
+h3 {
+  color: blue;
+  font-size: 110px;
+  font-family: 'Kotta One', serif;
+  text-align: right;
+  line-height: 0px;
+  margin-right: 40px;
+}
+body{
+}
+p {
+  line-height: 1.5;
+  width: 450px;
+  font-size: 15px;
+  margin-left: 360px;
+  font-family: 'Crimson Text', serif;
+  font-style: 400;
+}
+
+.blue{
+  color: blue;
+}
+.black{
+  color: black;
+}
+.one{
+  width: 200px;
+  margin-top: 0px;
+  line-height: 35px;
+}
+.accent{
+  font-family: 'Kotta One', serif;
+  font-size: 57px;
+  border: 3.5px solid black;
+  margin-left: -5px;
+  margin-right: -240px;
+  padding-left: 346px;
+  margin-top: -40px;
+  display: block;
+}
+.che{
+  margin-left: -245px;
+  margin-top: -30px;
+}
+.cheup{
+  margin-top: -38px;
+}
+.two{
+  color: #e7e7e7;
+  font-size: 75px;
+  text-decoration: line-through;
+  width: 670px;
+  position: absolute;
+  margin-top: -60px;
+  z-index: -5;
+}
+.cheback{
+  z-index: -4;
+  border: 1.5px solid blue;
+  line-height: 1.75;
+}
+.neung{
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 15px;
+}
+.song{
+  position: absolute;
+  margin-left: -5px;
+  margin-top: 25px;
+}
+.sam{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.see{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.haa{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.hok{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 35px;
+}
+.jed{
+  position: absolute;
+  margin-left: 255px;
+  margin-top: 15px;
+}
+.pad{
+  position: absolute;
+  margin-left: 305px;
+  margin-top: 25px;
+}
+.kao{
+  position: absolute;
+  margin-left: 335px;
+  margin-top: 35px;
+}
+.sib{
+  position: absolute;
+  margin-left: 435px;
+  margin-top: 25px;
+}
+.sibed{
+  position: absolute;
+  margin-left: -45px;
+  margin-top: 115px;
+}
+.sibsong{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 85px;
+}
+.sibsam{
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 85px;
+}
+.sibsee{
+  position: absolute;
+  margin-left: 105px;
+  margin-top: 105px;
+}
+.sibhaa{
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 105px;
+}
+.sibhok{
+  position: absolute;
+  margin-left: 245px;
+  margin-top: 75px;
+}
+.sibjed{
+  position: absolute;
+  margin-left: 308px;
+  margin-top: 84px;
+}
+.sibpad{
+  position: absolute;
+  margin-left: 336px;
+  margin-top: 78px;
+}
+.sibkao{
+  position: absolute;
+  margin-left: -5px;
+  margin-top: 175px;
+}
+.yeesib{
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 195px;
+}
+.yebed{
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 195px;
+}
+.yebsong{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 184px;
+}
+.yebsam{
+  position: absolute;
+  margin-left: 288px;
+  margin-top: 158px;
+}
+.yebsee{
+  position: absolute;
+  margin-left: 388px;
+  margin-top: 158px;
+}
+.throw{
+  margin-top: 260px;
+  font-family: 'Kotta One', serif;
+  margin-bottom: 60px;
+}
+.end{
+  font-family: 'Kotta One', serif;
+  font-size: 44px;
+  margin-top: 70px;
+}

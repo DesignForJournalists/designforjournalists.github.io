@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  margin-bottom: 600px;
+}
+
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+  color: magenta;
+}
+
+h2 {
+  color: magenta;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+body {
+  padding-top: 250px;
+  padding-bottom: 170px;
+}
+
+.jia {
+  color: lime;
+}
+
+p {
+  line-height: 1.5;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'PT Serif', serif;
+}

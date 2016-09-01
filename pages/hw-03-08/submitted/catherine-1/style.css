@@ -1,0 +1,166 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #4d4d4d;
+}
+
+.description {
+  text-align: center;
+}
+
+.divider {
+  margin-top: 50px;
+  background: #b3b3b3;
+  height: 1px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.task1_div1{
+  width: 490px;
+  background: #b3ffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.task2_div1{
+  text-align: center;
+}
+
+.task2_span1{
+  border: 1pt solid blue;
+}
+
+.task2_span2 {
+  color: #ff00ff;
+}
+
+.task3_div1 {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1pt solid #ff00ff;
+}
+
+.task3_div2 {
+  text-align: center;
+  margin-top: 8px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1pt solid #ff00ff;
+}
+
+.task3_div3 {
+  text-align: center;
+  margin-top: 8px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1pt solid #ff00ff;
+}
+
+.task4_div1{
+  display: inline-block;
+
+}
+
+.task4_div2{
+  text-align: center;
+}
+
+.task4_border{
+  border: 2pt dotted #ff00ff;
+}
+
+.task4_span1{
+  text-align: center;
+  display: block;
+  border: 2pt dotted blue;
+}
+
+.task5_div1{
+  display: inline-block;
+  text-align: center;
+  background:#b3ffff;
+  padding: 30px;
+  height: 50px;
+}
+
+.task5_div2 {
+  text-align:center;
+}
+
+.task6_span1{
+  border: 1pt solid #ff00ff;
+}
+
+.task6_div1{
+  text-align: center;
+}
+
+.task6_span2{
+  border: 5pt solid #b3ffff;
+  padding: 2pt;
+}
+
+.task7_div1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  border: 5pt dotted blue;
+  text-align: center;
+}
+
+.task8_div1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 527px;
+}
+
+.task8_span1{
+  border: 1pt solid #ff00ff;
+  margin-right:1pt;
+}
+
+.task8_span2{
+  background: #ff00ff;
+  float:left;
+  border: 1pt solid #ff00ff;
+}
+
+.task8_span3{
+  background: #ff00ff;
+  float:right;
+  border: 1pt solid #ff00ff;
+}
+
+.task9_div1 {
+
+}
+
+.task9_span1{
+  border: 1pt solid blue;
+  display: block;
+}
+
+.task9_span2{
+  float:right;
+  background: #b3ffff;
+  border: 1pt solid #b3ffff;
+  height: 93px;
+}

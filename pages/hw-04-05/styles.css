@@ -1,0 +1,43 @@
+/*html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+body {
+}
+
+/* GENERAL */
+
+
+/* SPECIFIC */
+
+.img-grid-3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background: #efefef;
+    padding-top: 20px;
+}
+.img-grid-3 .item {
+    width: 30%;
+    padding: 20px;
+}
+.img-grid-3 .item img, .img-grid-3 .item p {
+    width: 100%;
+    font-size: 1em;
+    padding: 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .img-grid-3 {
+        flex-wrap: wrap;
+    } 
+    .img-grid-3 .item {
+        width: 51%;
+        text-align: center;
+    }
+}

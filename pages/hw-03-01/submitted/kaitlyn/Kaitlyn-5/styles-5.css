@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #FFDAB9;
+}
+
+h1 {
+  color: #BC8F8F;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+p{
+  line-height: 1.5;
+  width: 550px;
+  margin-left: 0px;
+  margin-right: 100px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.first{
+  text-align: left;
+  line-height: 1.5;
+  color: #F08080;
+}
+.second{
+  text-align: center;
+  font-weight: 700;
+  color: #a5bcd9;
+}
+.third{
+  text-align: right;
+  line-height: 1.5;
+  color: #F08080;
+}
+
+.fourth{
+  margin-top: 250px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  color: #BC8F8F;
+}

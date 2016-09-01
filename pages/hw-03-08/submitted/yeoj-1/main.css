@@ -1,0 +1,115 @@
+html {
+    background-color: #3554FF;
+    font-family: helvetica;
+}
+
+.head{
+    text-align: left;
+    width:650px;
+    color: #C1FFF0;
+    font-size:50px;
+    padding: 0px;
+}
+
+p{
+    text-align: right;
+    color: white;
+}
+
+h1{
+    color:white;
+    font-size:40px;
+    padding-top:90px;
+}
+
+.one{
+    border:0px;
+    background-color: #C1FFF0;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    font-family: helvetica;
+    border:2px solid #C1FFF0;
+    color: white;
+    border-width: 2px;
+}
+
+div{
+    border: 2px solid #C1FFF0;
+    color:white;
+    margin-top:5px;
+}
+
+.four{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.block{
+    display: block;
+    margin-top: 5px;
+}
+
+.inlineblock{
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.six{
+    text-align: center;
+    padding: 5px;
+}
+
+.seven{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 70px;
+}
+
+.seven1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 70px;
+}
+
+span1{
+    border: 2px solid #C1FFF0;
+    color: white;
+}
+
+span2{
+    border: 2px solid #C1FFF0;
+    color: #3554FF;
+    float: right;
+    background-color: #C1FFF0;
+}
+
+span3{
+    border: 2px solid #C1FFF0;
+    color: #3554FF;
+    float: left;
+    background-color: #C1FFF0;
+}
+
+.eight{
+    padding:20px;
+    border:0px;
+}
+
+.nine{
+    background-color: #C1FFF0;
+    color: #3554FF;
+    float:right;
+    height:100px;
+}

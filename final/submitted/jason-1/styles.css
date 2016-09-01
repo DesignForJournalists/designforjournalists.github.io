@@ -1,0 +1,871 @@
+/* basics */
+
+body {
+  margin: 0;
+  font-family: "proxima-nova", 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h1 {
+  font-family: "proxima-nova", 'Roboto',  sans-serif;
+  font-weight: 700;
+  color: #efefef;
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+h2 {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+span {
+  cursor: pointer;
+}
+
+.summersurv {
+  color: #396a93;
+}
+
+.kern {
+  letter-spacing: 1.5px;
+}
+
+.red {
+  font-weight: 700;
+  color: #ff5233;
+}
+
+/* sections */
+
+.fade {
+  height: 100vh;
+  background-color: #ffa64d;
+  margin-top: 0;
+  position: absolute;
+  z-index: 9999;
+  padding-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  opacity: 0;
+
+  -webkit-animation-name: onlyonce;
+  -webkit-animation-duration: 8s;
+  animation-name: onlyonce;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes onlyonce {
+  0%    {opacity: 1;}
+  25%   {opacity: 1;}
+  75%   {opacity: 0;}
+  100%  {opacity: 0;}
+}
+
+.fade h1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+}
+
+
+.landing {
+  height: 100vh;
+}
+
+.displayphones {
+  background-color: #efefef;
+  background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffa64d, #efefef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffa64d, #efefef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffa64d, #efefef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffa64d, #efefef); /* Standard syntax (must be last) */
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 5%;
+}
+
+.fonecase {
+  display: flex;
+  flex-direction: row;
+  object-position: center;
+  justify-content: center;
+}
+
+.ss_bg {
+  background-color: #efefef;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 10%;
+  padding-bottom: 12%;
+}
+
+.wvmode {
+  background: #666666;
+  padding-bottom: 14%;
+  padding-top: 4%;
+}
+
+.gestures {
+  background-color: #666666;
+  background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#666666, #396a93); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666666, #396a93); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666666, #396a93); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666666, #396a93); /* Standard syntax (must be last) */
+}
+
+.finale {
+  background-color: #ff5233;
+  padding: 10%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.finale h1 {
+  width: 500px;
+  font-size: 60px;
+  margin: 5%;
+  padding-top: 15%;
+  line-height: 1.3;
+}
+
+.fin {
+  width: 500px;
+  margin: 5%;
+  box-sizing: border-box;
+}
+
+  .colophon {
+    padding-top: .25%;
+    padding-bottom: .25%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: #efefef;
+  }
+
+  .colophon p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .tabletop {
+    background: #efefef;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .angle {
+    width: 15vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: ease;
+    padding-top: 10%;
+    transition-duration: 1.5s;
+  }
+
+  .angle img {
+    width: 100%;
+  }
+
+  .angle:hover {
+    width: 30vw;
+    margin-top: -10%;
+  }
+
+  .shift_two {
+    width: 30vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 0;
+  }
+/* image */
+.topbutt {
+  position: fixed;
+  margin-bottom: 10%;
+}
+
+.bg_img {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+  background: url(http://cdn1.theodysseyonline.com/files/2015/12/03/635847729055384562-496957602_5429c32b425f183f61bf7316_new-york-city-skyline.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fone {
+  width: 70%;
+  padding-top: 7.5%;;
+  padding-bottom: 3.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fone img {
+  width: 100%;
+}
+
+.screenshot {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  max-width: 300px;
+}
+
+.screenshot img {
+  width: 100%;
+}
+
+.sc_img {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.sc_img p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff5233;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.6;
+  margin-top: 0;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-bottom: 0;
+}
+
+.backgroundny {
+  background: url(http://cdn.pcwallart.com/images/new-york-city-street-scene-wallpaper-3.jpg);
+  background-color: #666666;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  opacity: .75;
+  margin-top: 0;
+  z-index: 5;
+  position: relative;
+}
+
+.iphone {
+  width: 30%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40%;
+  z-index: 99;
+  position: relative;
+  opacity: .25;
+  transition: ease-in ease-out;
+  transition-duration: 1.5s;
+  padding-bottom: 0;
+}
+
+.iphone_opacity {
+  opacity: 1;
+}
+
+.iphone img {
+  width: 100%;
+}
+
+.hand_one {
+  background-image: url(media/hand_grey.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.hand_two {
+  background-image: url(media/handup_.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+}
+
+.hand_three {
+  background-image: url(media/handdown_.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+  height: 100vh;
+  margin-top: -25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gif {
+  /*background: url(http://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201408/338085566.jpg);*/
+  /*background: #efefef;*/
+  border: solid 13px #396a93;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  max-width: 400px;
+  padding-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+.phb {
+  width: 100%;
+  border-radius: 10%;
+    opacity: 0.25;
+    padding-left: 2.5%;
+    padding-bottom: 1.5%;
+}
+
+.phb_opacity {
+  opacity: 1;
+}
+
+.handup {
+  margin-left: 32%;
+  margin-right: auto;
+  width: 30%;
+  max-width: 235px;
+  opacity: 0.25;
+}
+
+.handdown {
+  margin-left: 40%;
+  padding-top: 13%;
+  margin-right: auto;
+  width: 30%;
+  max-width: 235px;
+  opacity: 0.25;
+  transform: rotate(16deg);
+}
+
+.handdown img {
+  width: 100%;
+}
+
+.handup img {
+  width: 100%;
+}
+
+.comealong {
+  background-image: url(http://41.media.tumblr.com/9eaecb5843ea73c4d786c59a55937a43/tumblr_mpsviiDmo11qdeuyro1_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  position: center;
+}
+
+.lastphone {
+  width: 45%;
+  max-width: 350px;
+}
+
+.lastphone img {
+  width: 100%;
+}
+
+/* text */
+.text {
+  text-align: center;
+  padding-top: 19%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 17s;
+  animation-name: example;
+  animation-duration: 17s;
+  animation-iteration-count: none;
+  animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes example {
+  0%    {opacity: 0;}
+  25%   {opacity: 0;}
+  50%   {opacity: 1;}
+  100%  {opacity: 1}
+}
+
+.text p {
+  font-size: 24px;
+  color: #efefef;
+  font-weight: 700;
+  margin-left: 18%;
+  margin-right: 18%;
+  max-width: 650px;
+  text-align: center;
+  position: relative;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.text h1 {
+  margin-left: 16.5%;
+  margin-right: 16.5%;
+}
+
+.displayphones h2 {
+  box-sizing: border-box;
+  color: #666666;
+  margin-top: -13%;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 13%;
+}
+
+.fone {
+  transition: ease-in, ease-out;
+  transition-duration: .4s;
+}
+
+.opacity {
+  opacity: 0.1;
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: 700;
+  color: #efefef;
+  transition: ease-in ease-out;
+  transition-duration: 1.5s;
+  font-size: 10px;
+}
+
+.clarity {
+  opacity: 1;
+  font-size: 24px;
+  color: #ff5233;
+}
+
+.clarity_two {
+  opacity: 1;
+  font-size: 24px;
+}
+
+.clarity_three {
+  opacity: 1;
+  font-size: 24px;
+  color: #666666;
+}
+
+.fone:hover {
+  transform: translateY(-10%);
+  display: block;
+}
+
+.minititle {
+  margin-bottom: 0;
+  font-size: 36px !important;
+}
+
+.minititle_two {
+  margin-bottom: 15% !important;
+  font-size: 36px !important;
+  color: #efefef !important;
+}
+
+.para {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #efefef;
+  line-height: 1.7;
+  margin-top: 7%;
+}
+
+.gestures p {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+  margin-bottom: 30%;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transitionp {
+  margin-top: 14%;
+    color: #efefef;
+}
+
+.handtwop {
+  margin-top: -2%;
+  text-align: center;
+  color: #ff5233;
+}
+
+.handthreep {
+  margin-top: -2%;
+  text-align: center;
+  color: #ffa64d;
+  padding-bottom: 20%;
+  margin-bottom: 0 !important;
+}
+
+.comealong h1, h2 {
+  margin-top: 0;
+  padding-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #efefef;
+}
+
+.comealong h2 {
+  font-size: 36px;
+}
+
+/* svg */
+.windowsvg {
+  width: 130px;
+  padding-top: 20px;
+  margin-bottom: -50px;
+}
+
+.windowsvg_two {
+  width: 130px;
+  margin-left: -25px;
+  margin-bottom: -55px;
+}
+
+.windowsvg_two_ {
+  width: 75px;
+  margin-left: 45%;
+  padding-bottom: 2%;
+  margin-bottom: -5%;
+  padding-top: 10%;
+}
+
+.blinds {
+  fill: #ffa64d;
+}
+
+.curtains {
+  fill: #ff5233;
+}
+
+.mini {
+  margin-left: 45%;
+  margin-right: auto;
+  text-align: center;
+  position: center;
+  width: 75px;
+  padding-bottom: 2%;
+}
+
+.process {
+  position: fixed;
+  margin-left: 2%;
+  margin-top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #efefef;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.process:hover {
+  color: #396a93;
+}
+
+.top {
+  position: fixed;
+  right: 2%;
+  text-align: right;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #efefef;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.top:hover {
+  color: #396a93;
+}
+
+.changecolor {
+  color: #666666;
+}
+
+.greif {
+  cursor: help !important;
+}
+
+.button {
+  width: 25vw;
+  max-width: 120px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button img {
+  width: 100%;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  margin-top: 10%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 768px), (max-device-width: 480px) {
+  .bg_img {
+    height: 50vh;
+  }
+
+  .fonecase p {
+    display: none;
+  }
+
+  .windowsvg {
+    width: 75px;
+    margin-bottom: -50px;
+  }
+
+  .windowsvg_two {
+    width: 75px;
+    margin-bottom: -53px;
+    margin-left: -20px;
+  }
+
+  .text h1 {
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: -15px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .text p {
+    font-size: 18px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+  }
+
+  .landing {
+    height: 50vh;
+  }
+
+  .fone {
+    width: 90%;
+  }
+
+  .sc_img {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .sc_img p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .displayphones h2 {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    color: #666666;
+  }
+
+  .displayphones {
+    padding-top: 12%;
+  }
+
+  .screenshot {
+    width: 80%;
+  }
+
+.mini {
+  margin-left: 40%;
+  margin-right: auto;
+  width: 75px;
+  padding-bottom: 7%;
+}
+
+.windowsvg_two_ {
+  margin-left: 40%;
+}
+
+.backgroundny {
+  height: 300px;
+  margin-top: 30%;
+}
+
+.iphone {
+  width: 50%;
+  margin-top: -70%;
+  opacity: 1;
+}
+
+.para {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.gif {
+  border: solid 10px #efefef;
+  width: 40%;
+  margin-top: 0;
+}
+
+.gif img {
+  opacity: 1;
+}
+
+.hand_one {
+  margin-top: -12%;
+  background-image: none;
+}
+
+
+.transitionp {
+  margin-top: 10%;
+    color: #efefef;
+    font-size: 18px !important;
+}
+
+.hand_two {
+  width: 100%;
+  margin-top: -10%;
+  height: auto;
+  background-image: none;
+}
+
+.handup {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 40%;
+  opacity: 1;
+  padding-top: 10%;
+
+}
+
+.handtwop {
+  margin-top: 0;
+  padding-top: 10%;
+  font-size: 18px !important;
+}
+
+.hand_three {
+  background-image: none;
+  height: auto;
+  margin-top: -10%;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.handdown {
+  opacity: 1;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 10%;
+  margin-top: -10;
+}
+
+.handthreep {
+  margin-top: 10%;
+  font-size: 18px !important;
+}
+
+.comealong h1 {
+  font-size: 64px;
+  padding-top: 20%;
+}
+
+.comealong {
+  background-position: center;
+}
+
+.finale h1 {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  width: auto;
+}
+
+button {
+  margin-top: 5%;
+  margin-left: 0;
+}
+
+.fin {
+  padding-right: 0%;
+  padding: 0;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.lastphone {
+  width: 70%;
+}
+
+.fade h1 {
+  font-size: 36px;
+}
+
+.angle {
+  width: 40vw;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.angle:hover {
+  margin-top: inherit;
+  width: 40vw;
+}
+}

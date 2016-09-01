@@ -1,0 +1,81 @@
+h1 {
+    color: ;
+    font-size: 300px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    display: inline-block;
+    padding-left: auto;
+    font-family: 'Belleza', sans-serif;
+    width: 4000px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 1.5;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'crimson', normal;
+}
+
+body {
+    background: #cceeff;
+}
+
+
+}
+.quote {
+    font-style: italic;
+    text-align: left;
+}
+.quotebold {
+    margin-top: 0px;
+    font-style: italic;
+    text-align: left;
+    font-size: 400px;
+    font-family: 'Belleza', sans-serif;
+}
+.quote1 {
+    font-style: italic;
+    text-align: left;
+}
+.by {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 100px;
+    width: 1000px;
+    margin-left: 1000px;
+    font-family: 'Belleza', sans-serif;
+}
+.grey {
+    background: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 700px;
+    margin-bottom: 0px;
+}
+.blue {
+    background: #80d4ff;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    width: 1000px;
+}
+.yellow {
+    background: yellow;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 700px;
+}
+.bg-header {
+    background: #80d4ff;
+}
+.small-caps {
+    text-transform: uppercase;
+    font-size: 8px;
+}

@@ -1,0 +1,390 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4d555b;
+  margin: 0;
+}
+
+
+h1{
+  font-size: 50px;
+  color:white;
+  letter-spacing: 3px;
+  margin-bottom: -10px;
+}
+
+h1:hover{
+ color: pink;
+}
+
+.p1 {
+  color:white;
+  font-size: 20px;
+}
+
+.p2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  color:black;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.p3{
+  padding-bottom: 30px;
+}
+
+.p3{
+  padding-bottom: 25px;
+}
+.img{
+  display: inline-block;
+}
+
+.part_1{
+  margin-top: -20px;
+  padding: 50px;
+  text-align: center;
+  background: #00beec;
+
+}
+
+.part_1 video{
+  width: 70%
+}
+
+.deco{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deco img{
+  width: 100%;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+
+.part_2{
+  background-image: url("img/background.svg");
+  background-size: 100%;
+  padding-bottom: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 250px;
+
+}
+
+.quote{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  color: black;
+  padding-top: 80px;
+  font-size: 40px;
+  background: pink;
+  border-radius: 50%;
+  transition: 2s;
+}
+
+.quote:hover{
+  transform: scale(1.5);
+}
+
+
+
+
+.part_3{
+  text-align: center;
+  background: #fff100;
+  color: black;
+  padding-bottom: 60px;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.part_3 img{
+  width:300px;
+}
+
+.part_4{
+  text-align: center;
+  background: #00beec;
+  color: black;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.part_4 img{
+  width:300px;
+}
+
+.part_5{
+  text-align: center;
+  background: #fff100;
+  color: black;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.part_5 img{
+  width:300px;
+}
+
+.part_6{
+  text-align: center;
+  background: #00beec;
+  color: black;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.part_6 img{
+  width:300px;
+}
+
+.part_7{
+  background-image: url("img/background.svg");
+  background-size: 100%;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+}
+
+.quote_2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 670px;
+  color: black;
+  height: 300px;
+  font-size: 40px;
+}
+
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  margin-top: -90px;
+  width: 170px;
+}
+
+
+.button{
+  text-align: center;
+}
+
+.button img{
+  margin-top: -40px;
+  width: 150px;
+}
+
+.title{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colophon{
+  width: 500px;
+  text-align: left;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  position: relative;
+  bottom: 180px;
+  background: pink;
+  margin-bottom: -30px;
+}
+
+.colophon_2{
+  display: inline-block;
+}
+
+.colophon_text{
+  padding:20px;
+}
+
+
+/* ----MOBILE---- */
+
+@media (max-width: 768px) {
+
+
+
+  h1{
+    font-size: 30px;
+  }
+
+  .p1{
+    font-size: 15px;
+  }
+
+  .p2{
+    margin-top: -10px;
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .deco img{
+    display: none;
+  }
+
+
+  .part_1 video{
+    width: 100%
+  }
+
+  .part_2{
+    background-image: url("img/background.svg");
+    background-size: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
+
+  .quote{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    color: black;
+    padding-top: 55px;
+    font-size: 20px;
+    background: pink;
+    border-radius: 50%;
+    transition: 2s;
+  }
+
+  .part_3{
+    text-align: center;
+    background: #fff100;
+    color: black;
+    padding-bottom: 60px;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .part_3 img{
+    width: 200px;
+  }
+
+  .part_4{
+    text-align: center;
+    background: #00beec;
+    color: black;
+    padding-bottom: 60px;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .part_4 img{
+    width:200px;
+  }
+
+  .part_5{
+    text-align: center;
+    background: #fff100;
+    color: black;
+    padding-bottom: 60px;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .part_5 img{
+    width:200px;
+  }
+
+  .part_6{
+    text-align: center;
+    background: #00beec;
+    color: black;
+    padding-bottom: 60px;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  .part_6 img{
+    width:200px;
+  }
+
+  .part_7{
+    background-image: url("img/background.svg");
+    background-size: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+  }
+
+  .quote_2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    color: black;
+    height: 300px;
+    font-size: 20px;
+  }
+
+
+
+  .logo{
+    text-align: center;
+  }
+
+  .logo img{
+    margin-top: -90px;
+    width: 130px;
+  }
+
+
+  .button{
+    text-align: center;
+  }
+
+  .button img{
+    margin-top: -40px;
+    width: 150px;
+  }
+
+  .title{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .colophon{
+    font-size:12px;
+    width: 350px;
+    text-align: left;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    position: relative;
+    bottom: 180px;
+    background: pink;
+    margin-bottom: -30px;
+  }
+
+  .colophon_2{
+    display: inline-block;
+  }
+
+  .colophon_text{
+    padding:20px;
+  }

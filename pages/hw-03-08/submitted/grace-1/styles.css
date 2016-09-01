@@ -1,0 +1,36 @@
+div {
+    background-color: aliceblue;
+    border: 2px solid #ffe6cc;
+    padding: 20px;
+}
+
+.intro {
+    font-family: monospace;
+    color: white;
+    border: none;
+    background-color: #990066;
+    color: #7859a6;
+    margin: -10px;
+    margin-bottom: 100px;
+}
+
+h3, strong, em, h5, p, span {
+    margin: 30px;
+    border: 2px solid #ff99dd;
+}
+
+.five p {
+    display: inline-block;
+}
+
+.six, .seven {
+    text-align: center;
+}
+
+.six span {
+    margin: 30px 0px;
+}
+
+.eight span{
+    margin: 30px 2px;
+}

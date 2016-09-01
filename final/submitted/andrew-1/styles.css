@@ -1,0 +1,571 @@
+p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:30px;
+}
+section{
+	padding:25px;
+	border-bottom:1px;
+
+
+}
+h1{
+	position:static;
+	font-family:'Droid Sans', sans-serif; ;
+	text-align:center;
+	margin:0;
+	margin-bottom:80px;
+	color:#4c4c4c;
+	font-size:48px;
+	font-weight:300px;
+	
+}
+h2 {
+	position:absolute;
+	text-align: center;
+	color:black;
+	top:480px;
+	width:100%;
+	font-size:100pt;
+	text-indent: 50px;
+	font-family: 'Droid Sans', sans-serif;
+	margin:auto;
+
+
+}
+.header{
+	height:800px;
+	position:relative;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+   
+    background-size: cover; 
+}
+
+.introduction{
+	
+	height:800px;
+	padding:30px 0 130px 0;
+	position:relative;
+	background-color: white;
+
+}
+.section-centered{
+	padding-top: 103px;
+	box-sizing:border-box;
+	max-width:1080px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	float:right;
+}
+
+.steamcar{
+
+    width:200%;
+}
+.steamcarphoto{
+	position:absolute;
+	width:18%;
+	float:left;
+	padding-top:101px;
+}
+
+
+.section-headline{
+	color:#4c4c4c;
+	font-size:48px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 0 15px 0;
+}
+.section-body{
+	color:#555;
+	font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+}
+
+
+
+
+
+.Homescreen{
+	
+	height:800px;
+	padding:168px 0 130px 0;
+	position:relative;
+	background-color:#f6f6f6;
+}
+.section-centered2{
+	padding-top: 110px;
+	box-sizing:border-box;
+	max-width:1080px;
+	padding-left:20px;
+	padding-right:20px;
+	float:left;
+}
+.screen1{
+	width:200%;
+	
+}
+.screen1photo{
+	position:absolute;
+	width:28%;
+	float:right;
+	padding-top:101px;
+	margin-left:700px;
+
+}
+
+
+.section-headline2{
+	color:#4c4c4c;
+	font-size:48px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 0 15px 0;
+}
+.section-body2{
+	color:#555;
+	font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+	width:600px;
+	padding-left: 50px;
+}
+
+
+
+
+
+
+.Racedpage{
+	
+	height:800px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color: white;
+	
+}
+.section-centered3{
+	box-sizing: border-box;
+    max-width: 964px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:109px;
+    float:right;
+}
+
+.group314photo{
+	width:200%;
+	margin-left:30px;
+}
+
+
+.group314{
+	position:absolute;
+	width:38%;
+	float:left;
+	padding-top:101px;
+
+}
+
+.section-headline3{
+	color: #4c4c4c;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 5px 0 15px 0;
+}
+.section-body3{
+	color: #555;
+    font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+
+}
+
+.Gagpage{
+	
+	height:750px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color:#f6f6f6;
+	
+	
+}
+/*#protoype{
+	width:500px;
+	height:1200px;
+	  margin-left: 910px;
+    margin-right: auto;
+    display: block
+
+
+}
+*/
+.section-centered4{
+	
+	box-sizing:border-box;
+	
+	margin-left:167px;
+	max-width:1080px;
+	padding-left:20px;
+	padding-right:20px;
+	float:left;
+}
+
+
+
+
+.section-headline4{
+	color:#4c4c4c;
+	font-size:48px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 0 15px 0;
+}
+.section-body4{
+	color:#555;
+	font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+}
+
+
+.colophon{
+	
+	height:583px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color: white;
+}
+.section-centered5{
+	box-sizing: border-box;
+    max-width: 1080px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:109px;
+    float:right;
+    margin-right:400px;
+}
+.Context{
+	width:200%;
+	
+}
+.modern{
+	position:absolute;
+	width:28%;
+	float:left;
+	
+	margin-left:200px;
+
+}
+
+
+.section-body5{
+	    color: #555;
+    font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+
+}
+
+
+
+
+
+
+
+/* ----- MOBILE ----- */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1, p, aside {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    aside {
+        font-size: 50px; 
+    }
+
+    
+ 	
+   .introduction{
+	
+	height:504px;
+	padding:30px 0 130px 0;
+	position:relative;
+	background-color: white;
+
+}
+.section-centered{
+	padding-top: 64px;
+	box-sizing:border-box;
+	max-width:1080px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	float:right;
+}
+
+.steamcar{
+
+   width:40vw;
+    	position:absolute;
+    	margin-top:202px;
+    	padding:154px;
+    	padding-left:88px;
+    	
+}
+.steamcarphoto{
+	position:absolute;
+	width:auto;
+	float:left;
+	padding-top:101px;
+}
+
+
+.section-headline{
+	color:#4c4c4c;
+	font-size:38px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 0 15px 0;
+}
+.section-body{
+	color:#555;
+	font-size:17px;
+	font-weight:200;
+	line-height:1.4;
+}
+
+
+
+
+
+.Homescreen{
+	
+	height:504px;
+	padding:175px 15px 121px 12;
+	position:static;
+	background-color:#f6f6f6;
+}
+.section-centered2{
+	padding-top: 0px;
+	box-sizing:border-box;
+	max-width:1080px;
+	padding-left:63px;
+	padding-right:20px;
+	float:left;
+}
+.screen1{
+	width:135%;
+	
+}
+.screen1photo{
+	position:absolute;
+	width:67%;
+	float:left;
+	padding-top:326px;
+	margin-right:20px;
+
+}
+
+
+.section-headline2{
+	color:#4c4c4c;
+	font-size:38px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 6px 18px -18px;
+}
+.section-body2{
+	color:#555;
+	font-size:17px;
+	font-weight:200;
+	line-height:1.4;
+	width:230px;
+	padding-left: 0px;
+}
+
+
+
+
+
+
+.Racedpage{
+	
+	height:504px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color: white;
+	
+}
+.section-centered3{
+	box-sizing: border-box;
+    max-width: 1080px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:0px;
+    float:right;
+}
+
+.group314photo{
+	width:202%;
+	margin-left:82px;
+}
+
+
+.group314{
+	position:absolute;
+	width:63%;
+	float:left;
+	padding-top:215px;
+
+}
+
+.section-headline3{
+	color: #4c4c4c;
+    font-size: 41px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 5px 0 15px 0;
+}
+.section-body3{
+	color: #555;
+    font-size:17px;
+	font-weight:200;
+	line-height:1.4;
+
+}
+
+.Gagpage{
+	
+	height:820px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color:#f6f6f6;
+	
+	
+}
+/*#protoype{
+	width:500px;
+	height:1200px;
+	  margin-left: 910px;
+    margin-right: auto;
+    display: block
+
+
+}
+*/
+.section-centered4{
+	
+	box-sizing:border-box;
+	
+	margin-left:37px;
+	max-width:1080px;
+	padding-left:0px;
+	padding-right:36px;
+	float:left;
+}
+
+
+
+
+.section-headline4{
+	color:#4c4c4c;
+	font-size:17px;
+	font-weight:300px;
+	letter-spacing:-1px;
+	line-height:1;
+	margin:5px 0 15px 0;
+}
+.section-body4{
+	color:#555;
+	font-size:17px;
+	font-weight:200;
+	line-height:1.4;
+}
+
+
+.colophon{
+	
+	height:600px;
+	padding:123px 0 130px 0;
+	position:relative;
+	background-color: white;
+}
+.section-centered5{
+	box-sizing: border-box;
+    max-width: 1080px;
+    padding-left: 65px;
+    padding-right: 39px;
+    padding-top:0px;
+    float:right;
+    position:absolute;
+}
+.Context{
+	width:200%;
+	
+}
+.modern{
+	position:absolute;
+	width:56%;
+	float:left;
+	padding-top:400px;
+	margin-left:60px;
+
+}
+
+
+.section-body5{
+	    color: #555;
+    font-size:38px;
+	font-weight:200;
+	line-height:1.4;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

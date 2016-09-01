@@ -1,0 +1,156 @@
+
+h1{
+ margin-left: 70px; 
+ margin-right: auto;
+ padding-top:50px;
+ font-family: futura;
+ text-align: left;
+    
+}
+
+.summary{
+ margin-left: 70px; 
+ margin-right: 70px;
+ padding-top:50px;
+ font-family: futura;
+ text-align: left;
+ 
+}
+
+h2{
+ margin-left: 70px; 
+ margin-right: auto;
+ padding-top:50px;
+ font-family: futura;
+ text-align: left;
+}
+
+/*task1.*/
+.elementgroup{
+    font-family: futura;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background: pink;
+    
+}
+
+.format{
+    font-family: futura;
+    width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*task2,3.*/
+.red{
+    color: red;
+}
+
+/*task4.*/
+.greenborder{
+    border: solid;
+    border-color: green;w
+    width:40%;
+    display: inline;   
+}
+
+/*task4.*/
+.pinkborder{
+    border: solid;
+    border-color: pink;
+    
+    width:40%;
+    display: inline; 
+}
+
+/*task4.*/
+.divtext{
+    display: inline;
+    border:solid;
+}
+
+/*task4.*/
+.inline{
+    display: block;
+    
+}
+
+/*task5,6.*/
+.inlineblock{
+    display:inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border:solid;
+    border-color:aquamarine;
+}
+
+/*task6.*/
+.aligninline{
+    border: solid;
+    border-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+/*task7.*/
+.block{
+    display:inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;  
+}
+
+/*task7.*/
+.alignblock{
+    border: solid;
+    border-color: pink;
+    text-align: center;
+}
+
+/*task8.*/
+.nonfloat{
+    border: solid;
+    border-color: orange;
+}
+
+/*task8.*/
+.float{
+    float:left;
+    border: solid;
+    border-color: skyblue;
+}
+
+/*task9.*/
+.float1{
+    float:right;
+    border: solid;
+    border-color: skyblue;
+    height:40px;
+}
+
+
+
+
+
+.padding{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color:white;
+}
+
+@media (max-width: 768px) {
+/*<--whatever you want the text to change to when the screen gets smaller-->*/
+}

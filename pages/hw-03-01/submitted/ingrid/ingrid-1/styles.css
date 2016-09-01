@@ -1,0 +1,54 @@
+h1 {
+    color: ;
+    font-size: 200px;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    display: inline-block;
+    padding-left: auto;
+    font-family: 'Open Sans', serif;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 1.5;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 100px;
+    width: 1000px;
+}
+
+.by {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.bg-grey {
+    background: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-yellow {
+    background: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-header {
+    background: blue
+}
+
+.small-caps {
+    text-transform: uppercase;
+    font-size: 8px;
+}

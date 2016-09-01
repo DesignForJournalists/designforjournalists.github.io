@@ -1,0 +1,386 @@
+/* top navigation */
+.body {
+    font-size: 18px;
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Muli', sans-serif;
+}
+
+.nav li {
+    display: inline;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #920727;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+/* general */
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 0% 12%; 
+}
+
+section {
+    padding: 2% 10%;
+}
+
+
+/* page transition */
+
+
+
+/* main part*/
+
+.title {
+    padding: 20% 9%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 7em;
+    font-weight: 500;
+    color: #ff9d00;
+}
+
+.main-image {
+    margin-left: 27%;
+}
+
+.main-image img {
+    width: 60%;
+}
+
+.hooksumm {
+    margin-bottom: 10%;
+}
+
+.hooksumm p {
+    font-size: 1.8em;
+    color:#929292;
+}
+
+/* explanation */
+
+.explanation {
+    padding-bottom: 20%;
+}
+
+
+#sub {
+    padding: 15% 12% 5% 12%;
+    font-size: 2.8em;
+    text-align: left;
+    color: #920727;
+}
+
+.explanation p {
+    font-size: 1.8em;
+    color:#929292;
+    
+}
+
+
+.scan p {
+    display:block;
+    width: 40%;
+}
+
+    
+.scan-img {
+    z-index: -1;
+    position: absolute;
+    top: 250%;
+    left: 35.5%;
+}
+
+.scan-img img {
+    width: 204%;
+    height: auto;
+}
+
+
+/* video */
+
+.video-wrapper {
+    overflow:hidden;
+    margin-top: 50%;
+    margin-bottom: 20%;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.video-wrapper iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* other features */
+
+.feature-blocks {
+    display: block;
+    width: 98%;
+    height: auto;
+    padding: 0%;
+    margin-top: -20%;
+    padding-left: 2%;
+    padding-bottom: 20%;
+}
+
+
+.feature-blocks p {
+    font-size: 1.2em;
+    color: #929292;
+}
+
+.block {
+    display: inline-block;
+    width: 300px;
+    padding: 5%;
+    margin: 5% 2%;
+}
+
+.block img {
+    width: 90%;
+    border: 1px solid #888888;
+    box-shadow: 5px 5px 3px #888888;
+}
+
+.block p {
+    display: block;
+    width: 125%;
+    padding-top: 12%;
+    margin-left: -23%;
+}
+
+/* about */
+
+.aboutproject {
+    padding: 5% 12% 12% 12%;
+    background-color: #ff9d00;
+    padding-bottom: 5%;
+}
+
+.aboutproject .title {
+    margin-top: -2.5%;
+    padding-bottom: 25%;
+}
+
+.aboutproject h1{
+    margin-left: 12%;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: beige;
+}
+
+.aboutproject p {
+    font-size: 1.5em;
+    padding-bottom: 3%;
+    color: #920727;
+}
+
+
+/* credit */
+
+.end p {
+    font-size: 1.3em;
+    padding-bottom: 3%;
+}
+
+.footer {
+    margin-left: -8%;
+    padding-top: 30%;
+    font-size: .8em;
+    line-height: 180%;
+}
+
+/* process */
+
+.process-title {
+    padding: 15% 12% 5% 5%;
+    font-size: 2.5em;
+    text-align: left;
+    color: #ff9d00;
+}
+
+
+.process img {
+    padding: 5%;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+
+/* media */
+
+@media screen and (max-width:768px) {
+
+   
+    /* top nav */    
+    .nav li {
+        display: block;
+        padding: 2%;
+        font-size: .9em;
+        margin-left: -8%;
+    }
+    
+    /* general */
+    p {
+        padding: 0% 7%;
+        line-height: 1.3em;
+    }
+
+    section {
+        padding: 2% 7%;
+    }
+
+
+    /* main part*/
+
+    .title {
+        font-size: 3.5em;
+        padding: 50% 0%;
+    }
+
+
+    .main-image {
+        padding-top: 25%;
+        margin-left: -15%;
+    }
+    
+    .main-image img {
+        width: 109%;
+    }
+    
+    .hooksumm p {
+        font-size: 1.3em;
+    }
+    
+
+     /* explanation */
+    
+    #sub {
+        padding-left: 6%;
+        font-size: 2em;
+    }
+    
+    .explanation p {
+        font-size: 1.3em;
+    }
+    
+    
+    .scan p {
+    display:block;
+    width: 90%;
+    }  
+    
+    .scan-img {
+        position: relative;
+        left: 0%;
+        margin-top: 70%;
+        margin-bottom: 10%;
+        margin-right: 0%;
+        overflow: hidden;
+        width: 110%;
+    }
+
+    .scan-img img {
+        width: 120%;
+        height: auto;
+    }
+
+
+    /* other features */
+    
+    .block {
+        padding-top: 10%;
+        padding-bottom: 40%;
+    }
+    
+    .block img {
+        margin-left: 5%;
+    }
+    
+    .block p {
+        width: 90%;
+        margin-left: -3%;
+    }
+    
+    /* about */
+    
+    .aboutproject {
+        padding: 8%;
+    }
+ 
+    .aboutproject h1 {
+        margin-left: 7%;
+        font-size: 1.3em;
+    }
+    
+    .aboutproject p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+    
+    .container {
+        padding-top: 30%;
+    }
+    
+    /* process */
+    
+    .process img {
+        width: 95%;
+        height: auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .process-title {
+        font-size: 1.7em;
+        line-height: 1.4em;
+    }
+    
+    .process p {
+        line-height: 1.4em;
+        padding-top: 10%;
+    }
+
+    .end {
+        width: 50%;
+        margin-left: 8%;
+    }
+    
+    .end p {
+        font-size: 1.1em;
+        padding-bottom: 3%;
+    }
+}

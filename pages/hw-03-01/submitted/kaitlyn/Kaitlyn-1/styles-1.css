@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: linear-gradient(#FA8072,#5F9EA0);
+}
+
+h1 {
+  color: #5F9EA0;
+  font-size: 200px;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  font-weight: normal;
+  font-family: 'Rye', cursive;
+
+}
+
+
+p{
+  font-size:35px;
+  line-height: 2;
+  letter-spacing: 2px;
+  width: 875px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.first{
+  color:#568e8f;
+}
+
+.second{
+  color:#fb9084;
+  line-height: 4;
+}
+
+.third{
+  color:#fb9084;
+  font-size:20px;
+  text-align: right;
+  padding-bottom: 100px;
+}

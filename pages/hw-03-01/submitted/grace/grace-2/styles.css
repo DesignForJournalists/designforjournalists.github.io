@@ -1,0 +1,47 @@
+body {
+    background-color: #f7f7ed;
+    margin: 80px 150px;
+    margin-bottom: 0px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
+
+h1, h3 {
+    font-weight: 200;
+    color:#ff0000;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.partone, .parttwo {
+    padding: 100px;
+    padding-bottom: 150px;
+    font-size: 22px;
+}
+
+.parttwo {
+    background-color: black;
+    margin: 0px -150px;
+    padding-bottom: 100px;
+}
+
+.partone {
+    color: #6d786d;
+}
+
+.parttwo p {
+    color:aliceblue;
+    padding: 20px 100px;
+    font-weight: 300;
+    color:#262626;
+    font-size: 28px;
+}
+
+em {
+    color:	#590d0d;
+    text-transform: uppercase;
+    font-style: normal;
+}

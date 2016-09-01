@@ -1,0 +1,201 @@
+h1 {
+
+}
+
+body {
+  margin-left: auto;
+  margin-top: 350px;
+  margin-right: auto;
+  background: #f1f2f4;
+}
+
+p {
+  width: 485px;
+  padding-left: 300px;
+  font-family: 'Bitter', serif;
+  color: #404040;
+}
+
+p:hover {
+  text-decoration: line-through;
+}
+
+.beginning {
+  margin-bottom: 600px;
+}
+
+.phonenumber {
+  margin-bottom: 300px;
+}
+
+.claims {
+  margin-bottom: 300px;
+}
+
+.blame {
+  margin-bottom: 150px;
+}
+
+.therapist {
+  margin-bottom: 450px;
+  margin-left: 320px;
+}
+
+.salsa {
+  margin-bottom: 300px;
+  line-height: 1.5;
+}
+
+.weak {
+  margin-left: 100px;
+}
+
+.pressure {
+  margin-left: 344.5px;
+}
+
+.yousay {
+  margin-left: 100px;
+  margin-top: 75px;
+}
+
+.so {
+  margin-left: 250px;
+  margin-top: 30px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.sorry {
+  margin-left: 250px;
+  margin-top: 80px;
+}
+
+.youtry {
+  margin-top: 300px;
+  margin-bottom: 550px;
+  text-align: center;
+  padding-left: 202px;
+}
+
+.nope {
+  text-align: left;
+}
+
+.oneday {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.nomore {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .2s ease-in-out;
+}
+
+.nomore:hover {
+  transform: scale(2.5);
+  text-decoration: none;
+  font-weight: bold;
+  color: #b32d00;
+  margin-left: -205px;
+}
+
+.and {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.and:hover {
+  text-decoration: none;
+}
+
+.hellyeah {
+  text-align: center;
+  margin-bottom: 125px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .2s ease-in-out;
+}
+
+.hellyeah:hover {
+  text-decoration: none;
+  transform: scale(2.5);
+  font-weight: bold;
+  color: #b32d00;
+  margin-left: -225px;
+}
+
+.fin {
+  margin-top: 1250px;
+  margin-bottom: 350px;
+  text-align: center;
+}
+
+.Harlem {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.consider1 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.consider2 {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.fact {
+  text-align: center;
+  margin-top: 375px;
+}
+
+.fin:hover {
+  text-decoration: none;
+}
+
+.youwont {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.she {
+  color: #ffb399;
+}
+
+.you {
+  color: #336699;
+}
+
+.title {
+  font-size: 175px;
+  margin-top: -185px;
+  text-align: left;
+  margin-bottom: 300px;
+  font-weight: bold;
+  width: 750px;
+  letter-spacing: .3;
+}
+
+.author {
+  font-size: 12px;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.author:hover {
+  text-decoration: none;
+}
+
+.loser:hover {
+  color: #f1f2f4;
+  text-decoration: none;
+}

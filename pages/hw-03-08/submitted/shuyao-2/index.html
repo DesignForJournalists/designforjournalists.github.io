@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my first typographic webpage">
+    <meta name="author" content="Dylan Greif">
+  <title>Michel de Montaigne+Rob Siltanen</title>
+  <link rel="stylesheet" href="quote.css">
+  <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body class="bg">
+<section>
+<div class="crazy">“HERE<span>’</span>S TO THE <span class="pink">CRAZY ONES.</span></div>
+<a href="#s2">
+  <div class="s1">The misfits.<br>The rebels.<br>The troublemakers.<br><span class="big">The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo.↓ </span></div>
+</a>
+<div class="s3 white">You can <span>quote</span> them, <span>disagree</span> with them, <span>glorify</span> or <span>vilify</span> them. About the only thing you can't do is <span>ignore</span> them. <br class="big">Because they change things.<br class="big">
+</div>
+<div class="s4">
+  The end of our race is death; ’tis the necessary object of our aim, which, if it fright us, how is it possible to advance a step without a fit of ague?<br>
+  The remedy the vulgar use is not to think on’t; but from what brutish stupidity can they derive so gross a blindness? They must bridle the ass by the tail:
+</div>
+
+<div class="s5 big">
+  They<br>push <br>the<br><br><br>human<br>race<br>forward. <br>
+  <img src="https://cdn4.iconfinder.com/data/icons/mini-arrows-3/16/103-512.png" height="50px" width="50px">
+</div>
+<div class="s6 big">
+  And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.”
+</div>
+
+<a href="#top">
+  <div id=s2>
+    <div class="fly">
+    <span><em>‘Qui capite ipse suo instituit vestigia retro,’</em></span> <br class="big">
+[ ‘Who in his folly seeks to advance backwards’ — Lucretius, iv. 474]
+ </div>
+</div>
+</a>
+</section>
+<script type="text/javascript">
+$(document).ready(function(){
+        var scroll_pos = 0;
+        $(document).scroll(function() {
+            scroll_pos = $(this).scrollTop();
+            if(scroll_pos < 210) {
+                $("body").css('background-color', 'white');
+            } else if(scroll_pos < 4000) {
+                $("body").css('background-color', 'red');
+            } else {
+                $("body").css('background-color', '#00FF00');
+            }
+        });
+    });
+</script>
+
+</body>

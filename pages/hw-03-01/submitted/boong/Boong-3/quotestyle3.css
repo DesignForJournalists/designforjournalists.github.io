@@ -1,0 +1,52 @@
+h1 {
+  color: white;
+  font-size: 198;
+  text-align: left;
+  letter-spacing: 1.25;
+  margin-top: 95px;
+  margin-bottom: 155px;
+  margin-left: -200px;
+  line-height: 1.25;
+  font-weight: normal;
+}
+
+body {
+  background-color: black;
+  width: 890px;
+  margin-left: 300px;
+  margin-right: auto;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  color: yellow;
+  font-weight: normal;
+  letter-spacing: 1.1;
+}
+
+.big {
+  font-size: 45px;
+}
+
+.bold {
+  text-transform: bold;
+  font-size: 45px;
+  font-family: 'Kotta One', serif;
+  letter-spacing: 1.05;
+  margin-bottom: 80px;
+}
+
+.by {
+  margin-left: -200px;
+  color: white;
+  font-size: 135px;
+  font-family: 'Kotta One', serif;
+  margin-top: 75px;
+}
+
+.blue {
+  color: #81F7F3;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

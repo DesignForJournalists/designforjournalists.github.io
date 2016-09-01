@@ -1,0 +1,125 @@
+
+
+h1 {
+   color: #FDF9C0;
+   font-size: 100px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: .3px;
+   font-weight: bold;
+
+   margin-top: 50px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'helvetica', serif;
+
+}
+
+p {
+    color: #FDE3C0;
+    font-size:30px;
+  line-height: 10;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+}
+
+/*
+p:first-of-type {
+  font-style: italic;
+}
+
+*/
+.quote {
+  font-style: italic;
+    color: #FDE3C0;
+    font-size:20px;
+  line-height: 10;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+
+}
+
+
+p2{
+   color: #FDF9C0;
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: .3px;
+   font-weight: bold;
+  line-height: 1.5;
+   margin-top: 50px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'helvetica', serif;
+}
+
+
+.one{
+  font-style: italic;
+    color: #FDE3C0;
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+}
+
+.three{
+  font-style: italic;
+    color: #FDE3C0;
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+}
+
+.five{
+  font-style: italic;
+    color: #FDE3C0;
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+}
+
+
+.seven{
+  font-style: italic;
+    color: #FDE3C0;
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+  width: 100%;
+    background-color: #FDF9C0;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 50px;
+  font-family: "helvetica";
+}

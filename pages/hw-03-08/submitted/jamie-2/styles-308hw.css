@@ -1,0 +1,460 @@
+body{
+    margin:0;
+}
+
+.title{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    text-align:center;
+    padding-top:auto;
+    padding-bottom: 20px;
+    color:lightgreen;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dollarsign{
+    font-family:futura;
+    font-size: 20px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom: auto;
+    color:gold;
+}
+
+.subtitle{
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom: auto;
+    color:gold;
+
+}
+
+
+.number{
+    color:lightgrey;
+    font-family: futura;
+}
+.numbers1{
+    font-family:futura;
+    font-size: 15px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom: auto;
+    
+}
+.numbers2{
+    font-family:futura;
+    font-size: 15px;
+    text-align: left;
+    padding-top:20px;
+    padding-bottom: auto;
+    
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers3{
+    font-family:futura;
+    font-size: 15px;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers4{
+    font-family:futura;
+    font-size: 15px;
+    text-align: left;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers5{
+    font-family:futura;
+    font-size: 15px;
+    text-align: left;
+    padding-top:30px;
+    padding-bottom: auto;
+    color:lightgrey;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers6{
+    font-family:futura;
+    font-size: 15px;
+    text-align: left;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers7{
+    font-family:futura;
+    font-size: 15px;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers8{
+    font-family:futura;
+    font-size: 15px;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers9{
+    font-family:futura;
+    font-size: 15px;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers10{
+    font-family:futura;
+    font-size: 15px;
+    text-align: right;
+    padding-top:30px;
+    padding-bottom: auto;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gu1{
+    
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    color: lightgreen;
+    padding-top: auto;
+    padding-bottom: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1000px;
+    text-align: left;
+       
+}
+
+.gu2{
+    
+   
+    font-size: 18px;
+    color: lightgreen;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: auto;
+    margin-left: 20px;
+    margin-right: auto;
+    font-family: 'Homemade Apple', cursive;
+     
+}
+
+.gu3{
+    
+    font-size: 18px;
+    color: lightgreen;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;  
+    font-family: 'Homemade Apple', cursive;
+}
+
+.grownup1{
+    color:lightgray;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    
+    
+}
+
+.grownup2{
+    color:#bfbfbf;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.grownup3{
+    color:darkgray;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.format{
+     text-align: center;
+    
+    
+    
+}
+.quote1{
+    display:inline-block;
+    font-family: futura;
+    font-size: 18px;
+    color: lightgreen;
+    text-align: left;
+    padding-top: px;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.blank{
+    display:inline-block;
+    font-family:futura;
+    font-size: 15px;
+    color:  lightgray;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left:50px;
+    margin-right:60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width:250px;
+    text-align: left;
+}
+
+.quote2{
+    display:inline-block;
+    font-family: futura;
+    font-size: 18px;
+    color: gold;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    
+}
+
+
+.question1{
+     font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    color: lightgray;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.question2{
+     font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    color: #bfbfbf;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.question3{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.instead{
+    font-family: futura;
+    font-size: 18px;
+    color: gold;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.question4{
+    display:inline-block;
+    font-family: futura;
+    font-size: 25px;
+    color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+
+
+.question5{
+    display:inline-block;
+    font-family: futura;
+    font-size: 25px;
+    color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 390px;
+}
+
+.question6{
+    display:inline-block;
+    font-family: futura;
+    font-size: 25px;
+    color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.question7{
+    font-family: futura;
+    font-size:  100px;
+    color: darkgray;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+.earn{
+    color:lightgreen;
+     font-family: 'Chewy', cursive;
+}
+
+.onlythen{
+    font-family: futura;
+    font-size: 18px;
+    color: pink;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.house{
+    display:inline-block;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    color: lightgray;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-decoration: line-through;
+}
+
+.francs{
+    display:inline-block;
+    font-family: futura;
+    font-size: 18px;
+    color: lightgreen;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 250px;
+    
+    
+    
+}
+
+.then{
+     font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    color: lightgrey;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+   
+    
+}
+
+.pretty{
+    font-family: futura;
+    font-size: 18px;
+    color: pink;
+    text-align: left;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    
+}
+
+.right{
+    text-align:right;
+    padding-left: 475px;
+}
+
+.but{
+    font-family: futura;
+    font-size: 18px;
+    color: lightgrey;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+.padding{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color:white;
+}
+
+.attribute{
+    font-family: futura;
+    font-size: 15px;
+    color: lightgrey;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.gold{
+    color:gold;
+}

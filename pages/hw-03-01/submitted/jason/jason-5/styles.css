@@ -1,0 +1,89 @@
+h1 {
+
+}
+
+body {
+  margin-top: 225px;
+  margin-left: 300px;
+  margin-right: auto;
+  background-color: #FFFAFA;
+}
+
+p {
+  padding-top: 125px;
+  font-family: 'Noto Serif', serif;
+  width: 450px;
+  z-index: 99;
+  color: #262626;
+  line-height: 2.25;
+  font-size: 21px;
+}
+
+div {
+   display: block;
+   z-index: 3;
+   width: 825px;
+   height: 775px;
+   margin-left: -220px;
+   margin-top: -605px;
+}
+
+.white {
+  color: #cccccc;
+  font-weight: bolder;
+}
+
+.nihon {
+  line-height: 190px;;
+  font-size: 170px;
+  width: 50px;
+  margin-left: -205px;
+  margin-top: -695px;
+  font-weight: bolder;
+  color: #990000;
+}
+
+.haku {
+  line-height: 190px;;
+  font-size: 170px;
+  width: 50px;
+  margin-left: 430px;
+  margin-top: -1620px;
+  font-weight: bolder;
+  color: #efefef;
+  z-index: -2;
+}
+
+.Japanese {
+  color: #990000;
+  font-weight: bolder;
+}
+
+.open {
+  font-size: 175px;
+  margin-left: -115px;
+  margin-top: -495px;
+  margin-bottom: 800px;
+}
+
+.title {
+  font-size: 12px;
+  margin-top: -355px;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.author {
+  font-size: 12px;
+  margin-top: -140px;
+  margin-bottom: 200px;
+  color: #cccccc;
+}
+
+.movie {
+  font-size: 75px;
+  line-height: 85px;
+  width: 30px;
+  margin-left: 480px;
+  margin-top: -1295px;
+}

@@ -1,0 +1,60 @@
+body {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 150px;
+    font-family: 'Josefin Slab', serif;
+    background-color: #e9f9ff;
+}
+
+h1, h2, h3, h4, p {
+    padding: 50px 0px;
+    line-height: 1.2;
+}
+
+h1, h2,h3 {
+    font-weight: 300;
+}
+
+h3 {
+    margin-left: 350px;
+    color: #ff0000;
+    padding-top:400px;
+}
+h4 {
+    font-weight: 400;
+    margin-top:400px;
+    margin-left: 350px;
+}
+
+
+.because {
+    padding-top: 300px;
+    margin-left: 550px;
+}
+
+
+.quote {
+    width: 1500px;
+    font-family: 'Kaushan Script', cursive;
+    font-size:90px;
+    color: #f7e5d4;
+    opacity: .8;
+}
+
+.love {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 100px;
+    color: #ff0000;
+    float: right;
+    margin-right:-80px;
+    opacity: .7;
+}
+
+em {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-style: normal;
+    color: #ff0000;
+}

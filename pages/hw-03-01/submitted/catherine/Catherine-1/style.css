@@ -1,0 +1,36 @@
+h1{
+  font-family: 'Old Standard TT', serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 500px;
+  color: #999999;
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+}
+
+p{
+  font-family: 'Old Standard TT', serif;
+  color: #bfbfbf;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p2 {
+  text-align: center;
+}
+
+.p4 {
+  text-align: center;
+}
+
+.by {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.em {
+  color:  #737373;
+}

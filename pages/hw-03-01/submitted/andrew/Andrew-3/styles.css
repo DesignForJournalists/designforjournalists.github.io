@@ -1,0 +1,71 @@
+
+
+h1{
+font-size:50pt;
+text-align:center;
+
+}
+
+
+.hello{
+	background-color: red;
+	margin-left:200px;
+	font-size:30pt;
+	font-family: Verdana;
+
+}
+
+.hello1{
+
+	background-color:yellow;
+	margin-left:400px;
+	font-size:25pt;
+	font-family: Verdana;
+
+}
+
+
+.hello2{
+
+	background-color:red;
+	margin-left:500px;
+	font-size:20pt;
+	font-family: Verdana;
+
+}
+
+
+.hello3{
+
+	background-color:yellow;
+	margin-left:600px;
+	font-size:15pt;
+	font-family: Verdana;
+
+}
+
+.hello4{
+
+	background-color:yellow;
+	margin-left:700px;
+	font-size:10pt;
+	font-family: Verdana;
+
+}
+.hello5{
+
+	background-color:red;
+	margin-left:800px;
+	font-size:8pt;
+	font-family: Verdana;
+
+}
+
+.hello6{
+
+	background-color:red;
+	margin-left:900px;
+	font-size:8pt;
+	font-family: Verdana;
+
+}

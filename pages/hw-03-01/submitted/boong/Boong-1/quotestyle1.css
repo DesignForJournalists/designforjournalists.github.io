@@ -1,0 +1,45 @@
+h1 {
+  color: orange;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  font-weight: normal;
+  margin-top: 100px;
+  margin-bottom: -15px;
+  font-family: 'Gabriela', serif;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  color: gray;
+}
+
+body {
+  background-color: #FFFFCB;
+  width: 587px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  border: 5px solid pink;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 78px;
+  padding-right: 78px;
+}
+.caption {
+  font-family: 'Fira Sans', serif;
+  text-align: left;
+  font-weight: 300;
+  color: orange;
+  margin-left: 280px;
+  width: 300px;
+  margin-bottom: 40px;
+}

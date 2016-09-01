@@ -1,0 +1,33 @@
+body {
+    padding: 80px;
+    background-color: #00cc99;
+}
+
+h1 {
+    color: white;
+    font-family: 'Contrail One', cursive;
+    font-size:35px;
+    float: right;
+    clear: left;
+    width: 800px;
+}
+
+p {
+    float: left;
+    clear: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:24px;
+    color: 	#e7e4e4;
+}
+
+p:last-child {
+    padding-bottom: 60px;
+}
+
+em {
+    color: #d9bfcc;
+    background-color: #ff0066;
+    font-size:100px;
+}
+
+br { line-height: 100px;}

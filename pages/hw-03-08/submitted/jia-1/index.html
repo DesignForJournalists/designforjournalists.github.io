@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Jia Gao">
+  <title>3/8/16 in class exercise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="intro">
+    <h1 style="padding: 100px;">html layout essentials that jia learned from <a href="http://ed-ex.github.io/pages/03-08/workshop/index.html">this exercise</a></h1>
+</div>
+
+<h2>task 1: create group of elements contained in a parent element, and attribute a style to the parent element.</h2>
+  <section class="element-group">
+    <h1>why would you want one element put inside another element?</h1>
+    <p>so that you can group elements together, and then design that group in a certain way.</p>
+  </section>
+
+<h2>task 2:  create a layout comprised of a sequence of inline elements, one after the other.</h2>
+  <section class="element-group">
+    <p>
+      <span style="border: 1px solid red">when</span>
+      <span style="border: 1px solid red">you</span>
+      <span style="border: 1px solid red">add</span>
+      <span style="border: 1px solid red">inline</span>
+      <span style="border: 1px solid red">elements</span>
+      <span style="border: 1px solid red">on</span>
+      <span style="border: 1px solid red">a</span>
+      <span style="border: 1px solid red">page</span>
+      <span style="border: 1px solid red">they</span>
+      <span style="border: 1px solid red">will</span>
+      <span style="border: 1px solid red">be</span>
+      <span style="border: 1px solid red">laid</span>
+      <span style="border: 1px solid red">out</span>
+      <span style="border: 1px solid red">left-to-right</span>
+      <span style="border: 1px solid red">top-to-bottom</span>
+  </section>
+
+<h2>task 3: create a layout comprised of a sequence of block elements, one going after the other.</h2>
+  <section class="element-group">
+    <p>
+      <div class="w-200">block elements stack top-to-bottom</div>
+      <div class="w-400">each element stretches horizontally to take up its own entire line</div>
+      <div class="w-100">other inline or block context cannot appear to the left or right of the block element</div>
+    </p>
+  </section>
+
+
+<h2>task 4: create a layout of elements, where at least one inline element was turned into a block element, vice versa.
+</h2>
+  <section class="element-group">
+    <p>
+      <div class="divblock">i am a div, which displays as block by default, but am displaying inline instead</div>
+      <span class="spaninline">i am a span, which display as inline by default, but am displaying block instead</span>
+    </p>
+  </section>
+
+<h2>task 5:  create a layout comprised of inline-block elements.</h2>
+  <section class="element-group">
+    <p>
+      <div class="divblock2">an inline-block element will be built as if it were a block element</div>
+      <div class="divblock3">but it will flow on the page as if it were an inline element</div>
+    </p>
+  </section>
+
+<h2>task 6: create a layout comprised inline content that is centered in its container.</h2>
+  <section class="element-group">
+    <p>
+      <div class="divblock4">
+        <span class="spaninline2"> the parent div has the style attribute of text-align: center; </span> <span class=spaninline3> which centers both inline span elements in the parent. </span>
+      </div>
+    </p>
+  </section>
+
+<h2>task 7: create a layout comprised a block element that is centered in its container.</h2>
+  <section class="element-group">
+    <p>
+      <div class="divblock5">the div is both centering itself in its own parent and it is centering all inline text inside it.</div>
+    </p>
+  </section>
+
+<h2>task 8: create a layout comprised an element floating amid other inline elements.</h2>
+  <section class="element-group">
+    <p>
+    <div class="divblock6">
+      <span style="border: 1px solid red;">float</span>
+      <span style="border: 1px solid red;">aligns</span>
+      <span style="border: 1px solid red;">block and inline elements</span>
+      <span style="border: 1px solid red;">and</span>
+      <span style="border: 1px solid red;">it will overlap with</span>
+      <span style="border: 1px solid red;">sibling block elements</span>
+      <span style="border: 1px solid red;">but not</span>
+      <span style="border: 1px solid red;">inline elements</span>
+      <span class="float"> float </span>
+    </div>
+    </p>
+  </section>
+
+<h2>task 9: create a layout comprised an element floating amid block elements.</h2>
+  <section class="element-group">
+    <p>
+    <div class="divblock6">
+      <div style="border: 1px solid red;">every</div>
+      <div style="border: 1px solid red;">word</div>
+      <div style="border: 1px solid red;">is in a div</div>
+      <div class="float2"> float </div>
+      <div style="border: 1px solid red;">forces other</div>
+      <div style="border: 1px solid red;">block elements</div>
+      <div style="border: 1px solid red;">to overlap</div>
+      <div style="border: 1px solid red;">behind it</div>
+    </div>
+    </p>
+  </section>
+
+</body>

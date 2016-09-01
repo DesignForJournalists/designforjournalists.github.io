@@ -1,0 +1,65 @@
+h1 {
+  color: black;
+  font-size: 180px;
+  font-weight: normal;
+  margin: 0px;
+  background: yellow;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-family: 'Kotta One', serif;
+}
+h2 {
+  color: magenta;
+  background: white;
+  font-size: 230px;
+  margin-left: 690;
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+h3 {
+  color: blue;
+  background: #2EFEF7;
+  font-size: 150px;
+  margin-left: 400px;
+  padding-left: 30px;
+  margin-top: 20px;
+  font-family: 'Chewy', cursive;
+}
+p {
+  margin-left: 180px;
+  width: 400px;
+  font-size: 20px;
+  color: white;
+  font-style: bold;
+  font-family: 'Molengo', sans-serif;
+  line-height: 1.4;
+}
+body{
+  background: -webkit-linear-gradient(yellow,#FF8000, pink);
+  margin: 0px;
+}
+h4 {
+  color: pink;
+  background: black;
+  font-size: 140px;
+  margin-right: 600;
+  padding-left: 180px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: 'Kotta One', serif;
+}
+.bott{
+  margin-bottom: 80px;
+}
+.bpad{
+  padding-bottom: 55px;
+  padding-top: 15px;
+  background: black;
+  margin-right: 600;
+}
+.cap{
+  text-transform: uppercase;
+}

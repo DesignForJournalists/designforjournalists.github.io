@@ -1,0 +1,47 @@
+body {
+    background-color: #FF5B5B;
+}
+
+.header {
+    width: 400px;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 33px;
+    color: #CCCA14;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #995050;
+    letter-spacing: 2px;
+    
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 7px solid #CCCA14;
+}
+
+.quote {
+    margin: -580px 50px 50px 50px;
+    width: 650px;
+    float: right;
+    border: 7px solid #abb398;
+    padding: 13px 25px 25px 30px;
+}
+
+.quote p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+    color: #d4e0b8;
+}

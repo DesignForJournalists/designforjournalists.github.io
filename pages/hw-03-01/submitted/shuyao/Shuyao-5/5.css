@@ -1,0 +1,38 @@
+body {background-color: white;}
+
+
+h1 {
+  color:  black;
+  font-size: 3px;
+  text-align: left;;
+  line-height: 0.7;
+  font-weight: bold;;
+font-family: 'Fredericka the Great', cursive;
+padding-top: 50px;
+padding-bottom: 20px;
+padding-left: 30px;
+margin-top: 0;}
+
+.quote {
+  color: black;
+font-family: 'Homemade Apple', cursive;
+  line-height:1;
+  width:100px;
+padding-left: 100px;
+font-size: 1px;}
+
+.attrib{
+  font-size: 15px;
+  align-items: right;
+  color:black;
+  text-align:right;
+  margin-bottom:100px;
+  letter-spacing: 1.6;
+  padding-right: 30px;
+  font-family: 'Fredericka the Great', cursive;}
+
+  .white {color: #cceeff;}
+
+div{
+  padding: 10px;
+}

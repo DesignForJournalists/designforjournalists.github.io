@@ -1,0 +1,249 @@
+h1{
+  color: white;
+  font-family: helvetica;
+  font-size: 50;
+  margin-left: 50px;
+}
+p{
+  color: white;
+  font-family: helvetica;
+  font-size: 20;
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h3{
+  font-family: helvetica;
+  font-size:21;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h3:first-child{
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h2{
+  font-family: helvetica;
+  font-size: 100;
+  color: #FF5454;
+  text-align: center;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: 13;
+  -webkit-animation-duration: .2s;
+  margin-top: 50px;
+}
+.h3{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.test {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 300px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.span {
+  font-size: 20;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.test2 {
+  background-color: #FF5454;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 300px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.test3 {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p1{
+  background-color: white;
+  color: black;
+}
+.p2{
+  background-color: white;
+  color: black;
+  width: 200px;
+}
+.p3{
+  background-color: pink;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+.test4{
+  background-color: #FF5454;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  padding-top: 5px;
+  display: inline;
+}
+.block2{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-right: 10px;
+  display: inline;
+}
+.blocky1{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  display: block;
+}
+.blocky2{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  display: block;
+}
+.test5{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 400px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block3{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.block4{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.test6{
+  background-color: #FF5454;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 400px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  background-color: black;
+  margin: 5px;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.span2{
+  background-color: white;
+  color: black;
+  margin: 5px;
+}
+.span3{
+  background-color: white;
+  color: black;
+  margin: 5px;
+}
+.test7{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 600px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-center{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  text-align: center;
+}
+.not{
+  font-size: 80;
+  float: right;
+  color: black;
+  font-weight: bold;
+}
+span{
+  font-family: helvetica;
+  color: white;
+
+}
+.float1{
+  background-color: #FF5454;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+.test9{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 600px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.border{
+  border: solid;
+  border-color: white;
+}
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}

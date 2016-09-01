@@ -1,0 +1,288 @@
+.serif {
+  font-family: 'EB Garamond', serif;
+}
+
+.sansserif {
+font-family: 'Raleway', sans-serif;
+font-size:30px;
+}
+.head {
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  position:absolute;
+  margin-top: 100px;
+  width:100px;
+  text-align: center;
+  margin-left:500px;
+  z-index: 1;
+  opacity:0.5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+}
+.yellowone {
+  display:inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowone:hover {
+  background-color: #F0DC02;
+}
+
+.yellowtwo {
+  display:inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowtwo:hover {
+  background-color: #F0DC02;
+}
+
+.yellowthree {
+  display:inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowthree:hover {
+  background-color: #F0DC02;
+}
+.yellowfour {
+  display: inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowfour:hover {
+  background-color: #F0DC02;
+}
+
+.yellowfive {
+  display:inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size:40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowfive:hover {
+  background-color: #F0DC02;
+}
+
+.yellowsix {
+  display:inline-block;
+  color:white;
+  padding:60px;
+  width:100px;
+  height:100px;
+  text-align:center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.yellowsix:hover {
+  background-color: #F0DC02;
+}
+
+.quote {
+  font-family: 'Raleway', serif;
+  font-size:200px;
+  color: #F0DC02;
+  margin-top: 60px;
+}
+
+.advice {
+  font-family: 'EB Garamond', sans-serif;
+  font-size:30px;
+  text-decoration: line-through;
+  width:300px;
+}
+
+.rockone {
+  text-align: right;
+  margin-bottom:100px;
+  margin:5%;
+  font-size:130px;
+  color:black;
+
+}
+
+.gradient {
+  background:linear-gradient(#FFFFFF,#F0DC02);
+  padding:50px;
+}
+
+.circle {
+    height:300px;
+    width:300px;
+    background:white;
+    top:50px;
+    left:30%;
+    border-radius:150px;
+    text-align:center;
+
+  }
+
+.circleinside {
+    padding-top: 100px;
+    text-align:center;
+    width:200px;
+    font-family: 'Raleway', serif;
+    font-size:30px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.form {
+  margin-left:25%;
+  height:200px;
+  width:400px;
+  margin-bottom:0px;
+}
+
+.reconfigure {
+  margin-left:50%;
+  margin-top:0px;
+}
+
+.content {
+  color: #FA6837;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+
+}
+
+.c-1 {
+  height:400px;
+  width:400px;
+  background:white;
+  top:50px;
+  left:40%;
+  border-radius:200px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-2 {
+    padding-top: 100px;
+    text-align:center;
+    width:200px;
+    font-size:23px;
+    margin-left: auto;
+    margin-right: auto;
+    top:40%;}
+
+.c-2:hover{
+    text-decoration: line-through;
+  }
+
+.margin {
+  margin-left:20px;
+  width:100%;
+}
+
+.shell{
+  color:#F0DC02;
+  text-align:center;
+  margin:200px;
+  text-decoration: underline;
+  background-color:#F0DC02;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+.shell:hover {
+  color:black;
+  transform: scale(.50);
+  transition:.2s ease-in-out;
+}
+
+.listening {
+  font-size:200px;
+  margin-top:30px;
+}
+
+.dichotomy {
+  text-align:left;
+  font-size:80px;
+  font-weight: 600px;
+  opacity:70%;
+  color:#F0DC02;
+  text-transform: uppercase;
+  line-height:160px;
+  margin-bottom: 200px;
+
+}
+
+.red {
+  color:#FA6837;
+}
+
+.lastone {
+  -webkit-transform:rotate(-30deg);
+  padding:50px;
+  margin:50px;
+  margin-bottom:100px;
+  margin-right:100px;
+  margin-top:500px;
+  text-align: center;
+  font-size:15px;
+  font-style: italic;
+}
+
+.lasttwo {
+  -webkit-transform:rotate(30deg);
+  padding-bottom:500px;
+  margin-bottom:800px;
+  margin-top:600px;
+  text-align: center;
+  font-size:15px;
+  font-style: italic;
+}
+
+.mywrite {
+  margin-left:40px;
+  margin-top:300px;
+  margin-bottom:150px;
+  line-height: 20px;
+  font-family: 'Cutive Mono';
+  font-size:15px;
+  width:50%;
+
+}

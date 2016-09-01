@@ -1,0 +1,127 @@
+h1 {
+
+}
+
+body {
+  margin-left: 200px;
+  margin-top: 220px;
+  height: 400px;
+  width: 13100px;
+  margin-right: 1500px;
+  background: #fff5cc;
+}
+
+p {
+  font-family: 'Meddon', cursive;
+  font-size: 15px;
+  color: #281b0b;
+}
+
+.nonentity {
+  margin-left: 800px;
+  margin-top: -38px;
+}
+
+.eccentric {
+  margin-left: 1500px;
+  margin-top: -38px;
+}
+
+.unpleasant {
+  margin-left: 2300px;
+}
+
+.somebody {
+  margin-left: 2450px;
+  margin-top: 80px;
+}
+
+.low {
+  margin-left: 3500px;
+  margin-top: 260px;
+}
+
+.second {
+  margin-top: -390px;
+  margin-left: 4400px;
+}
+
+.show {
+  margin-top: -10px;
+  margin-left: 4700px;
+}
+
+.sucha {
+  margin-top: -5px;
+  margin-left: 5200px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.heart {
+  margin-top: -170px;
+  margin-left: 6600px;
+  color: crimson;
+}
+
+.ambition {
+  margin-top: -100px;
+  margin-left: 7400px;
+  width: 470px;
+}
+
+.umph {
+  font-weight: bold;
+}
+
+.misery {
+  margin-left: 8700px;
+  margin-top: -50px;
+}
+
+.depths {
+  margin-top: 300px;
+  margin-left: 8950px;
+}
+
+.misery1{
+  margin-top: -90px;
+  margin-left: 9800px;
+}
+
+.misery2 {
+  margin-top: -90px;
+  margin-left: 10100px;
+}
+
+.music {
+  margin-top: -150px;
+  margin-left: 10500px;
+}
+
+.inside {
+  margin-top: -250px;
+  margin-left: 12500px;
+}
+
+.fin {
+  margin-top: 250px;
+  margin-left: 12490px;
+}
+
+div {
+  width: 240px;
+  height: 240px;
+  background: red;
+  display: block;
+  margin-left: 12420px;
+  margin-top: -435px;
+  border-radius: 8.5em;
+  background: red; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#fffae6, #fff5cc, #fff5cc); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#fffae6, #fff5cc, #fff5cc); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#fffae6, #fff5cc, #fff5cc); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#fffae6, #fff5cc, #fff5cc); /* Standard syntax (must be last) */
+}

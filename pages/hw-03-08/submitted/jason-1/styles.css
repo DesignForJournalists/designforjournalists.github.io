@@ -1,0 +1,311 @@
+
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+
+div {
+  color: white;
+}
+
+p {
+}
+
+h1 {
+  color: midnightblue;
+  font-size: 18px;
+  margin-left: 30px;
+  text-decoration: underline;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lego {
+  color: red;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.header {
+  font-size: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.subheading {
+  margin-left: 30px;
+  margin-top: -30px;
+  font-size: 25px;
+  color: #404040;
+  width: 555px;
+}
+
+.description {
+  margin-top: -20px;
+  margin-left: 30px;
+  color: #404040;
+}
+
+.none {
+  font-style: none;
+}
+
+.task1 {
+  color: #39ac6b;
+}
+
+.firstclass {
+  background: #efefef;
+  padding-left: 120px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: darkgrey;
+  padding-bottom: 15px;
+}
+
+.span1 {
+  margin-left: 70px;
+  /* Cannot change top and bottom margin or weidth margin-top: 1000px;*/
+  background: salmon;
+  color: #efefef;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.task3 {
+  border-style: dotted;
+  border-color: pink;
+  border-width: 3px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  border-width: 90px;
+}
+
+.taskIII {
+  border-style: groove;
+  border-color: pink;
+  border-width: 3px;
+  margin-bottom: 30px;
+  margin-left: 270px;
+  border-width: 50px;
+  width: 50%
+}
+
+.taskThree {
+  border-style: double;
+  border-color: pink;
+  border-width: 3px;
+  margin-bottom: 30px;
+  margin-left: 240px;
+  border-width: 30px;
+  width: 25%;
+}
+
+.333 {
+  width: 400px;
+}
+
+.task4 {
+  display: inline;
+  border-style: solid;
+  border-color: lightsalmon;
+  margin-left: 120px;
+}
+
+.taskFour {
+  display: inline;
+  border-style: solid;
+  border-color: lightsalmon;
+}
+
+.taskIV {
+  display: block;
+  border-style: inset;
+  border-color: maroon;
+  width: 50px;
+  margin-left: 200px;
+  border-width: 20px;
+}
+
+.Four {
+  display: block;
+  border-style: inset;
+  border-color: maroon;
+  width: 140px;
+  margin-left: 220px;
+  border-width: 20px;
+  margin-bottom: 130px;
+}
+
+.parentdiv {
+  margin-left: 70px;
+  margin-bottom: 120px;
+}
+
+.V5 {
+  display: inline-block;
+  border-style: groove;
+  border-color: lightgreen;
+  border-width: 44px;
+}
+
+.V {
+  display: inline-block;
+  border-style: ridge;
+  border-color: lightgreen;
+  border-width: 22px;
+  margin-left: 5px;
+}
+
+.mother {
+  border-style: double;
+  border-color: yellow;
+  text-align: center;
+  padding: 30px;
+  width: 250px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.twin {
+  border-style: dotted;
+  border-color: lightyellow;
+  border-width: 20px;
+  display: inline-block;
+}
+
+.only {
+  text-align: center;
+  border-style: solid;
+  border-color: orange;
+  border-width: 3px;
+  width: 300px;
+  margin-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.task8 {
+  text-decoration: underline;
+  font-style: normal;
+  color:  #333333;
+}
+
+.me {
+  float: right;
+  font-style: italic;
+  color: red;
+}
+
+.number8 {
+  width: 100px;
+  margin-left: 200px;
+  border-style: groove;
+  border-width: 15px;
+  border-color: red;
+  padding: 5px;
+  margin-bottom: 80px;
+  margin-top: 70px;
+}
+
+.you {
+  float: left;
+  background: red;
+}
+
+.nine {
+  border-style: solid;
+  border-color: darkgreen;
+  border-width: 5.5px;
+  padding-left: 50px;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: darkgreen;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.orange {
+  border-style: dotted;
+  border-color: orange;
+  border-width: 10px;
+  float: right;
+  border-radius: 17px;
+  padding: 10px 5px 10px 5px;
+  color: orange;
+  margin-top: -32px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 125px;
+}
+
+.mommy {
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+
+  .pathoslogos {
+    width: 100%;
+  }
+
+  .task3 {
+    margin-left: 30px;
+  }
+
+  .taskIII {
+    margin-left: 27px;
+  }
+
+  .taskThree {
+  margin-left: 24px;
+  }
+
+  .number8 {
+    margin-left: 120px;
+  }
+
+  .task4 {
+    margin-left: 32px;
+  }
+
+  .taskIV {
+    margin-left: 110px;
+  }
+
+  .Four {
+    margin-left: 152px;
+  }
+
+}
+
+/* Mobile and smaller screen adjustents */
+
+@media (max-width: 490px) {
+
+  .only {
+    margin-left: 30px;
+  }
+
+  .subheading {
+    width: 315px;
+  }
+
+}
+
+@media (max-width: 405px) {
+
+.mother {
+  margin-left: auto;
+  margin-right: auto;
+
+}

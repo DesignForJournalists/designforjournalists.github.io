@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  background: #F8B8B8;
+}
+.description {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.4;
+}
+h1{
+  color: #ffffff;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 100px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+p {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .7px;
+  line-height: 1.5;
+  text-align: left;
+  width: 550px;
+  margin-left: 70px;
+}
+.prompt {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.4;
+  width: 550px;
+}
+.small-caps {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+}
+.block1 {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  letter-spacing: .7px;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+
+}
+.block2 {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  letter-spacing: .7px;
+  text-align: left;
+  width: 100px;
+  border-style: dotted;
+  border-width: 1px;
+}
+.block3 {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  letter-spacing: .7px;
+  text-align: left;
+  height: 100%;
+  border-style: double;
+  border-width: 1px;
+}
+.block4 {
+  color: #ffffff;
+  font-family: 'Cardo';
+  font-weight: 400;
+  letter-spacing: .7px;
+  text-align: left;
+  height: 100px;
+  border-style: dashed;
+  border-width: 1px;
+}
+.inline-div {
+  width: 1000px;
+  margin-left: 70px;
+  display: inline;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+
+  font-family: 'Cardo';
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+.block-span {
+  width: 1000px;
+  margin-left: 70px;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  margin-top: 8px;
+  font-family: 'Cardo';
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+.box5 {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  width: 70px;
+  padding: 15px;
+}
+.container6 {
+  width: 430px;
+  margin-left: 70px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+}
+.borderpink {
+  border-style: solid;
+  border-color: #F8B8B8;
+  border-width: 1px;
+  padding: 1px;
+  margin: 3px;
+  color: #F8B8B8;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .7px;
+}
+.container7 {
+  width: 430px;
+  height: 40px;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  text-align: center;
+  color: #F8B8B8;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .7px;
+  line-height: 1.5;
+}
+.container8 {
+  width: 500px;
+  height: 65px;
+  margin-left: 70px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+}
+.float-right {
+  border-style: solid;
+  border-color: #F8B8B8;
+  background: #F8B8B8;
+  padding: 5px;
+  color: white;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .7px;
+  line-height: 1.5;
+  float: right;
+}
+.float-left {
+  border-style: solid;
+  border-color: #F8B8B8;
+  background: #F8B8B8;
+  padding: 5px;
+  color: white;
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .7px;
+  line-height: 1.5;
+  float: left;
+}
+.container9 {
+  width: 500px;
+  height: 260px;
+  margin-left: 70px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+  margin-bottom: 50px;
+}
+}

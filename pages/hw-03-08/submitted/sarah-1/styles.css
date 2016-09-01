@@ -1,0 +1,124 @@
+h1 {
+  font-size:100px;
+  font-style: normal;
+  font-family: 'Lora', serif;
+  text-align: center;
+  margin-top: 50px;
+  color: #EB216B;
+}
+
+p {
+  font-size:15px;
+  font-style:normal;
+  font-family: 'Lora',serif;
+  text-align:left;
+  margin:auto;
+  width:850px;
+  line-height:25px;
+}
+
+.headers {
+  font-family:'Lora',serif;
+  font-size:30px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin:15px;
+}
+.paragraph {
+  background:#E8E8E8;
+  padding:100px;
+}
+
+.italic {
+  font-style: italic;
+  color: #EB216B;
+}
+
+.color-1 {
+  color: #0DD189;
+}
+
+.three {
+  border:dotted #E8E8E8;
+}
+
+.threeone {
+  border:dotted #E8E8E8;
+  height:100px;
+}
+
+.taskfour {
+  display:block;
+}
+
+.taskfourtwo{
+  display:inline;
+  border:dotted #0DD189;
+}
+
+.five {
+  text-align:center;
+}
+.taskfive {
+  display:inline-block;
+  color:white;
+  background: #EB216B;
+  padding:60px;
+
+}
+
+.taskfivetwo {
+  display:inline-block;
+  color:white;
+  background: #0DD189;
+  padding:60px;
+
+}
+
+.sixone {
+  color:white;
+  background: #EB216B;
+  display:inline;
+}
+
+.sixtwo {
+  color:white;
+  background: #CB19FC;
+  display:inline;
+}
+
+.disix {
+  border:solid #0DD189;
+  text-align:center;
+  padding:30px;
+}
+
+.sevenparent {
+  text-align:center;
+  border:solid #CB19FC;
+  padding:50px;
+}
+
+.sevenchild {
+  margin-left: auto;
+  margin-right:auto;
+  background:yellow;
+}
+
+.eightone {
+  border: dotted #CB19FC;
+}
+
+.differentone {
+  background: #CB19FC;
+  float:left;
+  height: 50px;
+}
+
+.differenttwo {
+  background: #CB19FC;
+  float:right;
+  height: 50px;
+  line-height: 60px;
+  margin:7%;
+}

@@ -1,0 +1,98 @@
+h1 {
+}
+
+body {
+  padding-top: 300px;
+  background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F5F5DC, #F5F5DC, #f5f5a3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F5F5DC, #F5F5DC, #f5f5a3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F5F5DC, #F5F5DC, #f5f5a3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F5F5DC, #F5F5DC, #f5f5a3); /* Standard syntax (must be last) */
+
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  width: 550px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+  color: #332900;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: #F5F5DC;
+  margin-top: -200px;
+  transition: all .2s ease-in-out;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #1b1735;
+  transform: scale(2.75);
+}
+
+.you {
+  font-family: 'Advent Pro', sans-serif;
+  color:#1b1735;
+  font-weight: bold;
+}
+
+.notyou {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: #1b1735;
+}
+
+.author {
+  font-size: 18px;
+  margin-top: -275px;
+  margin-bottom: 275px;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bold;
+  color: #1b1735;
+}
+
+.fin {
+  margin-bottom: 420px;
+  margin-top: 450px;
+}
+
+.fin:hover {
+  text-decoration: underline;
+}
+
+.first {
+  margin-bottom: 450px;
+  margin-top: 300px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(2.0);
+text-decoration: underline; }
+
+.homeroom {
+  margin-top: 300px;
+  margin-bottom: 200px;
+}
+
+.eggs {
+  margin-bottom: 300px;
+}
+
+.twiceeggs {
+  margin-bottom: 600px;
+}
+
+.just {
+  margin-top: 150px;
+  margin-bottom: 450px;
+}
+
+.watching {
+  font-size: 50px;
+}

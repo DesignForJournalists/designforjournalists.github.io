@@ -246,7 +246,7 @@ p.example-item {
     width: 100%;
 }
 
-/* article content */
+/* student work */
 .student-work {
     padding-top: 10px;
     padding-bottom: 80px;
@@ -352,6 +352,43 @@ footer li:last-of-type {
     }
     .article-item {
         margin-bottom: 20px;
+        width: 100%;
+    }
+    /* student work */
+    .student-work {
+        padding-top: 10px;
+        padding-bottom: 80px;
+        background: #efefef;
+    }
+    .student-work::after {
+        content:"◊";
+        width: 100%;
+        color: #681CFF;
+        font-size: 1.4em;
+        font-weight: 700;
+        text-align: center;
+        display: block;
+        margin: 60px 0 0;
+    }
+    .student {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .student-item {
+        background: #ffffff;
+        margin-right: 6px;
+        margin-bottom: 20px;
+        padding-bottom: 60px;
+        opacity: 1;
+        transition: .3s ease;
+        position: relative;
+        border: 1px solid #681CFF;
+        width: 40%;
+    }
+    .student-item img {
         width: 100%;
     }
     footer ul {

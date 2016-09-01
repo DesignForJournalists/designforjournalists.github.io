@@ -1,0 +1,76 @@
+h1 {
+    color: coral;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-left: auto;
+    font-family: 'crimson Text', serif;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 1.5;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Crimson', serif;
+    font-style: 400;
+    color:
+}
+
+h2 {
+    color: black;
+    font-size: 30;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-left: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'crimson Text', serif;
+}
+
+.p1 {
+    color: black;
+    font-size: 15pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+body {
+    background: beige;
+}
+
+.first {
+    border-right: auto;
+    border-left: 30px;
+    width: 1500px
+}
+
+.first1 {
+    border-bottom: 10px dotted coral;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: 1500px;
+}
+
+.quote {
+    font-style: regular;
+}
+
+.by {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.bg-grey {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,444 @@
+/*COVER*/
+
+#h1 {
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    margin-left: 40%;
+    margin-right: auto;
+    font-size: 12vw;
+    /* color: #ff6600;*/
+    color: #2EE57D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.2;
+    float: right;
+    position: absolute;
+}
+
+h1:hover {
+    color: white;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.author {
+    width: 50vw;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.intro {
+    height: 45%;
+    background: white;
+    width: 70%;
+    margin-top: 50%;
+    margin-left: 0;
+    position: absolute;
+}
+
+.intro2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.7;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: black;
+    height: 60%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+/*GENERAL*/
+
+body {
+    margin: 0em;
+    line-height: .5em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-resolution: from-image;
+    background-size: 120em 8e0m;
+    background-position: 20% 40%;
+    background-image: linear-gradient(transparent, #FFF) left repeat;
+    background: url('images/new-york-city.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    width: 55%;
+    margin-left: 40%;
+    margin-right: auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #250e1f;
+    z-index: 5000;
+}
+
+
+/*SECTIONS:INTERVIEW*/
+
+.interview {
+    height: 300vh;
+    padding-top: 5%;
+    background: white;
+    width: 100%;
+    margin-top: 30%;
+    padding-bottom: 2%
+}
+
+.interview2 {
+    height: 625vh;
+    padding-top: 5%;
+    background: white;
+    width: 100%;
+    //margin-bottom: 40%;
+    padding-bottom: 5%;
+    margin-top: 0%;
+}
+
+.answer {
+    font-size: 1.5em;
+}
+
+.question {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 250%;
+    font-style: italic;
+    color: white;
+    background-color: #2EE57D;
+    display: block;
+    padding-left: 10%;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.questionphoto1 {
+    display: none;
+    float: left;
+}
+
+.questionphoto2 {
+    display: none;
+    float: left;
+}
+
+.quest3 {
+    display: inline-block;
+    float: left;
+    margin-bottom: 5%
+}
+
+.quest1 {
+    display: inline-block;
+    float: left;
+    margin-bottom: 5%
+}
+
+photo {
+    width: 10%;
+    margin-right: 10%;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    background-color: #2EE57D;
+    padding-left: 10%;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.quest1 {
+    display: inherit;
+}
+
+.quest2:hover .questionphoto1 {
+    display: inherit;
+}
+
+.quest4:hover .questionphoto1 {
+    display: inherit;
+    margin-top: 25px;
+}
+
+.quest5:hover .questionphoto1 {
+    display: inherit;
+}
+
+
+/*SECTION:QUOTE*/
+
+.quotecont {
+    marging-top: 0%;
+    margin-bottom: 0%;
+    width: 100vw;
+}
+
+.quote {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 500%;
+    font-style: italic;
+    color: #2EE57D;
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.7;
+}
+
+.quotetext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+    font-style: italic;
+    color: #2EE57D;
+    display: block;
+    line-height: 1.7;
+}
+
+.quote:hover {
+    color: white;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+/*SECTION: GALLERY*/
+
+.gallery {
+    height: 90vh;
+    padding-top: 5%;
+    background: white;
+    width: 100%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.captionphoto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    background-color: #2EE57D;
+    padding-left: 20%;
+    padding-right: 2%;
+    text-transform: uppercase;
+    line-height: 1.7;
+    display: inline-block;
+}
+
+.questionphoto1 {
+    display: none;
+    float: left;
+}
+
+.quest6 {
+    padding: 0px;
+    display: inline;
+    float: left;
+    margin: 3%;
+}
+
+.quest6:hover .questionphoto1 {
+    display: inherit;
+}
+
+
+/*FINAL*/
+
+.source {
+    height: 25%;
+    background: white;
+    width: 70%;
+    margin-top: 39%;
+    margin-left: 0;
+    position: absolute;
+}
+
+.source2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.7;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: black;
+    height: 60%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+/*SPECIFIC*/
+
+
+/*IMAGES*/
+
+.empty {
+    height: 10%;
+}
+
+
+/*MOBILE*/
+
+@media (max-width:768px) {
+    p {
+        width: 70%;
+        font-size: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .image {
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+    }
+    .quote {
+        margin-bottom: 50%;
+        font-size: 250%;
+    }
+    .quotecont {
+        margin: 5%
+    }
+    #h1 {
+        height: 50%;
+    }
+    h1 {
+        font-size: 12vw;
+        color: white;
+    }
+    .intro {
+        width: 100%;
+        height: 80%;
+    }
+    .intro2 {
+        width: 80%;
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .question {
+        font-size: 100%;
+    }
+    .questionphoto1 {
+        display: inherit;
+        float: right;
+    }
+    .questionphoto2 {
+        display: none;
+        float: left;
+    }
+    .img6 {
+        width: 40%;
+    }
+    .quest3 {
+        display: inline;
+        margin-bottom: 5%;
+        margin-left: -50%;
+    }
+    .quest1 {
+        display: inline;
+        float: left;
+        margin-left: -50%;
+    }
+    a {
+        padding-left: 40%;
+    }
+    .img2 {
+        width: 40%;
+        height: auto;
+    }
+    .img3 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0%
+    }
+    .img1 {
+        margin-left: width: 100%;
+        height: auto;
+    }
+    .img4 {
+        display: none;
+    }
+    .interview {
+        height: 200%
+    }
+    .interview2 {
+        height: 520%
+    }
+    .gallery {
+        height: 90vh;
+        padding-top: 5%;
+        background: white;
+        width: 100%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    .captionphoto {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: italic;
+        color: white;
+        background-color: #2EE57D;
+        padding-left: 20%;
+        padding-right: 2%;
+        text-transform: uppercase;
+        line-height: 1.7;
+        display: inline-block;
+    }
+    .questionphoto1 {
+        display: inherit;
+        float: left;
+    }
+    .quest6 {
+        padding: 0px;
+        display: inline;
+        float: left;
+        margin: 3%;
+    }
+    .quotetext {
+        display: none;
+    }
+    .quote {
+        font-size: 250%;
+        color: white;
+    }
+    .source {
+        width: 100%;
+        height: 20%;
+    }
+    .source2 {
+        width: 80%;
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .src {
+        padding-left: 0;
+    }
+    .answer {
+        font-size: 100%;
+    }
+    contain {
+        z-index: -5000;
+    }
+}

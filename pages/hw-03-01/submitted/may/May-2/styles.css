@@ -1,0 +1,50 @@
+h1 {
+  color: yellow;
+  font-weight: 900;
+  letter-spacing: .5px;
+  text-transform: ;
+  font-size: 250px;
+  width: 1000px;
+  margin-left: 150px;
+  margin-right: auto;
+  text-align: center;
+}
+h1:first-of-type {
+  padding-top: 80px;
+}
+body {
+  background-color: blue;
+}
+p {
+  color: white;
+  font-family: 'Playfair Display', serif;  font-size: 30px;
+  width: 600px;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+p:first-of-type {
+  margin-top: 100px;
+}
+
+.attribute {
+  text-align: right;
+  font-family: 'Playfair Display', serif;
+  color: yellow;
+  font-weight: bold
+  margin-bottom: 400px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+.bg-grey {
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/01561/Nietzsche_1561170c.jpg");
+  padding-bottom: 30px;
+  padding-right: 1000px;
+}
+.bg-bottom {
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/01561/Nietzsche_1561170c.jpg");
+  height: 240px;
+  padding-bottom: 30px;
+  padding-right: 1000px;
+}

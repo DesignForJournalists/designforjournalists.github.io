@@ -1,0 +1,124 @@
+.intro {
+  font-family: sans-serif;
+  color: white;
+  border: none;
+  background-color: red;
+  margin: 80px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: inline-block;
+  background-color: yellow;
+}
+
+h3 {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-left: 250px;
+}
+
+.element-group {
+  text-align: center;
+  border: 1px solid red;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  color: red;
+  border: 2px solid blue;
+}
+
+.w-200{
+  width: 200px;
+  border: 1px solid red;
+}
+
+.w-400 {
+  width: 400px;
+  border: 1px solid blue;
+}
+
+.w-100 {
+  width: 100px;
+  height: 70px;
+  border: 1px solid red;
+}
+
+.divblock {
+  border: 1px solid blue;
+  display: inline;
+  height: 10px;
+}
+
+.spaninline {
+  border: 1px solid red;
+  display: block;
+}
+
+.spaninline2{
+  border: 1px solid blue;
+  margin: 5px;
+}
+.spaninline3{
+  border: 1px solid blue;
+  margin: 5px;
+}
+
+.divblock2{
+  display: inline-block;
+  border: 1px solid red;
+  width: 100px;
+}
+
+.divblock3{
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.divblock4{
+  border: 1px solid red;
+  text-align: center;
+}
+
+.divblock5{
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.divblock6{
+  border: 1px solid red;
+  height: 150px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float{
+  float: right;
+  border: 1px solid blue;
+}
+
+.float2{
+  float: left;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,89 @@
+
+
+h1 {
+   color: #CF4200;
+   font-size: 100px;
+   text-align: left;
+   text-transform: uppercase;
+   letter-spacing: .3px;
+   font-weight: bold;
+   border-bottom: 100px solid #E491FF;
+/*   display: inline-block;*/
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: "decimabold";
+
+}
+
+p {
+    font-size: 17px;
+    color: #CF4200;
+  line-height: 3;
+  width: 550px;
+  position: float;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: auto;
+  font-family: "decima";
+}
+
+/*
+p:first-of-type {
+  font-style: italic;
+}
+
+*/
+
+@font-face {
+  font-family: "decimabold";
+  src: url("decimabold.otf");
+}
+@font-face {
+  font-family: "decima";
+  src: url("DecimaMonoPro.otf");
+}
+
+
+.quote {
+    font-size: 10px;
+    color:aqua;
+  font-style: italic;
+    margin-top: -240px;
+    letter-spacing: 3px;
+}
+
+
+.sub {
+    color:#CF4200;
+  font-style: italic;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    font-family: "decimabold"
+}
+
+.two {
+    color:aqua;
+  font-style: italic;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    font-family: "decima"
+}
+
+.three {
+    color:#CF4200;
+  font-style: italic;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    font-family: "decimabold"
+}
+
+.four {
+    color:aqua;
+  font-style: italic;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    font-family: "decima"
+}
+

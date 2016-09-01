@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  background: linear-gradient(#E0FFFF,#ADD8E6,#87CEFA);
+}
+
+h1 {
+  color: #5F9EA0;
+  font-size: 200px;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 1px;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-weight: normal;
+  font-family: 'Fugaz One', cursive;
+  -webkit-transform: rotate(-7deg);
+
+}
+
+h2{
+  -webkit-transform:rotate(-90deg);
+  color: #5F9EA0;
+  font-size: 200px;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 1px;
+  margin-top: -10px;
+  margin-left: 50px;
+  font-weight: normal;
+  font-family: 'Fugaz One', cursive;
+}
+
+p{
+  color: #FF4500;
+  font-size:20px;
+  line-height: 2;
+  letter-spacing: 2px;
+  width: 875px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 510px;
+  font-family: 'Muli', sans-serif;
+  -webkit-transform: rotate(-7deg);
+}
+
+.congrats{
+font-size: 15px;
+}
+.godown{
+  font-size: 15px;
+  margin-bottom: 500px;
+  margin-left: 1000px;
+  -webkit-transform: rotate(0deg);
+  font-family: 'Muli', sans-serif;
+}
+
+.brains{
+  margin-left: 500px;
+}
+.out{
+  -webkit-transform: rotate(0deg);
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 1250px;
+}
+.off{
+  margin-left: 500px;
+  -webkit-transform: rotate(-7deg);
+}
+
+.off2{
+  font-size: 25px;
+  margin-left: 1000px;
+  margin-bottom: 600px;
+}
+.updown{
+  margin-bottom: auto;
+}
+.search{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+input[type="text"]{
+  -webkit-transition: width .35s ease-in-out;
+  width:100px;
+}
+
+input[type="text"]:focus {
+  width 250px;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+    background-color: #FFD700;
+-webkit-transform: rotate(-7deg);
+}
+
+input[type="text"]:hover {
+  width:250px;
+  outline: none;
+  border:1px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+    background-color: #87CEFA;
+-webkit-transform: rotate(7deg);
+}
+
+.upsearch{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.downsearch{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.look{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  font-size: 40px;
+  -webkit-transform: rotate(0deg);
+}
+
+.about{
+  -webkit-transform: rotate(5deg);
+  margin-left: 900px;
+  margin-top: 20px;
+}
+.say{
+  margin-top: auto;
+    margin-left: 900px;
+    margin-bottom: 100;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+      -webkit-transform: rotate(90deg);
+}
+
+.make{
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+
+.worst{
+  -webkit-transform: rotate(7deg);
+  margin-left: 800px;
+  margin-top: 20px;
+}
+
+.youbest{
+    -webkit-transform: rotate(0deg);
+    font-size: 25px;
+    text-align: center;
+}
+.find{
+  margin-bottom: auto;
+}
+div.last {
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    -webkit-transform: rotate(-50deg);
+
+
+}
+.open{
+  -webkit-transform: rotate(0deg);
+  text-align: center;
+}
+.air{
+  width:1500px;
+  text-align: center;
+  letter-spacing: 50px;
+  font-size: 25px;
+  margin-top: -250px;
+-webkit-transform: rotate(0deg);
+
+}
+.stop{
+  letter-spacing: 5px;
+  -webkit-transform: rotate(-7deg);
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+.any{
+  letter-spacing: 5px;
+  -webkit-transform: rotate(0deg);
+  font-weight: 600;
+  font-size: 400px;
+  margin-bottom: -100px;
+}
+.case{
+  margin-top: 100px;
+  margin-left: 1250px;
+  -webkit-transform: rotate(7deg);
+}
+
+.oh{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: 500px;
+  font-size: 30px;
+  font-family: 'Abel', sans-serif;
+  -webkit-transform: rotate(100deg);
+}
+.places{
+  margin-left: 500px;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 500px;
+  font-size: 50px;
+  font-family: 'Abel', sans-serif;
+  -webkit-transform: rotate(25deg);
+}
+.go{
+  margin-left: 1300px;
+  margin-right: auto;
+  margin-top: 800px
+  margin-bottom: 500px;
+  font-size: 100px;
+  font-family: 'Abel', sans-serif;
+  -webkit-transform: rotate(-5deg);
+}
+
+u{
+  border-bottom: 5px dotted #E0FFFF;
+    text-decoration: none;
+}
+
+.stew{
+  margin-top: -500px;
+  margin-left: 400px;
+  margin-bottom: auto;
+}
+.along{
+  margin-left: 500px;
+  margin-bottom: auto;
+}
+.too{
+  margin-left: 700px;
+}
+div.att{
+  width:150px;
+  font-size: 11px;
+  text-align: left;
+  margin-left: 2800px;
+  margin-right: auto;
+  margin-top: -2000px;
+  margin-bottom: 1200px;
+  padding-bottom: 1200px;
+  -webkit-transform: rotate(0deg);
+}

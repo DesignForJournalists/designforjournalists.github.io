@@ -1,0 +1,657 @@
+/*---overall---*/
+
+body{
+    background: black;
+    margin: 0px;
+
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+p{
+    width: 500px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+a{
+    color: #A9F5F2;
+}
+
+iframe{
+    border: 0px;
+}
+
+
+/*header...*/
+
+h1{
+    color: #A9F5F2;
+    text-shadow: 0 0 15px white;
+    font-size: 152.5px;
+    text-align: center;
+    font-family: 'Astloch', cursive;
+    padding-top: 155px;
+    /*animation-name: fadein;
+    animation-duration: 5s;*/
+}
+/*@keyframes fadein {
+    0% {opacity:0;}
+    10% {opacity:1;}
+    20% {opacity:0;}
+    60% {opacity:1;}
+    80% {opacity:0;}
+    20% {opacity:1;}
+    40% {opacity:0;}
+    60% {opacity:1;}
+    80% {opacity:0;}
+    100% {opacity:1}
+}*/
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
+
+
+.subtitle{
+    font-family: 'Nova Square', cursive;
+    text-align: right;
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 12px #A9F5F2;
+    width: 900px;
+    padding-bottom: 330px;
+    margin-left: 250px;
+    /*animation-name: fadeinDelayy;
+    animation-duration: 6.5s;*/
+}
+/*@keyframes fadeinDelayy {
+    0% {opacity:0;}
+    32% {opacity:0;}
+    100% {opacity:1}*/
+
+.blink_me2{
+    animation: blinker 1.5s linear infinite;
+}
+.blink_me3{
+    animation: blinker 4s linear infinite;
+}
+
+
+
+
+/*specific styles*/
+
+.up{
+    margin-top: -100px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.down{
+    padding-top: 130vh;
+}
+
+.right{
+    text-align: right;
+}
+.black{
+    color: black;
+}
+
+.intro{
+    font-family: 'Astloch', cursive;
+    width: 400px;
+    margin-left: 200px;
+}
+.one{
+    margin-top:-80px;
+    margin-left: 400px;
+}
+.intro2{
+    font-family: 'Astloch', cursive;
+    width: 450px;
+    margin-left: 200px;
+    font-size: 35px;
+    letter-spacing: 1.1px;
+}
+.two{
+    margin-top:250px;
+    margin-left: 850px;
+}
+.intro3{
+    font-family: 'Astloch', cursive;
+    width: 390px;
+    margin-top: 400px;
+    font-size: 35px;
+    letter-spacing: 1.1px;
+}
+.three{
+    margin-top: 200px;
+    margin-left: 850px;
+    line-height: 80px;
+}
+.four{
+    margin-top: 250px;
+    margin-left: 550px;
+}
+.five{
+    margin-top: 280px;
+    margin-left: 200px;
+}
+
+.glow1{
+    color: #A9F5F2;
+    text-shadow: 0 0 20px white;
+}
+
+.glow2{
+    color: #F6CEF5;
+    text-shadow: 0 0 15px white;
+}
+
+.glow3{
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+
+.glow4{
+    color: #A9F5F2;
+    text-shadow: 4px 4px 20px white;
+}
+
+
+.large{
+    font-size: 120px;
+}
+.img1{
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.large2{
+    font-family: 'Astloch', cursive;
+    font-size: 88px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 100px;
+}
+.img2{
+    width: 75vw;
+    position: relative;
+    margin-left:430px;
+    margin-top: 250px;
+}
+.large3{
+    font-family: 'Astloch', cursive;
+    font-size: 88px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 300px;
+    width: 440px;
+}
+.img3{
+    width: 50%;
+    margin-left:-60px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.large4{
+    width: 500px;
+    font-family: 'Astloch', cursive;
+    font-size: 88px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 480px;
+}
+
+.subtitle2{
+    font-family: 'Nova Square', cursive;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 12px #A9F5F2;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.cred{
+    font-family: 'Nova Square', cursive;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0 0 12px #A9F5F2;
+    text-align: center;
+    display: block;
+    line-height: 20px;
+}
+
+.img4{
+    width: 110%;
+    margin-left:-160px;
+    margin-right:auto;
+    margin-top: 140px;
+}
+.box{
+    border: 4px solid rgba(200,255,255,0.75);
+    box-shadow: 0px 0px 45px 5px rgba(126,255,255,0.75);
+    padding-left: 90px;
+    padding-right: 55px;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    width: 430px;
+    height: 195px;
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 750px;
+}
+.inside{
+    width: 370px;
+}
+
+.boxx{
+    border: 4px solid rgba(200,255,255,0.75);
+    box-shadow: 0px 0px 45px 5px rgba(126,255,255,0.75);
+    padding-left: 75px;
+    padding-right: 55px;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    width: 370px;
+    height: 155px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+}
+.vid{
+    margin-left: 460px;
+    margin-top: 430px;
+    margin-bottom: 100px;
+}
+
+
+.box2{
+    border: 4px solid rgba(200,255,255,0.75);
+    box-shadow: 0px 0px 45px 5px rgba(126,255,255,0.75);
+    width: 390px;
+    height: 280px;
+    padding-left: 90px;
+    padding-top: 50px;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: -785px;
+}
+.inside2{
+    width: 300px;
+}
+.img5{
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 80px;
+}
+
+.box3{
+    border: 4px solid rgba(200,255,255,0.75);
+    box-shadow: 0px 0px 45px 5px rgba(126,255,255,0.75);
+    width: 400px;
+    height: 220px;
+    padding-left: 75px;
+    padding-top: 60px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 165px;
+    z-index: 5;
+}
+.img6{
+    width: 70%;
+    margin-left:280px;
+    margin-right:auto;
+    margin-top: 200px;
+}
+
+.box4{
+    border: 4px solid rgba(200,255,255,0.75);
+    box-shadow: 0px 0px 45px 5px rgba(126,255,255,0.75);
+    width: 380px;
+    height: 240px;
+    padding-left: 75px;
+    padding-top: 85px;
+    position: absolute;
+    margin-top: -1165px;
+    margin-left: 890px;
+}
+.img7{
+    width: 110%;
+    margin-left:40px;
+    margin-right:auto;
+    margin-top: 300px;
+}
+
+.margin{
+    margin-left: 20vw;
+}
+
+
+
+/* on scroll and appearrrrrrr
+the appearing things with javascript and animations...
+id and class???? gotta figure this thing outtttt omgs*/
+
+.panel {
+}
+
+.thing {
+    opacity: 0;
+    transition: 4s;
+    -webkit-transition: 6s;
+}
+.thing.appear {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+.text {
+    opacity: 0;
+    transition: 6s;
+    -webkit-transition: 9s;
+}
+.text.appear {
+    opacity: 1;
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    animation-name: fadeinDelay;
+    animation-duration: 5s;
+}
+@keyframes fadeinDelay {
+    0% {opacity:0;}
+    35% {opacity:0;}
+    100% {opacity:1}
+}
+
+/* attempt to make it appear at different time, but fadein is with refresh, not on scroll :(
+.delay{
+    animation-name: fadeinDelay;
+    animation-duration: 7s;
+}
+
+@keyframes fadeinDelay {
+0% {opacity:0;}
+35% {opacity:0;}
+100% {opacity:1}
+}*/
+
+/*and then some random shapes on top of the "screen"*/
+/*.circle1{
+      width: 400px;
+      height: 400px;
+      background: white;
+      opacity: 0.2;
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 100px;
+      border-radius: 200px;
+      position: absolute;
+      z-index: 10;
+}
+.square1{
+      width: 230px;
+      height: 230px;
+      background: pink;
+      opacity: 0.2;
+      position: absolute;
+      z-index: 10;
+      transform: rotate(20deg);
+}
+.triangle1{
+      width: 0;
+      height: 0;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-bottom: 300px solid #81F7D8;
+      opacity: 0.2;
+      transform: rotate(30deg);
+}*/
+
+
+/*---mobile---*/
+/*still a lotttt to work on omgs really confused*/
+
+@media (max-width: 720px) {
+
+    section {
+        width: 100%;
+        overflow: hidden;
+    }
+    h1, p, span{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 110px;
+        padding-top: 75px;
+    }
+    .subtitle{
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-shadow: 0 0 12px #A9F5F2;
+        padding-bottom: 330px;
+    }
+    .intro{
+        padding-top: 25px;
+        margin-left: 60px;
+    }
+    .intro2{
+        width: 350px;
+        margin-left: 60px;
+        margin-top: -40px;
+        margin-bottom: 100px;
+        font-size: 18px;
+    }
+    .two{
+        margin-top: 100px;
+        padding-left: 140px;
+        width: 250px;
+    }
+    .three{
+        padding-left: 140px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+
+    .intro3{
+        width: 50%;
+        padding: 35px;
+        margin-top: 400px;
+        margin-left: auto;
+    }
+
+    .large{
+        font-size: 70px;
+    }
+
+    .large2{
+        font-size: 55px;
+        position: relative;;
+        margin-top: -60px;
+        margin-left: 15px;
+    }
+    .img2{
+        width: 70vw;
+        position: relative;
+        margin-left:200px;
+        margin-top: 150px;
+    }
+    .large3{
+        font-size: 55px;
+        position: relative;
+        margin-top: -380px;
+        margin-left: 200px;
+        text-align: right;
+        width: 280px;
+    }
+    .img3{
+        width: 70vw;
+        margin-left:-90px;
+        margin-top: 230px;
+        margin-bottom: 100px;
+    }
+    .large4{
+        width: 300px;
+        font-size: 55px;
+        position: relative;
+        margin-top: -170px;
+        margin-left: 80px;
+    }
+
+
+    .subtitle2{
+        font-size: 18px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .down{
+        padding-top: 80vh;
+    }
+
+
+    .img4{
+        margin-left:-100px;
+        margin-top: 0px;
+    }
+    .box{
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 38px;
+        padding-bottom: 30px;
+        width: 300px;
+        height: 165px;
+        position: relative;
+        margin-top: -105px;
+        margin-left: 100px;
+    }
+    .inside{
+        width: 300px;
+    }
+
+    .boxx{
+        padding-left: 35px;
+        padding-right: 55px;
+        padding-top: 65px;
+        width: 285px;
+        height: 105px;
+        position: relative;
+        margin-top: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vid{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -100px;
+        margin-bottom: 10px;
+        width: 100vw;
+        height: 350px;
+        padding-top: 0px;
+        padding-bottom: -50px;
+    }
+
+
+    .box2{
+        width: 200px;
+        height: 315px;
+        padding-left: 10px;
+        padding-top: 20px;
+        position: relative;
+        margin-left: 230px;
+        margin-top: -115px;
+    }
+    .img5{
+        width: 70vw;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: -30px;
+    }
+    .inside2{
+        width: 150px;
+    }
+/*uhhh weird why does it sometimes appear and sometimes not!?!?! what is going onnnnnnnnAOIJOIAJ*/
+
+
+    .box3{
+        width: 370px;
+        height: 120px;
+        padding-left: 20px;
+        padding-top: 20px;
+        position: relative;
+        margin-top: 195px;
+        margin-left: 40px;
+    }
+    .img6{
+        width: 70%;
+        margin-left:180px;
+        margin-top: -60px;
+    }
+
+    .box4{
+        width: 340px;
+        height: 140px;
+        padding-left: 15px;
+        padding-top: 30px;
+        position: relative;
+        margin-top: -115px;
+        margin-left: 15px;
+    }
+    .img7{
+        width: 110%;
+        margin-left:-20px;
+        margin-top: 40px;
+    }
+
+
+    .intro3{
+        text-align: center;
+        width: 300px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+    }
+    .margin{
+        margin-left: 0;
+    }
+    .four{
+        margin-top: -20px;
+        margin-left: auto;
+    }
+    .five{
+        margin-top: 90px;
+        margin-left: auto;
+        width: 250px;
+        line-height: 110px;
+        margin-bottom: 100vh;
+    }
+
+
+
+}

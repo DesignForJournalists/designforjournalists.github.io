@@ -1,0 +1,39 @@
+h1 {
+  color: blue;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 200px;
+  width: 1000px;
+  margin-left: 50px;
+  margin-right: auto;
+  text-align: left;
+  line-height: .5
+}
+h1:first-of-type {
+  padding-top: 80px;
+}
+.back {
+  z-index: -100;
+  position: absolute;
+  left: 300px;
+  -webkit-transform: rotate(10deg);
+}
+body {
+  background-color: black;
+}
+p {
+  color: white;
+  font-family: 'Playfair Display', serif;  font-size: 30px;
+  width: 600px;
+  line-height: 1.4;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+p:first-of-type {
+  margin-top: 100px;
+}
+
+.attribute {
+  color: blue;
+}

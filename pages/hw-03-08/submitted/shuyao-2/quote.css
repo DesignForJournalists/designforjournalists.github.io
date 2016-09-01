@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    transition: 0.5s;
+}
+
+/*.bg {
+  background-color: red;
+  transition: 0.5s;}*/
+
+.crazy {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 400px;
+  font-weight:bolder;
+  line-height: 0.7;
+  letter-spacing: -30px;
+  margin-top:700px;
+  z-index: 1;}
+
+.green {color:#00FF00;}
+.green span {color:#00FF00;}
+.white span {color:white;}
+
+.big {font-size: 30px;}
+
+.big br {font-size: 80px;}
+
+.small {font-size: 60px;}
+
+.pink {color: #FF00FF;}
+
+.s1 {
+  position: fixed;
+  top:200px;
+  margin-left: 50%;
+  width:300px;
+  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+  color: red;
+  opacity: 0;
+  background: #00FF00;
+  padding: 10px;
+  z-index: 4;
+  transition: 0s;}
+
+.s1:hover {
+  opacity: 1;}
+
+#s2 {
+  position: relative;
+  top:500px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width:800px;
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  opacity:1;
+  background: #FFFFFF;
+  z-index: 3;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.fly {
+  position: relative;
+  left:-10px;
+  top:-10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.fly span {
+text-decoration: line-through;
+}
+
+.fly:hover {
+  opacity: 1;
+}
+
+.s3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  width:400px;
+  font-size: 10px;
+  position: relative;
+  top:-300px;
+  margin-left:70%;
+  font-weight: bolder;
+  z-index: -3;
+}
+
+.s4 {
+  font-family: 'Rock Salt', cursive;
+  width:400px;
+  height:150px;
+  font-size: 20px;
+  position: relative;
+  top:-350px;
+  margin-left:70%;
+  z-index: 3;
+  background: #FFFFFF;
+  opacity: 0;
+  transition: 0.5s;
+  overflow: scroll;
+  color: red;
+}
+.s4:hover {opacity: 1;}
+
+.s5{
+font-family: 'Source Sans Pro', sans-serif;
+width:100px;
+font-size: 20px;
+position: relative;
+top:-723px;
+margin-left:20.5%;
+font-weight: bolder;
+z-index: -3;
+}
+
+.s5 img {
+  margin-left: 25%;}
+
+.s6{
+font-family: 'Source Sans Pro', sans-serif;
+width:300px;
+line-height: 200px;
+font-size: 40px;
+position: relative;
+top:-1300px;
+margin-left:30%;
+font-weight: bolder;
+z-index: 3;
+color: white;
+}

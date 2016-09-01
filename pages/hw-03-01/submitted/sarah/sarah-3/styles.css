@@ -1,0 +1,56 @@
+h1 {
+  font-size: 90px;
+  text-align: left;
+  margin-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom:80px;
+
+}
+
+.True {
+  color: #FF006A;
+}
+
+.Identity {
+  color: #82DFED;
+}
+
+h2 {
+  font-size: 12px;
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+
+.italics {
+  font-style: italic;
+
+}
+h3 {
+  font-size:40px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+  width: 400px;
+  line-height: 50px;
+  margin-top: 0px;
+}
+.quote{
+  float:right;
+}
+
+.bg-gray {
+  background:#F0F6F7;
+}
+p {
+  font-size: 20px;
+  float:left;
+  margin-left:40px;
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  width: 600px;
+  line-height: 26px;
+}

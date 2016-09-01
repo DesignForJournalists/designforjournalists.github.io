@@ -1,0 +1,38 @@
+body {background-color: red;}
+
+
+h1 {
+  color:  black;
+  font-size: 500px;
+  text-align: left;;
+  line-height: 0.7;
+  font-weight: bold;;
+font-family: 'Source Sans Pro', sans-serif;
+padding-top: 150px;
+padding-bottom: 20px;
+padding-left: 30px;
+margin-top: 0;}
+
+.quote {
+  color: white;
+font-family: 'Source Sans Pro', sans-serif;
+  line-height:1;
+  width:1200px;
+padding-left: 50px;
+font-size: 60px;}
+
+.attrib{
+  font-size: 15px;
+  align-items: right;
+  color:white;
+  text-align:right;
+  margin-bottom:60px;
+  letter-spacing: 1.6;
+  padding-right: 30px;
+font-family: 'Source Sans Pro', sans-serif;}
+
+  .white {color: #cceeff;}
+
+div{
+  padding: 10px;
+}

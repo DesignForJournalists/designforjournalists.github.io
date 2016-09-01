@@ -1,0 +1,114 @@
+h1{
+  color: blue;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 70;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.black{
+  color: black;
+}
+p{
+  color: blue;
+  font-family: 'Playfair Display', serif;
+  font-size: 20;
+}
+.raleway{
+  font-weight: 400;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20;
+}
+.playfair2{
+
+  font-size: 50;
+}
+.one{
+  width: 520px;
+  margin-left: 100px;
+}
+.two{
+  width: 300px;
+  margin-left: 200px;
+}
+.three{
+  width: 400px;
+  margin-left:300px;
+}
+.four{
+  width: 400px;
+  margin-left: 200px;
+}
+.space{
+  padding-top: 100px;
+}
+.back{
+  width: 1050px;
+  height: 2500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.attribute{
+  font-weight: 900;
+  font-size: 50;
+  text-align: left;
+  color: black;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.toggle{
+  background-color: black;
+  margin: -20px;
+  margin-top:-50px;
+  width: 105%;
+  height: 2600px;
+  position: absolute;
+  z-index: -5;
+}
+label {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 30;
+  color: white;
+  margin: 20px 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+}
+
+label:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+input#lightswitch {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+.mis{
+  color: black;
+}
+
+input#lightswitch:checked + .toggle {
+  background: white;
+}

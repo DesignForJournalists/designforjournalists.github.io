@@ -143,6 +143,25 @@ a {
     box-sizing: border-box;
 }
 
+/* image-section */
+.image-section {
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.image-section.gray {
+   background: #efefef;
+}
+.image-section img {
+    padding: 20px 0 20px 40px;
+    width: 40%;
+    display: inline-block;
+}
+.image-section p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+
 /* submitted */
 .submitted p {
 	margin-bottom: 0;
@@ -154,6 +173,7 @@ a {
     width: 36%;
     float: right;
 }
+
 .hw-screenshot {
     padding: 0 40px;
     width: 36%;
@@ -245,6 +265,14 @@ footer li:last-of-type {
 	.header div, .info p, section.info > h1 {
 		padding: 0 16px;
 	}
+    .image-section {
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    .image-section img {
+        padding: 10px 20px;
+        width: 100%;
+    }
 	footer ul {
 	    padding: 0 0 0 16px;
 	}

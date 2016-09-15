@@ -26,6 +26,9 @@ section > h1 {
 	font-weight: normal;
 	color: gray;
 	margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.3em !important;
 }
 p, ul {
 	margin: 0;

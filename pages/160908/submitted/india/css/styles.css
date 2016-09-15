@@ -1,0 +1,71 @@
+body {
+    font-size: 18px;
+}
+
+p {
+    color: grey;
+    text-align: justify;
+}
+h1 {
+    color: darkslategray;
+    text-align: justify;
+    font-family: monospace;
+}
+a {
+    color: green;
+    font-weight: bold;
+}
+
+.quoteone {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkseagreen;
+    text-align: center;
+    font-family: monospace;
+}
+.excerpt {
+    font-size: 18px;
+    font-weight: inherit;
+    color: teal;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 30px;
+}
+.quotetwo {
+    font-size: 46px;
+    font-weight: bolder;
+    color: powderblue;
+    text-align: center;
+    font-family: cursive;
+}
+.excerpttwo {
+    font-size: 26px;
+    font-weight: lighter;
+    color: steelblue;
+    text-align: justify;
+    font-family: fantasy;
+}
+.quotethree {
+    font-size: 40px;
+    font-weight: bold;
+    color: lavender;
+    text-align: center;
+    font-family: sans-serif;
+}
+.excerptthree {
+    font-size: 18px;
+    font-weight: normal;
+    color: mediumpurple;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
+}

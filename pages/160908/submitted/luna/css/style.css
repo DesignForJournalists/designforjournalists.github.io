@@ -1,0 +1,91 @@
+body {
+    font-size: 18px;
+    align-content: center;
+    padding: 70px;
+    background: #f2c9bf;
+}
+
+h1 {
+    color: black;
+    font-family:cursive;
+}
+
+h2 {
+     color: black;
+    font-family:sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+     color: black;
+    font-family:sans-serif;
+     font-size: 20px;
+}
+.quote1 {
+    font-size: 16px;
+    font-weight: 600px;
+    text-align: right;
+    font-family: serif;
+    padding: inherit;
+    background: pink;
+}
+.credit1 {
+    
+    text-align: right;
+     font-size: 15px;
+    font-weight: 300px;
+    font-style: italic;
+    font-family: serif;
+    padding-right: 50px;
+    padding: inherit;
+    background: pink;
+}
+
+.quote2 {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: justify;
+    font-family: sans-serif;
+    
+}
+.credit2 {
+    
+    text-align: right;
+     font-size: 15px;
+    font-weight: 300px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding-right: 50px;
+}
+
+h4 {
+    background: white;
+}
+h4: hover { 
+    transition: all .2s ease-in-out; 
+}
+
+
+.quote3 {
+    font-size: 26px;
+    font-weight: 700px;
+    text-align: left;
+    font-family: monospace;
+}
+.credit3 {
+    
+    text-align: right;
+     font-size: 15px;
+    font-weight: 300px;
+    font-style: italic;
+    font-family: monospace;
+    padding-right: 50px;
+}
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+
+    }
+    
+}

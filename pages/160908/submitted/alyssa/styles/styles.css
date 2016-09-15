@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:600,700|Montserrat:400,700|Goudy+Bookletter+1911);
+
+
+
+
+body{
+    font-size: 20px;
+    text-align: justify left;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: black;
+}
+
+h1, h3, author {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    
+}
+
+h3 {
+    margin-left: -40px;
+}
+
+.middle {
+    margin-left: 40px;
+}
+
+.right {
+    margin-left: 110px;
+}
+
+
+.medium {
+    margin-left: 80px;
+}
+
+.light {
+    margin-left: 150px;
+}
+.author {
+    font-size: 20px;
+    color: lightgrey;
+    font-weight: bold;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
+}

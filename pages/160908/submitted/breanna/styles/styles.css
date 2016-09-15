@@ -1,0 +1,37 @@
+body {
+    font-size: 18px;
+}
+
+p {
+    color: black;
+    
+  
+a {
+    color: green;
+    font-weight: bold;
+}
+    
+      
+    
+    h3 {
+    text-align: left;
+}
+  
+    
+    
+.excerpt {
+    font-size: 60px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
+}

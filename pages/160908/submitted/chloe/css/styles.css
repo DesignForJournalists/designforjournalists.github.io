@@ -1,0 +1,19 @@
+body, html {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+a {
+    color: green;
+}
+
+.excerpt {
+    font-size: 80px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+}
+

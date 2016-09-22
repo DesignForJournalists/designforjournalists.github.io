@@ -1,0 +1,187 @@
+/* ----- GENERAL ----- */
+
+body {
+    font-size: 22px;
+    background-image: url(https://static.pexels.com/photos/6227/hands-technology-photo-phone.jpg)
+}
+h1, p, aside {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+     width: 750px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* ----- SPECIFIC ----- */
+
+/* article components */
+.byline {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Josefin Slab', serif;
+    text-decoration: underline;
+}
+.subhead {
+    text-transform: uppercase;
+    font-family: 'BioRhyme', serif;
+    font-weight: bolder;
+    color: olive;
+    font-size: 22px;
+}
+.lede {
+    font-size: 1.3em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+    color: floralwhite;
+    border: 5px solid gray;
+    width: 65%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: lightslategray;
+    margin-left: 220px;
+}
+.byline2 {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Josefin Slab', serif;
+    text-decoration: underline;
+}
+.subhead2 {
+    text-transform: uppercase;
+    font-family: 'BioRhyme', serif;
+    font-weight: bolder;
+    color: olive;
+    font-size: 22px;
+}
+.lede2 {
+    font-size: 1.3em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 24.5px;
+    color: floralwhite;
+    border: 5px solid gray;
+    width: 65%;
+    position: relative;
+    text-align: center;
+    margin-left: 220px;
+    background-color: lightslategray;
+    margin-bottom: 50px;
+}
+.k {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+.byline3 {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Josefin Slab', serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.subhead3 {
+    text-transform: uppercase;
+    font-family: 'BioRhyme', serif;
+    font-weight: bolder;
+    color: olive;
+    font-size: 22px;
+    text-align: center;
+}
+.lede3 {
+    font-size: 1.3em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+    color: floralwhite;
+    border: 5px solid gray;
+    width: 65%;
+    text-align: center;
+    padding-left: 5px;
+    background-color: lightslategray;
+    margin-left: 220px;
+}
+aside {
+    font-size: 5em;
+    font-style: italic;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    border-bottom: 4px solid olive;
+    border-top: 4px solid olive;
+}
+.caption {
+    display: block;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: ghostwhite;
+    margin-bottom: 20px;
+}
+.extra-info {
+    background: #efefef;
+    font-family: 'BioRhyme', serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* 2-up image example */
+.image-set {
+    text-align: center;
+}
+.image-2up {
+    border: 1px solid black;
+    background: gray;
+    position: relative;
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.crystal-bg {
+    background-image: url(http://pixel.nymag.com/imgs/daily/following/2016/04/26/snapchat/badgalrihanna.w190.h190.2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.credit {
+    color: darkolivegreen;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    text-align: right;
+}
+
+/* ----- MOBILE ----- */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1, p, aside {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    aside {
+        font-size: 50px; 
+    }
+    .image-2up {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .crystal-bg {
+        height: 400px;
+        background-position: 50% 0;
+    }
+    .image-2up img {
+        width: 100%;
+    }
+}

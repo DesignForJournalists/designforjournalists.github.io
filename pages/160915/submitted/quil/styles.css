@@ -1,0 +1,59 @@
+body {
+    background-image: url(http://blogs-images.forbes.com/rosatrieu/files/2014/08/Valencia_market_-_lemons-1940x1454.jpg);
+    background-color: #cccccc;
+    font-family: "Futura"
+}
+.title {
+font-size: 25px 
+}
+
+a {
+
+    color: indianred;
+}
+
+.quoteone {
+        
+    background: #FFFFE0;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    font-size: 15px
+   
+}
+
+.quotetwo {
+    background: #FFFFE0;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    font-size: 15px
+
+.quotethree {
+    background: #FFFFE0;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    height: 700px;
+    vertical-align: bottom;
+    font-size: 15px
+}

@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:600,700|Montserrat:400,700|Goudy+Bookletter+1911);
+
+
+
+
+body{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: none;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: black;
+    background-color: white;
+}
+
+.entryone {
+    background-color: #EBC7B5;
+    padding-left: 340px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.entrytwo {
+    background-color: #EDCA3E;
+    padding-left: 340px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.entrythree {
+    background-color: #4F67D1;
+    padding-left: 340px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, h3, h4, author {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 70px;
+}
+
+h2 {
+    text-align: center;
+    width: 600px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:100;
+    letter-spacing: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    
+}
+
+h3 {
+    font-size: 24px;
+    margin-left: -340px;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h4 {
+    font-family: 'Times New Roman', serif;
+    margin-left: -340px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.quote {
+    text-align: center;
+    width: 600px;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.author {
+    font-style: italic;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-right: 340px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
+}

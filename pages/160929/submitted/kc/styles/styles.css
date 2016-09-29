@@ -1,0 +1,189 @@
+body {
+    background-image:url("http://www.webdesignburn.com/wp-content/uploads/2015/04/Grey-Texture-Background-and-Wallpaper-17.jpg")
+ }
+
+a { font-family: 'Advent Pro', sans-serif;
+    color: hotpink;
+    font-size:90px;
+    background-image: url(http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+     
+}
+
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+    color:hotpink;
+    margin: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted;
+    border-color: gray;
+    width: 80%;
+    padding: 20px;
+     background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+}
+
+h2 {
+      font-family: 'Advent Pro', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:dimgray;
+    border: 2px none;
+    width: 80%;
+      margin: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted;
+      padding:20px;
+    background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+    
+}
+
+.author {
+    font-size: 40px;
+    color: hotpink;
+}
+
+p {
+     font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+    border: 2px none;
+    width: 80%;
+    margin: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+}
+
+.capital1 {
+    font-size: 70px;
+    color: hotpink;
+   
+}
+
+.capital2 {
+    font-size: 70px;
+    color: hotpink;
+}
+
+.capital3 {
+    font-size: 70px;
+    color: hotpink;
+}
+
+
+.capital4 {
+   font-size: 70px;
+    color: hotpink;  
+    
+}
+
+.capital5 {
+      font-size: 70px;
+    color: hotpink;  
+}
+.kc {
+     font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+   color: dimgray;
+   width: 90%;
+ border: 2px gray none;
+     padding:10px;
+    background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+   
+}
+
+.albi {
+      font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+   color: dimgray;
+   width: 80%;
+ border: 2px gray none;
+     padding:10px;
+    background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+   
+}
+
+
+.bird {
+     font-family: 'Advent Pro', sans-serif;
+       color: dimgray;
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
+    border: 2px gray none;
+    align-content: center;
+     padding:10px;
+      margin: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+}
+.loud {
+     font-family: 'Advent Pro', sans-serif;
+    color: hotpink;
+    font-size: 90px;
+  background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+    
+}
+
+.broth {
+    font-family: 'Advent Pro', sans-serif;
+    color: hotpink;
+    font-size:90px;
+    background-image: url(http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+    
+}
+
+.spoon {
+    font-family: 'Advent Pro', sans-serif;
+    color: hotpink;
+    font-size:90px;
+    background-image: url(http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+    
+    
+}
+
+.pasta {
+    font-family: 'Advent Pro', sans-serif;
+    color: hotpink;
+    font-size:90px;
+    background-image: url(http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+     
+    
+}
+
+.excerpt  {
+     font-family: 'Advent Pro', sans-serif;
+    font-size:40px;
+    color: dimgray;
+    text-align: center;
+    width: 95%;
+    border: 2px gray dotted;
+    padding: 10px;
+    
+   background-image: url("http://www.brewsterwallcovering.com/data/default/images/catalog/original/2623-001214.jpg")
+   
+   
+}
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+}
+
+div {
+}

@@ -1,0 +1,94 @@
+body {
+    font-size: 18px;
+    background-image: url("http://i65.tinypic.com/wwn0x5.png"); 
+    overflow-x: hidden;  
+}
+    
+
+h1 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    position: relative;
+    left: 540px;  
+}
+
+
+
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+    position: relative;
+    left: 510px;
+}
+
+
+
+p.one {
+
+    background: #e6e6fa;
+    border: dashed;
+    width: 500px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+
+
+p.two {
+
+    background: #AED6F1;
+    border: dotted;
+    width: 500px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+p.three {
+
+   background: #EDBB99;
+    border: solid;
+    width: 500px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    display: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+  
+    
+
+/* mobile override styles go inside this section */
+@media (max-width: 768px) {
+    
+    .excerpt {
+        font-size: 40px;
+    }
+    
+}

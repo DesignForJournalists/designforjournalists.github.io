@@ -1,0 +1,63 @@
+/*body {
+	background-image: url("../img/letter.jpg");
+}
+*/
+	.whole {
+	width: 50%;
+	height: 700px;
+	margin: auto;
+}
+
+.circle {
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	border-radius: 100%;
+	opacity: 0.4;
+	animation-duration: 6s;
+	animation-name: example;
+}
+
+.quotes {
+	font-size: 500px;
+	margin-left: 5%;
+	margin-top: 12%;
+	position: absolute;
+	color: white;
+	visibility: visible;
+}
+
+.author {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 0.5px;
+	visibility: hidden;
+	position: absolute;
+	margin-top: 22%;
+	margin-left: 20%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.circle:hover {
+	background-color: red;
+}
+
+.circle:hover .quotes {
+	visibility: hidden;
+}
+
+.circle:hover .author {
+	visibility: visible;
+}
+
+ @keyframes example {
+ 	0% {background-color: blue;}
+ 	40% {background-color: red;}
+ 	80% {background-color: yellow;}
+ 	100% {background-color: blue;}
+ }

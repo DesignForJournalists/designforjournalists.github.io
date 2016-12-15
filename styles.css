@@ -131,7 +131,7 @@ a {
 .info.gray {
 	background: #efefef;
 }
-.info p, section.info > h1, .info ul {
+.info p, section.info > h1, .showcase > h1, .info ul {
 	padding: 0 40px;
 	margin-bottom: 16px;
 	width: 60%;
@@ -160,6 +160,28 @@ a {
     display: inline-block;
 }
 .image-section p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+
+/* showcase */
+.showcase {
+    padding: 20px 0 80px;
+    margin: 40px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.showcase img {
+    padding: 20px 0 20px 40px;
+    width: 90%;
+    display: inline-block;
+}
+.showcase p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+.showcase p.caption {
     font-size: 1em; 
     color: gray;
     width: 100%;
@@ -288,14 +310,14 @@ footer li:last-of-type {
 	.sch-col.assign::before {
 		content: "HW";
 	}
-	.header div, .info p, section.info > h1 {
+	.header div, .info p, section.info > h1, .showcase > h1 {
 		padding: 0 16px;
 	}
     .image-section {
         padding: 20px 0;
         margin: 20px 0;
     }
-    .image-section img {
+    .image-section img, .showcase img {
         padding: 10px 20px;
         width: 100%;
     }

@@ -60,6 +60,7 @@ a {
 .header nav {
 	padding: 40px 40px 0;
 	font-family: 'Inconsolata';
+    position: fixed;
 }
 .header:after {
 	content: "";

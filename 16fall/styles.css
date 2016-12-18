@@ -298,6 +298,9 @@ footer li:last-of-type {
 		display: block;
 		margin-left: 30%;
 	}
+        .sch-col.full p {
+            margin-left: 0;
+        }
 	.sch-col.week::before, .sch-col.agenda::before, .sch-col.assign::before {
 		display: inline-block;
 		font-family: 'Dosis', sans-serif;

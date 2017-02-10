@@ -1,0 +1,100 @@
+/* CUSTOM STYLES – MOBILE */
+/*/custom styles*/
+body{background-color:  aliceblue;
+    font-style: normal; 
+    
+
+}
+h1, p {
+    width: 100%;
+}
+/*if you put comma h1 after the p it would apply the same to paragraph and h1*/
+/*; is like a period */
+h1 {
+    text-decoration: underline;
+    font-weight: strong;
+    color: lightpink;
+    font-family: helvetica;
+    margin-bottom: 100px;
+    text-align: center;
+}
+    
+h3 {
+        font-style: italic;
+        text-align: center; 
+        font-size: 20pt; 
+    }
+h4{ 
+        text-align:center;
+        font-style: italic; 
+        font-size: 20pt;
+}
+h5 {
+        text-align: center;
+        font-style: italic;
+        font-size: 20pt;
+}
+h6 {    text-align: center;
+        font-style: italic;
+        font-size: 20pt;
+}
+h7 {    text-align: center;
+        font-style: normal;
+        font-size: 15pt; 
+}
+h8 {    text-align: center;
+        font-style: normal;
+        font-size: 15pt;
+    }
+h9{      text-align: center;
+        font-style: normal;
+        font-size: 15pt;
+}
+
+h10{    text-align: center;
+        font-style: normal;
+        font-size: 15pt;
+}
+
+h11{    text-align: center;
+        font-style:italic;
+        font-size: 15pt;
+
+/*you put the period before the class div that you want to specifically style*/
+.valentines {
+    background: blachedalmond;
+    font-style: italic;
+    text-align: center;
+}
+
+.pullquote {
+    font-style:italic ;
+    font-size: 30pt;
+}
+h2 { text align: center;
+    
+    
+}
+p { font-size: 23px; 
+    font-family: inherit; 
+    
+}
+    
+/*to add more space */   
+    }
+
+/*ignore this for now*/
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+/* CUSTOM STYLES – MOBILE */
+
+body { background-color:whitesmoke}
+h1,h2, {
+    width: 100%; color:#6d7c93;  font-size: 60px; font-family: 'Acme', sans-serif;text-align: center;
+}
+h1 { font-weight: bolder;
+}
+
+.intro { text-align:center; font-size: 10px; color:#112359; font-family: 'Didact Gothic', sans-serif; font-size:40px;  }
+p {
+    font-size: 20px; color: black; text-align: center; font-family: font-family: 'Didact Gothic', sans-serif;
+}
+.quote {font-family: 'Acme', sans-serif;color:#112359;font-size: 30px;text-align: center;}
+
+.footer {margin-top: 0px; margin-bottom: 100px; font-family: 'Josefin Sans', sans-serif;text-align: center; }
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

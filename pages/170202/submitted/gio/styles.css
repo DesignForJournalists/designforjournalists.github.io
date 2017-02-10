@@ -1,0 +1,82 @@
+/* CUSTOM STYLES – MOBILE */
+
+/*semicolon like a period at the end of a command */
+
+p, p {
+    width: 100%;
+}
+
+h1, h1 {
+    color: silver;
+    text-decoration:underline overline line-through;
+    font-weight: bolder;
+    font-style: oblique;
+    letter-spacing: 4px;
+    font-family: Times New Roman;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    text-align:center;
+}
+
+h2, h2 {
+    font-size: 15px;
+    text-decoration: ;
+    font-weight: normal;
+    color: black;
+    font-family: Times new Roman;
+    text-align:center;
+    text-emphasis-style: sesame;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 15px;
+    margin-left: -5px;
+    font-family: times new roman;
+}
+
+h3, h3 {text-align: center;
+        font-family: Times New Roman;
+    color: ghostwhite
+}
+
+.valentines {background:red; 
+}
+
+.pullquote {
+    font-size: 20px;
+    text-decoration:underline overline line-through;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 13px;
+    color: silver;
+    
+}
+    
+.credit {
+    font-family: Baskerville;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: ;
+}
+
+
+/*custom styling an entire set of things by giving a section a class in the html sheet*/
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p, h2 {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+    .valentines {background:silver; 
+        
+
+}

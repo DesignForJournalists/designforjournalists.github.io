@@ -1,0 +1,53 @@
+/* DEFAULT STYLES – MOBILE */
+html {
+    background-color: orange;
+    font-family: arial;
+    
+}
+h1 {text-align: center;
+        font-family: cursive;
+        color: red;
+        background-color: white;
+        font-size: 36px;
+    }
+
+h2 {text-align: center;
+    background-color: white;
+    color:darkgoldenrod}
+ p1 {
+    font-family: cursive; 
+     font-size: 150%;
+    width: 100%;
+    text-align: center;
+     background-color: white;
+    
+}
+p2 {text-align: left;
+font-family: cursive}
+
+blockquote{background-color: white;
+            font-size: 18px;
+            
+    
+}
+p {
+    font-size: 20px;
+    background-color: aliceblue;
+    font-family: cursive;
+    text-align: center;}
+
+footer{font-size: 10px;}
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

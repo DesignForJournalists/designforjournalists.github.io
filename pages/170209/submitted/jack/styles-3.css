@@ -1,0 +1,100 @@
+/* DEFAULT STYLES – MOBILE */
+/*For the header, I wanted it to be larger than the rest of the page to catch the viewers attention*/
+h1{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bold;    }
+
+/*I really like NYLON's recent redesign of their site, which is why I went with the colors that I did and stuck with the basic san-serif font*/
+body {background-color: darkcyan}
+
+/*For my lede, I want it to be right below the header where it is typically placed, but not taking away attention from the quote, which is the main point of the page*/
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: cadetblue;
+    font-family: sans-serif;
+}
+
+/*I think centering the text makes for a nice form, especially for just a page with a quote, which is why I decided to center all of my text*/
+div {text-align: center;}
+
+/*Here is the actual quote, which I wanted just a little smaller than the header so it still gets the viewers main focus, but is placed in a logical spot*/
+p1{
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*I wanted the attribution to be a little smaller than the quote, but the same color because they go together*/
+p2{
+    font-size: 18px;
+    color: cornflowerblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*I didn't want the information that we needed to include to take away from the quote, so I put it really small at the bottom of the page*/
+p3{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1 {color: black;
+        font-family: sans-serif;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    
+    p1{
+    color: cornflowerblue;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+        
+    }
+    
+    p2{
+    font-size: 25px;
+    color: cornflowerblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+    
+    
+   p { 
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+       text-align: center;
+        color: black;
+        font-family: sans-serif;
+    }
+    p {
+        font-size: 28px;
+    
+    }
+    
+}
+body {background-color: beige}
+p3{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}

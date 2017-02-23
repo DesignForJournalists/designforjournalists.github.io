@@ -1,0 +1,48 @@
+/* DEFAULT STYLES – MOBILE */
+body {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Martel', serif;
+    background-color: #FEC6B2
+    
+}
+
+h1 {
+    font-family: 'Martel', serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    text-shadow: 2.5px 2.5px white;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 58px;
+   
+}
+
+h3 {
+ 
+    font-size: 30px;
+    
+}
+
+
+
+
+.footer {
+    font-family: 'Sorts Mill Goudy', serif;
+    line-height: 10px;
+}
+
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, h2, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    
+   

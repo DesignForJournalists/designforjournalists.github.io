@@ -1,0 +1,61 @@
+/* DEFAULT STYLES – MOBILE */
+html {
+      font-family: Carter One, cursive;
+    background-color: darkgoldenrod
+}
+h1, p {
+    width: 100%;
+}
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    outline-style: double;
+    outline-color: crimson;
+    background-color: darkgoldenrod;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: -20px
+}
+.title {
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    text-align: left;
+    margin-bottom: -20px;
+    }
+.led {
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.quote {
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    text-align: center;
+    font-size: -20px
+}
+.attribute {
+    font-weight: normal;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: justify;}
+}
+p {
+    font-size: 10px;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

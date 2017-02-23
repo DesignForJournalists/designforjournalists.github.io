@@ -1,0 +1,46 @@
+/* DEFAULT STYLES – MOBILE */
+html {background-color:lightblue;
+    font-family:sans-serif;
+    
+
+h1 {text-align: center;
+        font-family: cursive;
+        color: darkred;
+        font-size: 50px;
+    }
+
+h2 {text-align: left;
+    color:darkgoldenrod;
+}
+
+ p {width: 100%;
+    text-align: left;
+}
+
+p2 {text-align: left;
+}
+
+blockquote{font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+footer{font-size: 10px;
+}
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

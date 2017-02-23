@@ -1,0 +1,56 @@
+/* CUSTOM STYLES – MOBILE */
+
+
+body { background-color:cornflowerblue}
+
+
+h1, h2, p, .credits {
+    width: 100%;
+    color: white;
+    font-family: tahoma, sans-serif;}
+
+
+/*h1 bracket, "text decoration" start with : end with : this applies to the whole set*/
+
+h1 {text-decoration:underline;
+    font-weight: normal;
+    color: darkslategrey;
+    margin-top: 150x;
+    margin-bottom: 150px;
+    text-align: right;
+    text-decoration: underline}
+
+
+h2 {font-weight: normal;
+    color:darkslateblue;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: left;}
+
+
+/*classes start with a period*/
+
+
+
+p {
+    font-size: 30px;
+    color: darkslategrey
+}
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, h2, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        
+            
+    }
+    p {
+        font-size: 22px;
+    }
+    
+}
+}

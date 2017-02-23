@@ -1,0 +1,29 @@
+p1 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+p2 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+p3 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+a{
+     color: peachpuff;
+    text-decoration: none;
+    }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    color: white;
+
+    text-decoration: overline;
+}

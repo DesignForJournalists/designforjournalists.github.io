@@ -1,0 +1,56 @@
+/* DEFAULT STYLES – MOBILE */
+html{
+    font-family:  Carter One, cursive;
+    background-color: darkcyan;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    outline-style: double;
+    outline-color: crimson;;    
+}
+body {
+    background-color: darkcyan
+}
+.thunder {
+    color: goldenrod;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+div {
+    text-align: center;
+}
+p1{
+    color: whitesmoke;
+    font-size: 28px;
+    text-align: center;
+}
+
+p2{
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.attribute {
+    font-weight: normal;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;}
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    

@@ -1,0 +1,44 @@
+body {
+	background-color: aliceblue;
+    
+    
+}
+h1 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40;
+    color: black;
+    line-height: 1.5;
+    padding-top: 30px;
+    line-height: 1.70;
+}
+
+h2 {
+	
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    line-height: 1.5;
+    padding-top: 170px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.travel {
+	text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+    
+    background-blend-mode: color;
+    background-clip: inherit;
+	}
+
+.end {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}

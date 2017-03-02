@@ -1,0 +1,96 @@
+/* CUSTOM STYLES – MOBILE */
+html {background-color: powderwhite;
+}
+ 
+.title {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 50px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+    outline-style: dotted;
+    outline-color: crimson;
+    }
+
+h1 {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 33px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+    outline-style: dotted;
+    outline-color: crimson;
+    
+}
+
+.led {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.quote {
+    line-height: normal;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 22px;
+    text-align: left;
+    
+}
+
+.quote1{
+    line-height: normal;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 22px;
+    text-align: center;  
+}
+
+.links{
+    text-align: center;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 45px;
+}
+
+.image1{
+    margin-left: 70px;
+}
+
+.image{
+    margin-left: 200px;
+}
+.attribute {
+    font-weight: normal;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;}
+}
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, h2, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        
+            
+    }
+    p {
+        font-size: 22px;
+    }
+    
+}
+}

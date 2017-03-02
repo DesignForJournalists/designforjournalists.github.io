@@ -1,0 +1,74 @@
+/* DEFAULT STYLES – MOBILE */
+
+
+body{
+    background-color:#ffeffa;
+    text-align: center;
+     
+}
+
+h1 {
+    text-align:center;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    color:black; 
+    text-decoration:black;
+    text-shadow:2px 2px 5px #b29eac;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align:center;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    text-decoration: black;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-bottom:100px;
+    
+    
+}
+
+p {
+    text-align:center;
+    font-size: 45px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    text-decoration: none; 
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #b29eac;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    font-size: 40px;
+}
+
+h6 {
+    text-align:center;
+    font-size: 10px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    margin-top: 200px;
+   
+}
+
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}

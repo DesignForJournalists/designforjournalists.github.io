@@ -1,0 +1,29 @@
+body {font-family: 'Raleway Dots', cursive;
+        text-align: center;
+        font-size: 165px;
+        background: linear-gradient(to bottom, #ffcccc 9%, #ccccff 100%)
+/*    body changes everything. putting it in the p would change only certain paragraphs*/
+}
+
+p { font-family: 'Raleway Dots', cursive;
+    margin-left: 40px;
+    margin-right: 40px;
+     background: -webkit-linear-gradient(#33cccc, #6600cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 { font-family: 'Raleway Dots', cursive;
+    font-size: 90px;
+    background: -webkit-linear-gradient(#33cccc, #6600cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+.footer { font-size: 20px;
+}
+        
+/*.linkone*/
+/* { text-align: left;*/
+    
+/*/ }*/*/

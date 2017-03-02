@@ -1,0 +1,56 @@
+/* CUSTOM STYLES – MOBILE */
+
+h1, h2, p {
+    width: 100%;
+}
+body {
+    background-color: red; 
+}
+h1 {
+    text-decoration: bold;
+    font-weight: normal;
+    color: black;
+    font-family: 'Metal Mania', cursive;
+    text-align: center; 
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+    margin-bottom: 50px;
+}
+h2 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+p {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    color: black;
+}
+.twentythree {
+    text-decoration: bold;
+    font-weight: normal;
+    color: black;
+    font-family: 'Metal Mania', cursive;
+    font-size: 200px;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    padding-left: 70px;  
+}
+.attribute {
+    margin-top: 0px;
+    font-family: Palatino;
+    font-size: 13px;
+}
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }

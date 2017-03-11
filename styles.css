@@ -171,6 +171,13 @@ a {
     color: gray;
     width: 100%;
 }
+.image-section.pan {
+    overflow: scroll;
+    padding: 0;
+}
+.image-section.pan img {
+    width: 200%;
+}
 
 /* showcase */
 .showcase {

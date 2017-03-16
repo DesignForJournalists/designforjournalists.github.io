@@ -1,0 +1,42 @@
+body {
+	font-family: 'Amatic SC', cursive;
+    background-color: #636B46;
+    
+}
+h1, h2 {
+    color: #CDA34F;
+	text-align: left;
+    font-size: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    letter-spacing: .25em;
+}
+
+h2 { 
+    border: dashed;
+    text-align: center;
+    border-color: #E9E7DA;
+    text-decoration: line-through;
+}
+p {
+    color: #E9E7DA;
+	text-align: justify;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    letter-spacing: .20em;
+}
+.end {
+    color: #CDA34F;
+	text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    letter-spacing: .20em;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+
+/* CUSTOM STYLES – MOBILE */
+
+
+}
+body{
+background-color: black;
+}
+.offtone {
+    text-align: center;
+    background-image: url("http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2015/11/Moss-1020x610.jpg");
+    }
+
+h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h6 {font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    }
+
+p {
+    text-align: left;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: green;
+    }
+
+a{
+    color:green;
+    font-size: 20px;
+}
+
+.author {text-align: left;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 15px;
+    }
+
+.footer{text-align: left;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 10px;}
+
+

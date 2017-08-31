@@ -1,0 +1,64 @@
+/* DEFAULT STYLES – MOBILE */
+html {
+    background-color: lightcyan;
+    font-family: "georgia";
+    
+}
+h1 {text-align: center;
+        color: navy;
+        font-size: 36px;
+    }
+
+h2 {text-align: center;
+    font-size: 75%;
+    color:navy}
+ p {color: navy
+    width: 100%;
+    text-align: left;
+    }
+
+
+
+.quote {color: navy;
+     font-size: 18px;
+    
+
+        
+    
+}
+p { color: navy;
+    font-size: 20px;
+    text-align: center;}
+
+.author {color: navy;
+    text-align: right;}
+
+.make smaller{
+    text-align: center
+    font-size: 18x;
+    color: navy;
+    padding-right: 2cm;
+}
+
+.final { text-align: center;
+    color:navajowhite;
+    font-weight: bold;
+    }
+
+.footer{font-size: 10px;
+text-align: center}
+/* OVERRIDE STYLES – DESKTOP */
+
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

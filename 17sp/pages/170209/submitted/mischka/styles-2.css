@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    font-family: Georgia, serif;
+    color: white;
+    text-align: center;
+    }
+
+    header {
+	text-align: center;
+	background-size: cover;
+	background: url("http://static4.grsites.com/archive/textures/ss/ss122.gif");
+
+}
+
+
+
+body {
+width: 1000px;
+margin: 0 auto; 
+}
+
+h1 {
+font-size: 26px; 
+}
+
+h2 {
+    text-align: left;
+    padding-top: 1cm;
+font-size: 15px; 
+    font-weight: lighter;
+}
+
+
+p {
+font size: 22px; 
+font-style: italic;
+text-align: center;
+}
+
+p2 {
+font size: 13px; 
+text-align: center;
+}

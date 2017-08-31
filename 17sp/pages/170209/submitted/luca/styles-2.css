@@ -1,0 +1,48 @@
+/* DEFAULT STYLES – MOBILE */
+html {
+    background-color: lightsalmon;
+    font-family: "Georgia, serif";
+    
+}
+h1 {text-align: center;
+        font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+        color: darkred;
+        background-color: lightgoldenrodyellow;
+        font-size: 36px;
+    }
+
+h2 {text-align: center;
+    background-color: lightgoldenrodyellow;
+    color:red}
+ p {
+    width: 100%;
+    text-align: right;
+    
+}
+p2 {text-align: left;}
+blockquote{background-color: lightgoldenrodyellow;
+            font-size: 25px;
+    
+        
+    
+}
+p {
+    font-size: 35px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;}
+
+footer{font-size: 15px;}
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 28px;
+    }
+    
+}

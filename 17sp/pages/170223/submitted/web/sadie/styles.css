@@ -1,0 +1,129 @@
+body{
+    background-color: cornsilk;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.page1, .page2, .page3{
+    background-color: lavenderblush;
+}
+
+h{
+    font-family: 'Poppins', sans-serif;
+    color: cornflowerblue;
+    font-size: 125px;
+    background-color: lavenderblush;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: cornflowerblue;
+    font-weight: normal;
+    letter-spacing: -3px;
+}
+
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+p{  
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    color: darkturquoise;
+    letter-spacing: 3px;
+    margin-bottom: 200px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: right;
+    color: darkturquoise;
+    font-weight: none;
+    letter-spacing: -3px;
+}
+
+.head {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120px;
+    color: cornflowerblue;
+    font-weight: bold;
+    background-color: cornsilk;
+}
+
+
+.lead {
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: cornflowerblue;
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 150px;
+}
+
+.lead1 {
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkturquoise;
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 150px;
+}
+
+.lead2 {
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: turquoise;
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 150px;
+}
+
+.quote {
+    font-family: 'Josefin Sans', sans-serif;
+    color: cornflowerblue;
+    font-size: 70px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 200px;
+}
+    
+.quote1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkturquoise;
+    font-size: 70px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.quote2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: turquoise;
+    font-size: 70px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 200px;
+}
+    
+    
+.youth {
+    text-align: left;
+    color: cornflowerblue;
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 200px;
+}

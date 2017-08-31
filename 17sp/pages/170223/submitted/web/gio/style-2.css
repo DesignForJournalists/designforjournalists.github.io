@@ -1,0 +1,57 @@
+body{background: pink;}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 57px;
+    text-align: center;
+	font-style: italic; 
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 35px;
+    color: magenta;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 48px;
+    text-align: right;
+	font-style: bold; 
+    font-style: italic;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 25px;
+    color: red;
+    margin-top: -2px;
+    margin-bottom: -100px;
+}
+
+.quote {font-size: 20px;
+    }
+
+.boxed {
+  border: 30px solid burlywood ;
+    color:red;
+    font-family: 'Playfair Display', serif;
+	font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p {font-family: 'Lora', serif;
+    color: magenta;
+    font-size: 16px;
+    margin-top: 20px;
+    
+    
+
+    
+ 
+    
+

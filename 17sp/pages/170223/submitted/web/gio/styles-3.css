@@ -1,0 +1,46 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 65px;
+    text-align: center;
+	font-style: italic; 
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 35px;
+    color: magenta;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+p {font-family: 'Lora', serif;
+    color: magenta;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2  {
+font-family: "Brush Script MT", cursive;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 69px;
+    text-align: right;
+	font-style: bold; 
+    font-style: italic;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 38px;
+    color: red;
+    margin-top: -2px;
+    margin-bottom: -100px;
+}

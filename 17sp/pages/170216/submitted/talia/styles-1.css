@@ -1,0 +1,76 @@
+/* CUSTOM STYLES – MOBILE */
+
+
+body{background-color: #effbff;
+text-align: center;}
+     
+
+h1 { 
+    text-align:center;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    color:black; 
+    text-decoration: black;
+    text-shadow:2px 2px 5px #93A7AD;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align:center;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    text-decoration: black;
+    font-size: 30px;
+    margin:auto;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-bottom:100px;
+}
+
+h3 { 
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    font-size: 40px;
+}
+
+p {
+    text-align:inherit;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    text-decoration: none;
+    text-decoration: black;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #93A7AD;
+}
+
+p1{
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    text-decoration: none;
+    text-decoration: black;
+    text-shadow: 2px 2px 5px #93A7AD;
+}
+
+h6 {
+    text-align:center;
+    font-size: 10px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    margin-top: 200px;
+}
+
+
+        
+
+
+
+
+
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+

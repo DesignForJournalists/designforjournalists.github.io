@@ -1,0 +1,46 @@
+/* DEFAULT STYLES – MOBILE */
+/*For the header, I wanted it to be larger than the rest of the page to catch the viewers attention*/
+body {
+    background: linear-gradient(to right, #ff0000 9%, #ffcc00 100%);
+    
+}
+h1{
+    width: 100%;
+    text-align: center;
+    color: #ffd6cc;
+    text-shadow: 2px 2px ORANGE;
+    font-size: 42px;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold; margin: 40px 0px 25px 0px; }
+
+p,h2,p2 {
+    font-size:20px; margin: 0px  0px 20px 0px;
+    text-align: center;
+    color:black;
+    font-family: 'Fredoka One', cursive;
+}
+h2{ padding-top:30px;}
+
+div {text-align: center;}
+
+p1{
+    color: #ffd6cc;
+    font-size: 30px;
+  font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    text-align: center;  text-shadow:1px 1px black;
+}
+
+/*I didn't want the information that we needed to include to take away from the quote, so I put it really small at the bottom of the page*/
+.footer{
+    font-size: 10px;
+    font-family: 'Fredoka One', cursive;
+    color: #ffd6cc;
+    text-align: center;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+   

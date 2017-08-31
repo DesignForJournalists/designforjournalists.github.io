@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+}
+
+h1, h2, p, .credits {
+    width: 100%;
+    color: lightgoldenrodyellow;
+    font-family: tahoma, sans-serif; 
+h1 {
+	{text-decoration: inherit;
+    font-weight: normal;
+    color: white;
+    margin-top: 150x;
+    margin-bottom: 150px;
+    text-align: left;
+    text-decoration: underline}
+    color: aliceblue;
+
+}
+
+h2 {
+	text-align: left;
+    {font-weight: normal;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: right;}
+}
+.travel {
+	text-align: left;
+	}
+p {text-align: left;
+text-decoration-color: azure;}
+    
+    

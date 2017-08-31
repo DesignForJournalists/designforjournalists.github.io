@@ -1,0 +1,40 @@
+
+body {
+    background-color: lavenderblush;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120px;
+    color: cornflowerblue;
+    font-weight: bold;
+    background-color: cornsilk;
+}
+
+
+p {
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkturquoise;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+
+p1 {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkturquoise;
+    font-size: 70px;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: cornflowerblue;
+    font-size: 30px;
+    text-align: right;
+}

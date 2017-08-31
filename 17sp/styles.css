@@ -1,0 +1,363 @@
+/* --- BODY LEVEL --- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+
+/* --- GENERAL --- */
+
+header > h1 {
+	margin: 0 40px 20px;
+	padding-top: 40px;
+	font-size: 2.2em;
+	font-family: 'Inconsolata';
+	font-weight: 400;
+	color: rgb(238,46,36);
+	text-transform: none;
+}
+section > h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em !important;
+}
+p, ul {
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 1.25em;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	color: #53E0BB;
+}
+.starter {
+	color: gray;
+}
+.smallcap {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-size: .9em;
+}
+
+/* --- SPECIFIC --- */
+
+/* header section */
+.header {
+	padding-bottom: 40px;
+}
+.header nav {
+	padding: 40px 40px 0;
+	font-family: 'Inconsolata';
+    position: fixed;
+}
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header h1 {
+	display: inline-block;
+	font-size: 4em;
+	color: #444444;
+	font-weight: 400;
+	width: 50%;
+}
+.header div {
+	padding: 60px 60px 0 0;
+	float: right;
+}
+.header p {
+	color: gray;
+}
+
+/* schedule section */
+.sched {
+	background: #efefef;
+	padding-bottom: 80px;
+}
+.sched.stack {
+    padding-bottom: 10px;
+}
+.sch-tab {
+	margin: 0 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 16px;
+	background: #ffffff;
+}
+.thiswk {
+	border-left: 3px solid rgb(238,46,36);
+}
+.sch-tab p {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 1.25em;
+	display: block;
+}
+.desk-cat {
+	background: none;
+	margin-bottom: 0;
+}
+.desk-cat p {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+.sch-col {
+	width: 40%;
+	padding: 20px;
+}
+.sch-col:first-of-type {
+	width: 20%;
+}
+.sch-col.full {
+	width: 100%;
+}
+.noclass {
+	opacity: .45;
+}
+
+/* info section */
+.info {
+	padding-bottom: 40px;
+}
+.info.gray {
+	background: #efefef;
+}
+.info p, section.info > h1, .showcase > h1, .info ul {
+	padding: 0 40px;
+	margin-bottom: 16px;
+	width: 60%;
+	font-size: 1.5em;
+}
+.info ul {
+	padding-left: 64px;
+}
+.info p.quote {
+    padding: 20px 80px;
+    color: gray;
+    box-sizing: border-box;
+}
+
+/* image-section */
+.image-section {
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.image-section.gray {
+   background: #efefef;
+}
+.image-section img {
+    padding: 20px 0 20px 40px;
+    width: 40%;
+    display: inline-block;
+}
+.image-section p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+.image-section.pan {
+    overflow: scroll;
+    padding: 0;
+}
+.image-section.pan img {
+    width: 200%;
+}
+
+/* showcase */
+.showcase {
+    padding: 20px 0 80px;
+    margin: 40px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.showcase img {
+    padding: 20px 0 20px 40px;
+    width: 50%;
+    display: inline-block;
+}
+.showcase video {
+    padding: 20px 0 20px 40px;
+    width: 90%;
+    display: inline-block;
+}
+.showcase p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+.showcase p.caption {
+    font-size: 1em; 
+    color: gray;
+    width: 100%;
+}
+
+/* submitted */
+.submitted p {
+	margin-bottom: 0;
+}
+.submitted p a {
+}
+    .submitted p a::before {
+        content:"";
+        background: url(images/check.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+        margin-right: .5rem;
+        margin-bottom: .3rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+.submitted p a.download {
+    text-decoration: underline;
+    color: #c1c1c1;
+}
+    .submitted p a.download::before {
+        background: none;
+        width: .2rem;
+        margin-right: 0;
+    }
+.submitted p a.pending {
+    color: black;
+    text-decoration: none; 
+}
+    .submitted p a.pending::before {
+        background: url(images/pending.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+/* image examples */
+.hw-screenshot-float {
+    padding: 0 40px;
+    width: 36%;
+    float: right;
+}
+
+.hw-screenshot {
+    padding: 0 40px;
+    width: 36%;
+}
+
+/* footer */
+footer {
+	background: #efefef;
+	background: #ffffff;
+	border-top: 2px solid #efefef;
+	padding: 0 40px 12px 0;
+}
+footer ul {
+}
+footer li {
+	display: inline-block;
+	font-family: 'Inconsolata';
+	font-weight: 800;
+	font-size: .8em;
+	padding-top: 10px;
+}
+footer li:last-of-type {
+	float: right;
+}
+
+/* --- MOBILE --- */
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+	.header div {
+		float: none;
+		padding-left: 40px;
+	}
+	.info p, .info ul, section.info > h1 {
+		width: 100%;
+		font-size: 1.2em;
+	}
+    .hw-screenshot {
+        padding: 0 40px;
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+	header h1,
+	.sch-tab {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	.header h1 {
+		font-size: 2.5em;
+        width: 90%;
+	}
+    .header p {
+        font-size: 1.3em;
+    }
+	.sch-col, .sch-col:first-of-type {
+		width: 100%;
+		padding: 5px;
+	}	
+	.desk-cat {
+		display: none;
+	}
+	.sch-col p {
+		display: block;
+		margin-left: 30%;
+	}
+        .sch-col.full p {
+            margin-left: 0;
+        }
+	.sch-col.week::before, .sch-col.agenda::before, .sch-col.assign::before {
+		display: inline-block;
+		font-family: 'Dosis', sans-serif;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		letter-spacing: 1px;
+		float: left;
+		margin-top: 6px;
+	} 
+	.sch-col.week::before {
+		content: "Week";
+	}
+	.sch-col.agenda::before {
+		content: "Agenda";
+	}
+	.sch-col.assign::before {
+		content: "HW";
+	}
+	.header div, .info p, section.info > h1, .showcase > h1 {
+		padding: 0 16px;
+	}
+    .image-section {
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    .image-section img, .showcase img, .showcase video {
+        padding: 10px 20px;
+        width: 100%;
+    }
+	footer ul {
+	    padding: 0 0 0 16px;
+	}
+}
+
+/* --- PRINT --- */
+
+@media print {
+}

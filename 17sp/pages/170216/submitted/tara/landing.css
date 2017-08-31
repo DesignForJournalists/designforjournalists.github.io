@@ -1,0 +1,62 @@
+/* DEFAULT STYLES – MOBILE */
+
+html {
+    background: #a2e8e0;
+    }
+
+h1 {
+    font-size: 90px;
+    font-family: "Fjalla One";
+    text-shadow: 4px 4px #edb16d;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+}
+    
+    
+.linkone {
+    font-size: 50px;
+    font-family: "Fjalla One";
+    color: white; 
+    text-align: center;
+    border-style: double;
+    border-color: white;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+.link2 {
+    font-size: 50px;
+    font-family: "Fjalla One";
+    color: white; 
+    text-align: center;
+    border-style: double;
+    border-color: white;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.link3 {
+    font-size: 50px;
+    font-family: "Fjalla One";
+    color: white; 
+    text-align: center;
+    border-style: double;
+    border-color: white;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+    
+.bottom{
+    font-family: "Fjalla One";
+    color: white; 
+    text-align: center;
+}
+}

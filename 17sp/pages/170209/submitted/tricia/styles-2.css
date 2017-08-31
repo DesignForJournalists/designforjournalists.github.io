@@ -1,0 +1,52 @@
+/* DEFAULT STYLES – MOBILE */
+
+
+body{background-color:peachpuff;
+     
+}
+h1, p {
+    width: 100%;
+}
+h1 {
+    text-decoration: inherit;
+    font-weight: 500;
+    color: darkred;
+    font-family: geneva;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase
+   
+}
+
+#main {
+    background: teal;
+    color: black;
+    font-family: geneva;
+    font-size:15px;
+    text-decoration: underline
+    
+    
+}
+
+#second {
+    background: lightpink;
+    color: darkred;
+    font-family: geneva;
+    font-size: 25px;
+    font-align: center;
+    text-transform: uppercase
+}
+
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}

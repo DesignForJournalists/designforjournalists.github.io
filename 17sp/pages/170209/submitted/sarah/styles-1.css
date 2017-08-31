@@ -1,0 +1,22 @@
+
+body {
+width: 1000px;
+margin: 0 auto; 
+font-family: Courier New;
+}
+
+h1 { 
+text-align: center;
+}
+
+
+p {
+font-family: "Times New Roman", Times, serif;
+text-align: center;
+font-weight: bold; 
+}
+
+li {
+font size: 7px;
+text-align: center;
+}

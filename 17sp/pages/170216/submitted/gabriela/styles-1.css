@@ -1,0 +1,67 @@
+/* CUSTOM STYLES – MOBILE */
+html {background-color: aquamarine;
+outline-style: double;
+outline-color: crimson;}
+h1, h2, p, .credits {
+    width: 100%;
+    font-family:  Carter One, cursive;
+    background-color: aquamarine
+    
+}
+
+{background-color: aliceblue;}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: darkblue;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Carter One, cursive;
+    outline-style: double;
+    outline-color: crimson;
+    
+}
+.led {
+    font-style: italic;
+}
+.quote1 {
+    margin-top: 40px;
+    color: black;
+    
+}
+.quote2 {
+    color: black;
+}
+
+.attribute {
+    font-weight: normal;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: justify;}
+p {
+    text-align:justify;
+}
+p {
+    font-size: 22px;
+}
+
+/* CUSTOM OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, h2, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        
+            
+    }
+    p {
+        font-size: 22px;
+    }
+    
+}
+}

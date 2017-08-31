@@ -1,0 +1,44 @@
+body {
+    
+   
+    }
+h1 {
+    color: black;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    line-height: 2.0;
+    padding-left: 30px;
+    padding-top: 25px;
+    }
+       
+h2 { 
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    line-height: 2.0;
+    padding-left: 30px;
+
+    
+}
+.quote {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 2.0;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    }
+        
+.end { 
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: left;
+    padding-top: 90px;
+    text-align: center
+    
+    
+}

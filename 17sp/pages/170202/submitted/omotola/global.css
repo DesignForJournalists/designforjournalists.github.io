@@ -1,0 +1,21 @@
+
+body {
+width: 1000px;
+margin: 0 auto; 
+font-family: Courier New;
+}
+
+h1 {
+font-size: 15px; 
+}
+
+
+p {
+font size: 10px; 
+font-style: italic;
+text-align: center;
+}
+
+li {
+font size: 7px;
+}

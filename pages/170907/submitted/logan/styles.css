@@ -1,0 +1,54 @@
+/* DEFAULT STYLES – MOBILE */
+
+h1, p {
+    width: 100%;
+}
+p {
+    font-size: 20px;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: futura; 
+    p {
+        font-size: 20px;
+        }
+
+        }
+.attribute {
+    font-size: 18px; 
+    margin-right: 10%; 
+    }
+    
+.quote {
+    color: rosybrown;
+    font-size: 19px;
+    }
+.par { margin-left: 60%;
+    font-size: 15px;
+}
+.class {
+    margin-left: 60%;
+    font-size: 15px;
+    }
+.dylan { margin-left: 60%;
+    font-size: 15px;
+}
+.name { margin-left: 60%;
+    font-size: 15px;
+}
+.source {
+    margin-left: 60%;
+    font-size: 15px;
+}
+.header {
+    color: rosybrown; 
+    
+
+    }

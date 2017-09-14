@@ -1,0 +1,50 @@
+
+
+h1 {
+    font-size: 24px;
+    color: rebeccapurple;
+    font-family:sans-serif;
+}
+
+//is the body supposed to go before the h1?
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: blanchedalmond;
+
+}
+
+//I don't know if I am doing this right
+
+'
+
+
+p {
+    font-size: 20px; 
+    font-family: menlo;
+    color: floralwhite;
+    font-weight:normal;
+}
+
+.yellow-header {
+    color: blue;
+    font-family: sans-serif;}
+    
+    p2 {
+    font-size: 24px; 
+    font-weight: normal;
+    font-family:monospace;
+    color: deeppink;
+}
+    
+}
+
+.pink-bg {
+    background-color: whitesmoke;
+}
+
+.gray-bg {
+    background-color: darkkhaki;
+    font-family: serif
+}

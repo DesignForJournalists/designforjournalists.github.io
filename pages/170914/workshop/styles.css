@@ -58,7 +58,7 @@ h1, h2, p, .img-body-width {
     padding-top: 10%;
     /* the following lines makes the height of this section whatever the height of the browser is. vh stands for "viewport height" */ 
     height: 100vh;
-    /* the following five attributes together render a background gradient color. you can generate the code for any color gradient you want here: http://www.colorzilla.com/gradient-editor/  */
+    /* the following five properties together render a background gradient color. you can generate the code for any color gradient you want here: http://www.colorzilla.com/gradient-editor/  */
     background: #f9d16b; /* Old browsers */
     background: -moz-linear-gradient(top, #f9d16b 0%, #ffbaf5 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #f9d16b 0%,#ffbaf5 100%); /* Chrome10-25,Safari5.1-6 */
@@ -106,7 +106,7 @@ h1, h2, p, .img-body-width {
     margin-right: 10px;
 }
 
-/* this class allows the side-by-side boxes to be centered by setting the boxset class to "text-align: center" attribute, which centers all "inline" items inside it. */
+/* this class allows the side-by-side boxes to be centered by setting the boxset class to "text-align: center" property, which centers all "inline" items inside it. */
 .boxset-row {
     text-align: center;
 }

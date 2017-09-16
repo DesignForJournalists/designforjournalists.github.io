@@ -1,0 +1,129 @@
+body {
+    /* in the line below, i am setting the margin to 0, because by default, the body has a margin of 8px. if you remove the line below, and refresh, you should notice the difference */
+    margin: 0px;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 60px;
+    /* below is a google font which I am linking to from my html doc */
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    /* below is a google font which I am linking to from my html doc */
+    font-family: 'Work Sans', sans-serif;
+    color: lightgrey;
+}
+
+p {
+    font-size: 24px;
+    line-height: 30px
+    /* below is a google font which I am linking to from my html doc */
+    font-family: 'Crimson Text', serif;
+}
+
+/* this set of styles will be applied to anything that is <h1>, <h2>, <p>, or has a class="img-body-width" */
+h1, h2, p, .img-body-width {
+    width: 76%;
+    /* next 3 lines: make element a "block" element and center it */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-section {
+    /* the next 1 line: I have my title section a background of a color called "#efefef". this way of labeling colors is called "hex code". if you google "hex code color generator" you can generate a hex code for any color you want to use it in your code like I did below */  
+    background: #efefef;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.title-nav a {
+    color: gray;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.title-header {
+    font-size: 60px;
+}
+
+.img-full-width {
+    width: 100%;
+}
+
+.pullquote-section {
+    padding-top: 10%;
+    /* the following lines makes the height of this section whatever the height of the browser is. vh stands for "viewport height" */ 
+    height: 100vh;
+    /* the following five attributes together render a background gradient color. you can generate the code for any color gradient you want here: http://www.colorzilla.com/gradient-editor/  */
+    background: #f9d16b; /* Old browsers */
+    background: -moz-linear-gradient(top, #f9d16b 0%, #ffbaf5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f9d16b 0%,#ffbaf5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f9d16b 0%,#ffbaf5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d16b', endColorstr='#ffbaf5',GradientType=0 ); /* IE6-9 */
+}
+
+.pullquote-section-text {
+    font-size: 70px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pullquote-section-attribute {
+    text-align: center;
+    color: #ffffff;
+}
+
+.box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* the remaining box styles: center the boxes, define the box width, and style the box with a black border */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border: 6px solid black;
+}
+
+.boxset-column {
+    /* no styles need here. by default, the boxes will appear in a column */
+}
+
+/* this class allows the boxes to appear in a row. we are changing the display value of each box to "display: inline-block" and then defining the left and right margin values */
+.side-by-side {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* this class allows the side-by-side boxes to be centered by setting the boxset class to "text-align: center" attribute, which centers all "inline" items inside it. */
+.boxset-row {
+    text-align: center;
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background: #585858;
+    margin-top: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}

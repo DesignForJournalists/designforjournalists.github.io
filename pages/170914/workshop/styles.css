@@ -67,7 +67,7 @@ h1, h2, p, .img-body-width {
 }
 
 .pullquote-section-text {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 100;
     color: #ffffff;
@@ -80,17 +80,18 @@ h1, h2, p, .img-body-width {
 }
 
 .box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    /* the remaining box styles: center the boxes, define the box width, and style the box with a black border */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* the remaining box styles: center the boxes, define the box width, define the box text size, and style the box with a black border */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+    font-size: 12px;
     border: 6px solid black;
 }
 
@@ -101,16 +102,13 @@ h1, h2, p, .img-body-width {
 /* this class allows the boxes to appear in a row. we are changing the display value of each box to "display: inline-block" and then defining the left and right margin values */
 .side-by-side {
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* this class allows the side-by-side boxes to be centered by setting the boxset class to "text-align: center" attribute, which centers all "inline" items inside it. */
 .boxset-row {
     text-align: center;
-    width: 76%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer {

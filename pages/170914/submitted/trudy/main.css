@@ -1,0 +1,33 @@
+body {
+  background-color: #E2D919;
+}
+
+h1 {
+    color: #764DE4;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 1%;
+    position: relative;
+    border-right: solid #FFFFFF 2pt;
+}
+
+
+.blockquote, p {
+    color: #764DE4;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    position: relative;
+    width: 40%;
+    margin: 1.5%;
+    padding: 1.5%;
+    float: left;
+}
+
+
+section {
+  float: left;
+  width: 30%;
+    

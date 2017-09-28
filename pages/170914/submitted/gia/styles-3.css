@@ -1,0 +1,45 @@
+h1 {
+    font-size: 32px;
+    color: red;
+    font-family: serif;
+    margin-left: 40%; 
+    margin-right: 40%;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20;
+    margin-left: 20%;
+    font-family:inherit;
+    color: red;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:'Dancing Script', cursive;;
+    color: black;
+    
+}
+p1 {
+    margin-left: 80%;
+    font-family: 'Dancing Script', cursive;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Poppins', sans-serif;
+    color: darkslateblue;
+}
+body1 {
+    background-color: lavender;
+}
+body2 {
+    background-color: lavender;
+}
+body3 {
+    background-color: lavender;
+}

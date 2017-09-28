@@ -1,0 +1,65 @@
+body{
+
+	background-image: url(https://nowtoronto.com/downloads/82942/download/BOF%20-%20Zadie%20Smith%20-%20©%20Dominique%20Nabokov.jpg?cb=f560ad697509e0434aabc0cb78c2f037&w=640);
+background-position: left;
+    background-repeat: no-repeat;
+    background-size: 33% 100%;
+  margin-right:65%;
+
+}
+h1 {
+	font-family: 'Wendy One', sans-serif;
+    color: black;
+    margin-right:30%;
+    margin-left:30%;
+    font-size:35px;
+}
+.purple { 
+color:#871313;
+margin-left:20%;
+margin-right:20%;
+column-count:2;
+padding-top:3%;
+font-size:12px;
+font-weight:25%;
+}
+
+
+
+h2 {
+    color: black; 
+    margin-left:30%;
+    padding-bottom:3%%;
+
+    
+}
+h3{
+	color:black;
+	margin-left:25%;
+  font-size:12px;
+}
+
+.end{
+    color:red;
+    font-size:10px;
+    margin-right:10%;
+    margin-left:70%;
+    padding-top:10%;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  color:#ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+

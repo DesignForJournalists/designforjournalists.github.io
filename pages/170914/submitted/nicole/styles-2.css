@@ -1,0 +1,39 @@
+h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Courgette', cursive; 
+}
+p {
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-family: helvetica;
+    color: black;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family:'Courgette', cursive ;
+    color: beige;
+    background-color: indianred;}
+p1 {
+    margin-left: 80%;
+    font-family: helvetica;
+    color: indianred 
+}
+h3 {
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: black;
+}
+a{
+    font-family: cursive;
+    color: bisque
+
+}

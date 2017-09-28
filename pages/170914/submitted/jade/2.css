@@ -1,0 +1,67 @@
+body{
+	background-color: rgb(255, 241, 135);
+    font-family: 'Frijole', cursive;;
+}
+
+.title {
+	margin-bottom: 5%;
+	border-bottom: 1px solid #000000;
+    font-family: 'Amatic SC', cursive;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	font-size: 300%;
+
+}
+
+.lede{
+	font-color: #070202;
+	margin-right: 10%;
+	margin-left: 10%;
+	line-height: 170%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	color: #000000;
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 150%;
+
+}
+
+.saying{
+	margin-right: 20%;
+	margin-left: 20%;
+    font-family:'Permanent Marker', cursive;
+    font-size: 100%;
+}
+.quote{
+	text-align: left;
+	font-size: 500%;
+	margin-left: 20%;
+	margin-right: auto;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.second-quote{
+	text-align: right;
+	font-size: 500%;
+	margin-left: auto;
+	margin-right: 4%;
+
+}
+a{
+	color:black;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+footer {
+	font-size: 60%;
+	color: #000000;
+	padding-top:10%;
+	padding-bottom: 5%;
+	text-align: center;
+}

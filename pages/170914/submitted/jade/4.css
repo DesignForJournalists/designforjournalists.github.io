@@ -1,3 +1,12 @@
+    h1 {
+    font-size: 60px;
+font-family: 'Acme', sans-serif;
+    color: rgb(255, 147, 226);
+    text-align: center;
+    background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/sea-background-texture-1466765427sfk.jpg);
+    line-height: 3;
+}
+    
 p {
     font-size: 25px;
     margin-right: 10%;
@@ -37,15 +46,6 @@ p3 {
     font-weight: bolder;
 }
 
-
-h1 {
-    font-size: 60px;
-font-family: 'Acme', sans-serif;
-    color: rgb(255, 147, 226);
-    text-align: center;
-    background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/sea-background-texture-1466765427sfk.jpg);
-    line-height: 3;
-}
 body {
     background-color: #c4effa;
     
@@ -59,12 +59,12 @@ h2 {
 
 body2 {
     
-    font-size: 60px;
+    font-size: 30px;
      font-family:'Acme', sans-serif;
     color: #716cfa;
     line-height: 1.5;
     column-count: 1;
-    font-weight: bolder;
+    font-weight: normal;
     
     
 }

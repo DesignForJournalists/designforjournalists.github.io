@@ -1,0 +1,188 @@
+/* DESKTOP STYLES*/
+html {
+	background-color: ;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	margin-right: 75%;
+	color: black;
+	font-size: 100%;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: -1%;
+	margin-top: 5%;
+}
+
+h2 {
+	margin-right: 30%;
+	font-size: 40%;
+	color: grey;
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+.navbar {
+
+	border-top: 1px grey solid;
+
+}
+
+
+header {
+	margin-top: 7px;
+	border-bottom: 1px grey solid;
+}
+
+ul {
+
+	text-align: center;
+
+}
+
+li{
+	display:inline-block;
+	padding: 10px;
+	column-span: 50px;
+}
+
+h3 {
+	font-size: 130%;
+	margin-top: 5%;
+	margin-right: 2%;
+	margin-left: 5%;
+	font-weight: 700;
+}
+p {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+.huntimage {
+	width: 35%;
+	height: 35%;
+	margin-left: 32%;
+	margin-right: 35%;
+	padding-top: 5%;
+	
+}
+
+#section_title {
+	font-size: 600%;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 2%;
+
+}
+
+.assignment {
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 30px;
+
+}
+
+.print_image{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	width: 75%;
+	height: auto;
+}
+
+#web_image{
+	width: 40%;
+	height: auto;
+	margin-right: auto;
+	margin-left: 28%;
+	padding-top: 5%;
+}
+
+.design_list {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 300%;
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+
+#tab{
+	font-weight: 700;
+}
+
+.design_link{
+	text-decoration: line-through;
+
+}
+
+figcaption{
+	color: grey;
+	font-size: 70%;
+	margin-left: 25%;
+}
+
+a {
+	color: black;
+}
+a:hover {
+	color: #F8F1FF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* MOBILE STYLES*/
+
+@media only screen and (max-width: 768px) {
+    
+    div{
+        width: 100%;
+}
+
+	#section_title{
+		font-size: 600%;
+}
+    h2{
+    	margin-right: 80%;
+}
+     li{
+     	font-size: 200%;
+}
+
+    figcaption{
+	color: grey;
+	font-size: 80%;
+	margin-left: 11%;
+	margin-right: 11%;
+}
+    #web_image{
+	width: 75%;
+	height: auto;
+	margin-right: auto;
+	margin-left: 11%;
+	padding-top: 5%;
+	
+}
+	.print_image{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	width: 75%;
+	height: auto;
+}
+

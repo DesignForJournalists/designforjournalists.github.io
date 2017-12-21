@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    line-height: .95;
+}
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    line-height: 1;
+}
+h3{
+    font-family: 'PT Serif', serif;
+    font-size : 22px;
+    font-weight: normal;
+    color: gray;
+}
+p{
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    font-weight:normal;
+}
+.dek{
+    color:darkkhaki;
+    
+}
+.caption {
+    font-family: 'Pragati Narrow', sans-serif;
+    color: khaki;
+    color: darkgray;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+}
+img{
+    width: 100%;
+}
+footer {
+    background: #efefef;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+@media (min-width:768px){
+    
+    h1, h2, h3, p, img, footer{
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{display:block}
+    
+    

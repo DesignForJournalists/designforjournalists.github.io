@@ -1,0 +1,170 @@
+/* DEFAULT STYLES – MOBILE */
+
+body {
+	margin:0px;
+}
+
+img.header {
+    width: 100%;
+}
+
+img.footer{
+    width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+    align-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e7e7e7;
+    align-content: center;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: black;
+  font-size: 17px;
+font-family: 'Montserrat', sans-serif;
+  position: absolute;
+    padding-top: 10%;
+  text-align: center;
+}
+
+i {
+    color: darkred;
+    font-size: 11px;
+    font-style: bold;
+}
+body {
+	margin:0px;
+}
+
+img.header {
+    width: 100%;
+}
+
+img.neimanlab {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    font-family:'Rubik Mono One', sans-serif;
+    font-size: 35px;
+    margin-bottom: .05px;
+    text-align: center; 
+}
+
+p.intro {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 0 27px 0 27px;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	font-family: 'Rubik Mono One', sans-serif;
+    margin-bottom: 2%;
+    padding-bottom: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+    margin-top: .05%;
+    padding-top: 0%;
+    margin-bottom: .05%;
+    padding-bottom: 0%;
+}
+
+img.face {
+    align-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.article-set {
+    text-align: center;
+}
+
+.article-box {
+    display: block;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+    
+    .article-box {
+        width: 30%;
+        display: inline-block;
+    }
+    
+    p.intro {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    
+    img.neimanlab {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  h1 {
+      font-size: 50px;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+
+    h2{
+        font-size: 17px;
+    }
+      
+  h3 {
+      font-size: 18px;
+  }
+
+}
+
+

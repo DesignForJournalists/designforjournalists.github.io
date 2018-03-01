@@ -1,0 +1,152 @@
+/* DEFAULT STYLES – MOBILE */
+
+body {
+	margin:0px;
+}
+
+img.header {
+    width: 100%;
+}
+
+h1 {
+    font-family:'Rubik Mono One', sans-serif;
+    font-size: 35px;
+    margin-bottom: .05px;
+    text-align: center; 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: .05px;
+    text-align: center;
+    padding: 10px 25px 10px 25px; 
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    margin-bottom: .05px;
+    margin-left: 15%;
+
+}
+
+a {
+    color: gray;
+}
+
+img.icon {
+    height: 20px;
+    width: inherit;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    margin-top: .05px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+img.fig{
+    align-content: center;
+    width: 100%;
+}
+
+div.box{
+    background-color: #e3e3e3;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p.attribute{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a.footer-links {
+    color: black;
+    font-family:'Rubik Mono One', sans-serif;
+    font-size: 15px;
+    margin-bottom: .05px;
+    text-align: center; 
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a.footer-links:hover {
+    color: grey;
+}
+
+img.footer {
+    width: 100%;
+}
+
+/* OVERRIDE STYLES – DESKTOP */
+
+@media (min-width: 768px) {
+
+    h1, p {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 60px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h2 {
+        font-size: 19px;
+        text-align: center; 
+        padding: 10px 25px 10px 25px;
+        line-height: 34px;
+    }
+    
+    h3 {
+        margin-left: 15%;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    img.fig {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    p.attribute{
+        max-width: 100%;
+    }
+
+    div.footer{
+        font-size: 12px;
+    }
+    
+    a.footer-links{
+        font-size: 20px;
+    }
+}

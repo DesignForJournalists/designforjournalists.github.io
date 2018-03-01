@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predictions For Journalism 2018</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Alice|Cormorant|Prata|Radley|Roboto|Roboto+Condensed" rel="stylesheet">
+</head>
+</head>
+
+
+<body id="frontPage">
+	<div id="noScroll">
+		<!-- fixed banner -->
+		
+			<button class="stationaryBanner ">
+				NiemanLab
+				<!-- <button id="returnTop">↑</button> -->
+			</button>
+
+		<!-- front title page -->
+		<div class="top">
+
+			<h1 id="title">
+				<a href="">PREDICTIONS FOR JOURNALISM 2018</a>
+			</h1>
+			<p>
+				Each year, we ask some of the smartest people in journalism and digital media what they think is coming in the next 12 months. Here’s what they had to say.
+			</p>
+
+			<button id="buttonFront"> See Predictions </button>
+		</div>
+	
+	<section id="bottom">
+	<!-- images + caption-->
+	<div class="siema">
+		<section class="mainImages">
+			<div id="scrollHere"></div>
+			<a href="pages/page1/index.html">
+				<img src="images/pic1.jpeg">
+			</a>
+				<p class="imgQuote">"Watch for the hook"</p>
+
+				<div class="dots"><div id="dot1">.</div>..</div>
+		</section>
+
+		<section class="mainImages">
+			<a href="pages/page2/index.html"> <img src="images/pic2.jpg"> </a>
+			<p class="imgQuote">"Texting is Lit rn, fam"</p>
+			<div class="dots">.<div id="dot2">.</div>.</div>
+		</section>
+
+		<section class="mainImages">
+			<a href="pages/page3/index.html"><img src="images/pic3.jpg"> </a>
+			<p class="imgQuote">"No assholes allowed"
+			<div class="dots">..<div id="dot3">.</div></div>
+			</p>
+		</section>
+	</div>
+
+	<div class="slideButtons">
+	<button class="prev"><</button>
+	<button class="next">></button>
+	</div>
+	</section>
+
+<!-- javascript -->
+<script src="siema/siema.min.js"></script>
+
+<script type=text/javascript>
+  // siema
+
+  const mySiema = new Siema();
+document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
+	
+//target the entire page, and listen for touch events
+
+$('body, #noScroll, html, .siema').on(' touchmove', function(e){ 
+     //prevent native touch activity like scrolling
+     e.preventDefault(); 
+});
+
+  new Siema({
+  	draggable: true
+  });
+  
+ // scroll to
+
+
+	$("#buttonFront").click(function() {
+		console.log('scroll')
+	
+
+	   	$("html, body").animate({ scrollTop: $('#scrollHere').offset().top }, 500);
+
+	   // $("#returnTop").css("visibility", "visible");
+	});
+
+	$(".stationaryBanner").click(function(){
+		console.log('return top')
+		$("html, body").animate({ scrollTop: 0.}, 500);
+		// $("#returnTop").css("visibility", "hidden");
+	});
+</script>
+
+	</div>	
+</body>
+</html>

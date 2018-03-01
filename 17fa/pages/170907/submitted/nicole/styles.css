@@ -1,0 +1,41 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: darkkhaki;
+}
+
+h1 {
+    font-size: 25px;
+    color: bisque;
+    font-family: cursive
+}
+
+p {
+    font-size: 20px; 
+    font-weight: small;
+    font-family: menlo;
+    color: floralwhite;
+}
+
+.red-header {
+    color: forestgreen;
+    font-family: Times new roman}
+    
+    p2 {
+    font-size: 20px; 
+    font-weight: small;
+    font-family: menlo;
+    color: plum;
+}
+    
+}
+
+.yellow-bg {
+    background-color: black;
+}
+
+.gray-bg {
+    background-color: lightgoldenrodyellow;
+    font-family: menlo
+}
+

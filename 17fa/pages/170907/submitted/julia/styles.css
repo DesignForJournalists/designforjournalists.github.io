@@ -1,0 +1,43 @@
+h1 {
+    font-size:  45px;
+    font font-weight: normal;
+    font-family: sans-serif;
+    color:khaki;
+   
+}
+body {
+    background-color: thistle;
+text-emphasis-color: gold
+}  
+     
+p1{
+font-size: 15px;
+font-family:monospace;
+color: hotpink;
+text-height: inherit;
+}
+    
+p {
+font-size: 25px;
+font-weight:lighter;
+margin-right: 10%;
+font-family:sans-serif;
+color:olive;
+
+outline-color: palevioletred;
+float: left;
+    
+}
+p2{
+font-size: 10x;
+font-family: monospace; 
+}
+
+h1 { font-size: 45px;
+font display: grid
+    
+}
+1 this is the headers and the persons name, i chose a light colour palette to juxtapose the intensity of thr quote]
+    13 this is where i wrote the lede, i made it smaller and a different fnt and colour to make it apparent that it was the lead}
+ 27trying to figure out this float situation....i used an easy to read contrast color and big font to make the quote easy to read, ]
+    36 small section about malcolm]

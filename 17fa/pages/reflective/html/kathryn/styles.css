@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: ghostwhite;
+    opacity: 90%;
+}
+body {
+     background-image: url("images/paper.jpg");
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    line-height: .95;
+}
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    font font-weight: normal;   
+}
+
+p { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font font-weight: normal;
+    color: black;
+}
+.dek {
+    margin-top: 200px;
+    color: black;
+}
+.caption {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: grey;
+    text-align: center;
+}
+img {
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    h1, h2, h3, p, img, li {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img {display: block;}
+    
+}

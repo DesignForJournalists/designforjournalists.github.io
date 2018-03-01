@@ -1,0 +1,37 @@
+div, {
+    
+    background-color: aqua;
+}
+
+h1, p {
+    line-height: 30px;
+        margin: auto;
+        font-family:'Patua One', cursive;
+        color: skyblue;
+}
+
+.paragraph1 {
+    margin-top: 90px;
+    text-indent: 50px;
+}
+
+center {
+    
+    font-family:'Patua One', cursive;
+    font-size: 90px;
+    color: blanchedalmond;
+    font-style: italic;
+}
+   
+p {
+    font-size: 17px;
+}
+
+footer {
+    font-size: 15px;
+    color: blanchedalmond;
+    font-family:'Patua One', cursive;
+    font-weight: 300
+}
+b2 {color: dimgray}
+a{ color: black}

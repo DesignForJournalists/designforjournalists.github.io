@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="My Name">
+    <title>My Project Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- the line directly below connects the html page to your css styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- the line directly below connects the html page to specific google fonts on google's cloud -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:100,900" rel="stylesheet">
+
+</head>
+<body>
+    <div class="title-section">
+        <p class="title-nav"><a href="">Link one</a> <a href="">Link two</a> <a href="">Link three</a></p>
+        <h1 class="title-header">This is my page title</h1>
+    </div>
+    <div>
+        <h1>Part One</h1> 
+        <p>Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Etiam feugiat lorem non metus. Cras non dolor.</p>
+        <p>Aenean commodo ligula eget dolor. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Fusce egestas elit eget lorem. Fusce ac felis sit amet ligula pharetra condimentum. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+    </div>
+    <!--the image below is "inline" with all the body content. it has a class that is styled in the css to be full width-->
+    <img class="img-full-width" src="images/mountains.png">
+        <h1>Part Two</h1> 
+        <p>Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Etiam feugiat lorem non metus. Cras non dolor.</p>
+        <!--the image below is "inline" with all the body content. it has a class that is styled in the css to be the same width as the text body -->
+        <img class="img-body-width" src="images/mountains.png">
+        <div>
+        <p>Aenean commodo ligula eget dolor. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Fusce egestas elit eget lorem. Fusce ac felis sit amet ligula pharetra condimentum. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+    </div>
+    <div class="pullquote-section">
+        <p class="pullquote-section-text">Ever tried, ever failed, no matter. Try again, fail again, fail better</p>
+        <p class="pullquote-section-attribute">— Samuel Becket</p>
+    </div>
+    <div>
+        <h1>Margin vs Padding</h1> 
+        <h2>Example</h2>
+        <p>In your css stylesheet, you can give a tag or class (like a <strong>p</strong> or a <strong>.excerpt</strong>) a <em>margin</em> property and a <em>padding</em> property. What are they and how are they different?</p>
+        <p>Say you ordered three end-tables from Ikea for delivery. Right now, the end-tables are in a delivery truck on their way to your door. Each end-table is packaged in its own perfect-sized box. The boxes are side-by-side in the truck, with a 2-inch space between the outside of each box. The inside of each box is fully lined with a layer of bubble wrap that is 1-inch thick; there is a 1-inch space between the inside of each box and the end-table.</p>
+        <img class="img-body-width" src="images/01-marginpadding.jpg">
+        <p>We can say that each box has both a margin and a padding. The box margin (in pink below) is the <em>outer</em> space – between the box wall and another box. The padding (in yellow below) is the <em>inner</em> space – between the box wall and the end-table.</p>
+        <img class="img-body-width" src="images/02-marginpadding.jpg">
+        <h2>In Code</h2>
+        <p>Think of the box as a tag element – like a <strong>div</strong> (or a <strong>p</strong> or an <strong>h1</strong>). Think of the end-table as whatever element might be inside of that div – like text.</p>
+        <p>In your css file, you can give the <strong>div</strong> a margin of say 10px. That means there will be a 10px space between the border of the div  and anything above/below/beside it. You can also give the <strong>div</strong> a padding of say 10px. That means there will be a 10px space between the border of the div and whatever is inside it.</p>
+        <div class="boxset-column">
+            <div class="box">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+            <div class="box">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+            <div class="box">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+        </div>
+        <p>If you want the boxes to appear side by side, you need to give each box div a css property of <strong>display:inline-block</strong></p>
+        <div class="boxset-row">
+            <div class="box side-by-side">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+            <div class="box side-by-side">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+            <div class="box side-by-side">Whan that abril wish his shoures sote the drought of marche hath perced</div>
+        </div>
+    </div>
+    <div>
+        <h1>Questions?</h1> 
+        <p>Definitely maybe. Email me :)</p>
+    </div>
+    <div class="footer">
+        <p class="footer-text">I am a footer!</p>
+    </div>
+</body>

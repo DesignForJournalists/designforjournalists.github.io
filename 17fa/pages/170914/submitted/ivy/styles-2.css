@@ -1,0 +1,79 @@
+h1 { 
+    font-family: shrikhand;
+    font-size: 150px;
+    text-align: center;
+    color:red; 
+    background-image: url(Diamond-Background-Image.jpg);
+    line-height: 1.5;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+p{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Raleway;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: lightpink;
+    margin: 0%;
+}
+a.twitter {
+    font-family: shrikhand;
+    font-size: 40px;
+    text-align: center;
+    color:red;
+    line-height: 3.0;
+}
+p.info {
+    font-family: lobster;
+    font-size: 20px;
+}
+h2 {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Raleway;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    color: black;
+}
+a.kendrick {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Raleway;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    color: black;
+}
+h3 {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Raleway;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: right;
+    color: black;
+}
+a.lifeofpi {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Raleway;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,81 @@
+
+body{
+	margin-right:60%;
+	margin-left:5%;
+}
+
+
+.attachment{
+	font-size:12px;
+	text-align:right;
+	color:#F372D0;
+	padding-right:7%;
+}
+
+.title {
+	margin-bottom: 5%;
+	border-bottom: 1px solid grey;
+}
+h1{
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	font-size: 30px;
+	color:#F372D0;
+}
+.image{ margin-right:30%;
+margin-left:50%; 
+display: inline-block;
+}
+
+
+img{ margin-right:60%;
+margin-left:20%;
+height:200px;
+width:200px; 
+border-color:#F372D0;
+}
+
+.lede{
+	color:#F372D0 ;
+	margin-right: 20%;
+	margin-left: 50%;
+	line-height: 100%%;
+	font-size:12px;
+		-moz-transform:rotate(25deg);
+-webkit-transform:rotate(25deg);
+-o-transform:rotate(25deg);
+-ms-transform:rotate(25deg);
+transform: rotate(25deg);
+font-family: 'Handlee', cursive;
+padding-top:3%;
+}
+
+.saying{
+	font-family: 'Handlee', cursive;
+	margin-right: 50%;
+	margin-left: 20%;
+	color:#F372D0  ;
+	font-size:12px;
+	-moz-transform:rotate(335deg);
+-webkit-transform:rotate(335deg);
+-o-transform:rotate(335deg);
+-ms-transform:rotate(25deg);
+transform: rotate(335deg);
+
+}
+a{
+	color:#F372D0;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+.footer {
+	font-size: 10%;
+	font-family: 'Montserrat Light', sans-serif;
+	color: #F372D0;
+	padding-top:10%;
+	padding-bottom: 5%;
+	text-align: center;
+}

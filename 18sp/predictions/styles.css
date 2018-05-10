@@ -819,10 +819,12 @@ a {
         font-size: 1.2;
         opacity: .4;
     }
+    .js-frame {
+        margin: 0 80px 40px;
+    }
     .js-1 {
         background: url(images/wt-1.gif);
-        height: auto;
-        background-size: contain;
+        background-size: 80%;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
@@ -833,74 +835,57 @@ a {
     }
     .js-2 {
         background: url(images/wt-2.gif);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
-        margin-left: 80px;
-        margin-right: 80px;
         border-width: 1px;
         box-shadow: 10px 10px 5px grey;
     }
     .js-3 {
         background: url(images/wt-suggest.jpg);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
-        margin-left: 80px;
-        margin-right: 80px;
         border-width: 1px;
         box-shadow: 10px 10px 5px grey;
     }
     .js-image-1 {
         background: url(images/wt-1-edit.jpg);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
-        margin-left: 80px;
-        margin-right: 80px;
         border-width: 1px;
         box-shadow: 10px 10px 5px grey;
     }
     .js-image-2 {
         background: url(images/wt-about.jpg);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
-        margin-left: 80px;
-        margin-right: 80px;
         border-width: 1px;
         box-shadow: 10px 10px 5px grey;
     }
     .js-image-3 {
         background: url(images/wt-suggest.jpg);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border: solid;
-        margin-left: 80px;
-        margin-right: 80px;
         border-width: 1px;
         box-shadow: 10px 10px 5px grey;
     }
     .js-mockup{
         background: url(images/wt-mockup.jpg);
-        height: auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
     .js-component{
             background: url(images/wt-component.jpg);
-            height: auto;
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -1034,7 +1019,10 @@ a h1.strawberry:hover {
     .home-header .about-section.expand {
         height: 700px;
     }
-    .image-container {
+    .home-body h1, .home-foot h1 {
+        font-size: 2em;
+    }
+    .image-container, .image-container.reverse {
         flex-direction: column;
     }
     .article-header h1 {
@@ -1044,9 +1032,21 @@ a h1.strawberry:hover {
         font-size: 3em;
         overflow: hidden;
     }
-    .lede, .byline {
+    .image-item.sm, .image-item.md, .image-item.lg {
+        height: 300px;
+    }
+    .image-item.sm.mob-lg, .image-item.md.mob-lg, .image-item.lg.mob-lg {
+        height: 500px;
+        margin-top: 20px;
+        background-size: contain !important;
+    }
+    .byline {
         font-size: 1em;
-        margin: 10px 0;
+        margin: 10px 0 20px;
+    }
+    .lede {
+        font-size: 1em;
+        margin: 10px 0 50px;
     }
     .article-body {
         padding: 4px 0;
@@ -1057,7 +1057,12 @@ a h1.strawberry:hover {
         padding-right: 12px;
         font-size: 1em;
     }
-    
+    /*josh cienna*/
+        .js-frame {
+            height: 246px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
     /*sophia talia jorge*/
         .team {
             flex-direction: column;

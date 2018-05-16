@@ -161,11 +161,29 @@ a {
 .image-item.sm {
     height: 300px;
 }
-.image-item.md {
+.image-item.md, .video-ui.md {
     height: 500px;
 }
 .image-item.lg {
     height: 800px;
+}
+.video-ui {
+    position: relative;
+    left: 0;
+    width: inherit;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0,0,0,.5);
+}
+.video-play {
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+    margin: 0 auto;
 }
 
 /*images assets*/
@@ -269,7 +287,7 @@ a {
     }
     .image-vimeo-show3 {
         background: url(images/kioskshow3.gif);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         float:left;
@@ -768,31 +786,31 @@ a {
         background-repeat: repeat;
     }
     .image-firstgif {
-        background: url(images/ff.gif);
+        background: url(images/followingfollowing.gif);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .image-secondgif {
-        background: url(images/ffrt.gif);
+        background: url(images/finalfinalrunthru.gif);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .image-search1 {
-        background: url(images/search1_2.png);
+        background: url(images/search1.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .image-search2 {
-        background: url(images/search2_2.png);
+        background: url(images/search22.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .image-banner1 {
-        background: url(images/banner2.png);
+        background: url(images/banner1.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -1071,7 +1089,7 @@ a h1.strawberry:hover {
         font-size: 3em;
         overflow: hidden;
     }
-    .image-item.sm, .image-item.md, .image-item.lg {
+    .image-item.sm, .image-item.md, .image-item.lg, .video-ui.md {
         height: 300px;
     }
     .image-item.sm.mob-lg, .image-item.md.mob-lg, .image-item.lg.mob-lg {

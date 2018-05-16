@@ -1,0 +1,1125 @@
+/*general*/
+@font-face {
+    font-family: Grot;
+    src: url(sporting_grotesque-regular.ttf)
+}
+body {
+    font-family: Grot;
+    margin: 0;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.home-header, 
+    .home-body, 
+    .home-foot, 
+    .article-header, 
+    .article-title, 
+    .article-body, 
+    .article-footer {
+        width: 860px;
+        margin: 0 auto;
+    }
+
+/*nav*/
+.about-link:hover {
+    cursor: pointer;
+}
+.about-section {
+    height: 0;
+    overflow: hidden;
+    transition: .15s;
+    -webkit-transition: .15s;
+}
+.about-section.expand {
+    height: 300px;
+}
+
+/*home*/
+.home-header {
+    padding-bottom: 8em;
+}
+.home-header h1 {
+    font-size: 1em;
+    margin-top: 80px;
+    font-weight: normal;
+}
+.home-body h3 {
+    text-transform: uppercase;
+}
+.home-body h1, .home-foot h1 {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+.home-body .byline {
+    font-size: 1em;
+    color: black;
+    text-transform: none;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+/*article*/
+.article-header h1 {
+    color: #ffffff;
+    font-size: 1em;
+    margin-top: 80px;
+}
+.article-title h1 {
+    font-family: Grot;
+    letter-spacing: .01em;
+    font-size: 7em;
+    color: white;
+    background-color: transparent;
+    padding-top: .25em;
+    padding-bottom: .3em;
+    line-height: 1.1em;
+}
+.byline {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 60px 0;
+}
+.lede {
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 90%;
+    margin-bottom: 80px;
+}
+.bgwhite {
+    color: darkgray !important;
+    background: white !important;
+    padding: 45px !important;
+}
+.article-body {
+    background: #ffffff;
+    padding: 80px 0;
+}
+    .article-body.graybg {
+        background: #efefef !important;
+    }
+.article-body p {
+    font-size: 1.2em;
+}
+.article-body p.caption {
+    font-size: .8em;
+    opacity: .4;
+    margin-bottom: 40px;
+}
+.article-body h2, .article-body h3, .article-body h4, .article-body p {
+    padding: 0 80px;
+    line-height: 1.4em;
+} 
+.article-body h2 {
+    font-size: 1.4em;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+.article-body h3 {
+    margin-top: 80px;
+    font-size: 1.4em;
+    opacity: .4;
+}
+.article-footer {
+    margin: 40px auto 80px;
+    color: #ffffff;
+    font-size: .9em;
+}
+.article-footer a h1 {
+    color: #ffffff;
+}
+.article-footer a h1:before {
+    content: "‹";
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.image-container.reverse {
+    flex-direction: row-reverse;
+}
+.image-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid white;*/
+}
+.image-item.caption {
+    width: 90%;
+}
+.image-item.sm {
+    height: 300px;
+}
+.image-item.md {
+    height: 500px;
+}
+.image-item.lg {
+    height: 800px;
+}
+
+/*images assets*/
+.image-atavist {
+    background: url(images/atavist-home.gif);
+    background-size: contain;
+    /*background-size: cover;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-hcs1 {
+    background: url(images/hcs-book.jpg);
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-grit {
+    background: url(images/grit-book.png);
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-labrdr {
+    background: url(images/labrdr-views-1a.jpg);
+    background-size: cover;
+    /*background-size: cover;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-pos {
+    background: url(images/pos-dir.jpg);
+    background-size: cover;
+    /*background-size: cover;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-atavist-mob {
+    background: url(images/atavist-home-mobile.jpg);
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-vimeo {
+    background: url(images/etsy-talk.jpg);
+    background-size: contain;
+    /*background-size: contain;*/
+    /*background-size: 80%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*anh mischka*/
+    .anh-bg {
+      background: url(images/anh.jpg);
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    .image-offline {
+        background: url(images/flip.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-kiosks {
+        background: url(images/kiosks.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-elbustv {
+        background: url(images/elbustv.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-loon {
+        background: url(images/loon.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-show1 {
+        background: url(images/kioskshow1.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-show2 {
+        background: url(images/kioskshow2.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-vimeo-show3 {
+        background: url(images/kioskshow3.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        float:left;
+    }
+    .image-show4 {
+        background: url(images/kioskshow4.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*anya bridget alice*/
+    .anya1 {
+        background: url(images/landing_vid.gif);
+        background-size: contain;
+        /*background-size: contain;*/
+        /*background-size: 80%;*/
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .anya-bg {
+          background: url(images/t_new.gif);
+          background-size: contain;
+          background-repeat: repeat-y;
+    }
+    .anya2 {
+        background: url(images/tidget_01.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .anya3 {
+        background: url(images/tidget_02.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .anya4 {
+        background: url(images/tidget_03.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .anya5 {
+        background: url(images/homepage-tidget.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .anya6 {
+        background: url(images/archive.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+
+    }
+    .anya8 {
+        background: url(images/about2.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*ash izzi*/
+    .ash-bg {
+          background: #ff8d75;
+          background-size: cover;
+          background-repeat: repeat;
+        }
+    .image-currentbylines {
+        background: url(images/currentbylines.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-nyt01 {
+        background: url(images/nytex01-08.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-nyt02 {
+        background: url(images/nytex02-09.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-iphone01 {
+        background: url(images/iphone01-05.jpg);
+        background-size: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-iphone02 {
+        background: url(images/iphone02-06.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-iphonemockups {
+        background: url(images/iphonemockups-03.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*ryan sam*/
+    .ryan-bg {
+      background: url(images/ryan.jpg);
+      background-size: contain;
+      background-repeat: repeat;
+    }
+    .image-gay3d {
+       background: url(images/gay3d.gif);
+        background-size: contain;
+        /*background-size: cover;*/
+        /*background-size: 80%;*/
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .image-lesbians3d {
+       background: url(images/lesbians3d.gif);
+        background-size: contain;
+        /*background-size: cover;*/
+        /*background-size: 80%;*/
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .image-trans3d {
+       background: url(images/trans3d.gif);
+        background-size: contain;
+        /*background-size: cover;*/
+        /*background-size: 80%;*/
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .image-glaad {
+        background: url(images/glaad.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-card {
+        background: url(images/card.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-webcard {
+        background: url(images/webcard.jpg);
+        background-size: 82%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-article {
+        background: url(images/article.jpg);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    } 
+    .image-transgender {
+        background: url(images/transgender.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-together {
+        background: url(images/together.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: -180px;
+        margin-bottom: -100px;
+    } 
+    .image-bridgeintro {
+        background: url(images/intro.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-transgender1 {
+        background: url(images/transgender1.gif);
+        background-size: 78%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-embed {
+        background: url(images/embed.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-article2 {
+        background: url(images/article2.jpg);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    } 
+    .image-transgender-hover {
+        background: url(images/transgender-hover.gif);
+        background-size: 78%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-cardhover {
+        background: url(images/cardhover.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .image-landing {
+        background: url(images/landing.jpg);
+        background-size: 82%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+/*daria india bre*/
+    .bre-bg {
+        background-color: #01054C;
+    }
+    .image-wesandjenna {
+        background: url(images/stillprocessing.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-processing {
+        background: url(images/stillprocessing2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-logo {
+        background: url(images/spotlightfinalcover.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-mock {
+        background: url(images/mockup2.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-website-homepage {
+        background: url(images/header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-logo1 {
+        background: url(images/header.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-logo2 {
+        background: url(images/body.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-logo3 {
+        background: url(images/about.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*sophia jorge talia*/
+    .background-journalbase {
+        background: url(images/background-sophia.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .article-header.journalbase h1, 
+    .article-title.journalbase h1, 
+    .byline.journalbase,
+    .lede.journalbase {
+        color: #000000;
+    }
+    .article-body.journalbase {
+        padding-top: 0;
+    }
+    .article-body.journalbase h3 {
+        opacity: 1;
+        margin-bottom: 0;
+    }
+    .article-body.journalbase h4 {
+            margin-top: 0;
+    }
+    .team {
+        background-color: #ffe745;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+    }
+    .team p {
+        padding-right: 30px;
+        padding-left: 0px;
+        font-size: .8em;
+        margin-top: 0px;
+    }
+    .teaminfo {
+        width:200%;
+        padding-top: 50px;
+    }
+    .team h1 {
+        margin-top: 0px;
+    }
+    #mobil {
+        display: hidden;
+    }
+    .image-intro {
+        background: url(images/articleinteraction.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-database-desktop {
+        background: url(images/popupinarticledesktop.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-database-mobil {
+        background: url(images/popupinarticlemobil.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-badex {
+        background: url(images/badexample1.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-badex2 {
+        background: url(images/badexample2.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-jbase {
+        background: url(images/mobilscroll.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-mobilsearch {
+        background: url(images/mobilsearch.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-isthisyou {
+        background: url(images/verifyidentity.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-ex1 {
+        background: url(images/popupinarticle.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-fam{
+        background: url(images/journalistdatabasemockup.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-jorge {
+        background: url(images/jorgeromero.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 0px;
+    }
+    .image-sophia {
+        background: url(images/sophiaspitulnik.jpg);
+        background-size: contain;
+        /*background-size: contain;*/
+        /*background-size: 80%;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .image-talia {
+        background: url(images/taliamoore.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .image-dylan {
+        background: url(images/dylangreif.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+/*mac orlando michael*/
+    .mac-bg {
+        background: url(images/mac.jpg);
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .image-facebook{
+        background: url(images/facebook.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-youtube{
+        background: url(images/youtube.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-note{
+        background: url(images/note.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-note_frontview{
+        background: url(images/note_frontview.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-to_comment{
+        background: url(images/to_comment.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-to_highlight{
+        background: url(images/to_highlight.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-highlight{
+        background: url(images/highlight.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-top_highlight_hidden{
+        background: url(images/top_highlight_hidden.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-top_highlight_shown{
+        background: url(images/top_highlight_shown.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-comment_panel{
+        background: url(images/comment_panel.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-comment_view{
+        background: url(images/comment_view.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-thank_you_note{
+        background: url(images/thank_you_note.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*jayoon eva kam*/
+    .thepoint-bg {
+        background: url(images/yellowbg.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .image-firstgif {
+        background: url(images/ff.gif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-secondgif {
+        background: url(images/ffrt.gif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-search1 {
+        background: url(images/search1_2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-search2 {
+        background: url(images/search2_2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-banner1 {
+        background: url(images/banner2.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-cartoon {
+        background: url(images/nyer-cartoon.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-pointgraph {
+        background: url(images/thepointgraph.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-pointtweet {
+        background: url(images/point-tweet.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*trudy ellen*/
+    .ellen-bg {
+        background: url(images/background-space.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .image1 {
+        background: url(images/image1.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image2 {
+        background: url(images/image2.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image3 {
+        background: url(images/image3.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image4 {
+        background: url(images/image4.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*josh cienna*/
+    .josh-bg {
+        background: url(images/wt-yellow.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .js-body-text{
+        margin-bottom:50px;
+    }
+    .js-custom-title{
+        font-size: 1.2;
+        opacity: .4;
+    }
+    .js-frame {
+        margin: 0 80px 40px;
+    }
+    .js-1 {
+        background: url(images/wt-1.gif);
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-2 {
+        background: url(images/wt-2.gif);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-3 {
+        background: url(images/wt-suggest.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-image-1 {
+        background: url(images/wt-1-edit.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-image-2 {
+        background: url(images/wt-about.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-image-3 {
+        background: url(images/wt-suggest.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: solid;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .js-mockup{
+        background: url(images/wt-mockup.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .js-component{
+            background: url(images/wt-component.jpg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+    }
+    .js-wit {
+        background: url(images/wt-wit.png);
+        background-size: cover;
+        background-size: contain;
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+/*dani izzi tricia */
+    .wave-bg {
+        background: url(images/wave.jpg);
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .image-welcome {
+        background: url(images/welcometospeek.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speekproblem {
+        background:url(images/danipic1.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek1 {
+        background: url(images/speek1.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek2 {
+        background: url(images/speek2.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek3 {
+        background: url(images/speek3.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek4 {
+        background: url(images/speek4.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek5 {
+        background: url(images/speek5.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek6 {
+        background: url(images/speek6.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-speek7 {
+        background: url(images/speek7.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+/*colors*/
+.honey { color: #FEC93D; }
+.black { color: black; }
+.creamsicle { color: #FF803E; }
+.yellow { color: #FFE745; }
+.blue { color: blue; }
+.pink { color: #CD1076; }
+.orange { color: orange; }
+.midnightblue { color: #000000; }
+.magenta { color: purple; }
+.purple { color: #6649FB; }
+.strawberry { color: #FD8D78; }
+a h1.honey,
+a h1.honey,
+a h1.black,
+a h1.creamsicle,
+a h1.yellow,
+a h1.blue,
+a h1.pink,
+a h1.orange,
+a h1.midnightblue,
+a h1.magenta,
+a h1.strawberry {
+    transition: .15s;
+    -webkit-transition: .15s;
+}
+a h1.honey:hover,
+a h1.purple:hover,
+a h1.black:hover,
+a h1.creamsicle:hover,
+a h1.blue:hover,
+a h1.pink:hover,
+a h1.orange:hover,
+a h1.yellow:hover,
+a h1.midnightblue:hover,
+a h1.magenta:hover,
+a h1.strawberry:hover {
+    opacity: .7;
+}
+
+@media (max-width: 860px) {
+    
+    .home-header, 
+    .home-body, 
+    .home-foot, 
+    .article-header, 
+    .article-title, 
+    .article-body, 
+    .article-footer {
+        width: auto;
+        padding: 0 20px;
+    }
+    .home-header .about-section.expand {
+        height: 700px;
+    }
+    .home-body h1, .home-foot h1 {
+        font-size: 2em;
+    }
+    .image-container, .image-container.reverse {
+        flex-direction: column;
+    }
+    .article-header h1 {
+        font-size: .8em;
+    }
+    .article-title h1 {
+        font-size: 3em;
+        overflow: hidden;
+    }
+    .image-item.sm, .image-item.md, .image-item.lg {
+        height: 300px;
+    }
+    .image-item.sm.mob-lg, .image-item.md.mob-lg, .image-item.lg.mob-lg {
+        height: 500px;
+        margin-top: 20px;
+        background-size: contain !important;
+    }
+    .byline {
+        font-size: 1em;
+        margin: 10px 0 20px;
+    }
+    .lede {
+        font-size: 1em;
+        margin: 10px 0 50px;
+    }
+    .article-body {
+        padding: 4px 0;
+        margin: 0 8px;
+    }
+    .article-body p, .article-body h2, .article-body h3, .article-body h4 {
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 1em;
+    }
+    /*josh cienna*/
+        .js-frame {
+            height: 246px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    /*sophia talia jorge*/
+        .team {
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 0px;
+        }
+        .teaminfo {
+            margin: auto;
+            width: 90%;
+        }
+        .image-jorge, .image-talia, .image-sophia, .image-dylan {
+            margin: auto;
+            width: 90%;
+            padding: 0px;
+            padding-top: 40px;
+        }
+        .image-fam {
+            background-size: contain;
+        }
+        #mobil {
+            visibility: visible;
+        }
+        #desktop {
+            visibility: hidden;
+        }
+}

@@ -495,6 +495,12 @@ a {
         background-position: center;
         background-repeat: no-repeat;
     }
+    .image-huffpost {
+        background: url(images/huffpost.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     .image-processing {
         background: url(images/stillprocessing2.jpg);
         background-size: cover;
